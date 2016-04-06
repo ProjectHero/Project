@@ -1,0 +1,293 @@
+﻿[2016.04.06-01.52.46:403][  0]Log file open, 04/06/16 10:52:46
+[2016.04.06-01.52.46:403][  0]LogInit:Display: Running engine for game: Hero
+[2016.04.06-01.52.46:403][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.06-01.52.46:403][  0]LogInit:Display: RandInit(-490445228) SRandInit(-490445227).
+[2016.04.06-01.52.46:403][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.06-01.52.46:403][  0]LogStats: Stats thread started at 0.077204
+[2016.04.06-01.52.46:403][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.06-01.52.46:403][  0]LogInit: API Version: 2758231
+[2016.04.06-01.52.46:403][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.06-01.52.46:403][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.06-01.52.46:403][  0]LogInit: Build Configuration: Development
+[2016.04.06-01.52.46:403][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.06-01.52.46:403][  0]LogInit: Command line:  
+[2016.04.06-01.52.46:403][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.06-01.52.46:403][  0]LogInit: Rocket: 1
+[2016.04.06-01.52.46:424][  0]LogInit: Using libcurl 7.41.0
+[2016.04.06-01.52.46:424][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.06-01.52.46:424][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.06-01.52.46:424][  0]LogInit:  - other features:
+[2016.04.06-01.52.46:424][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.06-01.52.46:424][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.06-01.52.46:424][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.06-01.52.46:424][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.06-01.52.46:424][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.06-01.52.46:424][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.06-01.52.46:424][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.06-01.52.46:424][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.06-01.52.46:424][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.06-01.52.46:424][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.06-01.52.46:452][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.06-01.52.46:456][  0]LogInit: Object subsystem initialized
+[2016.04.06-01.52.46:457][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.06-01.52.46:457][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.06-01.52.46:461][  0]LogInit: Computer: MUHONI_ECL-PC
+[2016.04.06-01.52.46:461][  0]LogInit: User: MUHONIecl
+[2016.04.06-01.52.46:461][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.06-01.52.46:461][  0]LogInit: High frequency timer resolution =3.328349 MHz
+[2016.04.06-01.52.46:461][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.04.06-01.52.46:461][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.06-01.52.46:461][  0]LogMemory: Process Physical Memory: 57.48 MB used, 57.48 MB peak
+[2016.04.06-01.52.46:461][  0]LogMemory: Process Virtual Memory: 58.48 MB used, 58.48 MB peak
+[2016.04.06-01.52.46:461][  0]LogMemory: Physical Memory: 4491.72 MB used, 16320.46 MB total
+[2016.04.06-01.52.46:461][  0]LogMemory: Virtual Memory: 352.14 MB used, 8388608.00 MB total
+[2016.04.06-01.52.46:619][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2016.04.06-01.52.46:645][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2016.04.06-01.52.46:646][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2016.04.06-01.52.46:646][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2016.04.06-01.52.46:878][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.04.06-01.52.46:878][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 7904MB of shared system memory, 2 output[s]
+[2016.04.06-01.52.46:878][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.06-01.52.46:883][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.06-01.52.46:883][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.06-01.52.46:890][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.06-01.52.46:903][  0]LogShaderCompilers: Guid format shader working directory is 26 characters bigger than the processId version (F:/실무/Project/Hero 4.10/Intermediate/Shaders/WorkingDirectory/7676/).
+[2016.04.06-01.52.46:904][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MUHONI~1/AppData/Local/Temp/UnrealShaderWorkingDir/BAC7814B403EB2554CE79DBB9BC29BE6/'.
+[2016.04.06-01.52.46:904][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.06-01.52.48:090][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.06-01.52.48:099][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.06-01.52.48:107][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.06-01.52.48:116][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.06-01.52.48:126][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.06-01.52.48:133][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.06-01.52.48:141][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.06-01.52.48:148][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.06-01.52.48:155][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.06-01.52.48:163][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.06-01.52.48:170][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.06-01.52.48:185][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.06-01.52.48:185][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.06-01.52.48:190][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.06-01.52.48:221][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.06-01.52.48:228][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.06-01.52.48:235][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.06-01.52.48:243][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.06-01.52.48:243][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.06-01.52.48:434][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.06-01.52.48:465][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/MUHONI_ecl/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.06-01.52.48:465][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MUHONI_ecl/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.06-01.52.48:465][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/실무/Project/Hero 4.10/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.06-01.52.48:465][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.06-01.52.48:465][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/실무/Project/Hero 4.10/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.06-01.52.48:465][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.06-01.52.48:526][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.06-01.52.48:537][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MUHONI_ecl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.06-01.52.48:668][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.06-01.52.48:669][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.06-01.52.48:704][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.06-01.52.48:704][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.06-01.52.48:962][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.06-01.52.49:983][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.06-01.52.50:148][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2016.04.06-01.52.50:445][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.04.06-01.52.50:446][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.04.06-01.52.50:471][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.04.06-01.52.50:493][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.04.06-01.52.50:842][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.06-01.52.50:842][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.04.06-01.52.50:906][  0]LogEngine: Initializing Engine...
+[2016.04.06-01.52.50:909][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.06-01.52.50:914][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.06-01.52.51:022][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.06-01.52.51:026][  0]LogInit: XAudio2 using 'Realtek Digital Output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.06-01.52.51:055][  0]LogInit: FAudioDevice initialized.
+[2016.04.06-01.52.51:074][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/MUHONI_ecl/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.06-01.52.51:076][  0]LogInit: Texture streaming: Enabled
+[2016.04.06-01.52.51:094][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.06-01.52.51:094][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.06-01.52.51:094][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 8bc9eabf4fd918bb65b531bbfe5eee47|1ee373e9bedc4d7e9c76f780c6814fe5|2baa7e2a-217c-4725-bcca-eb1feecff6c2
+[2016.04.06-01.52.51:094][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.06-01.52.51:105][  0]LogInit: Transaction tracking system initialized
+[2016.04.06-01.52.51:166][  0]BlueprintLog: New page: 에디터 로드
+[2016.04.06-01.52.51:441][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2016.04.06-01.52.51:599][  0]LogConsoleResponse:Display: 
+[2016.04.06-01.52.51:696][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.06-01.52.51:819][  0]LogFileCache: Scanning file cache for directory 'F:/실무/Project/Hero 4.10/Content/' took 0.02s
+[2016.04.06-01.52.51:819][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.04.06-01.52.51:819][  0]Cmd: MAP LOAD FILE="F:/실무/Project/Hero 4.10/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.06-01.52.51:820][  0]LightingResults: New page: 라이팅 빌드
+[2016.04.06-01.52.51:822][  0]MapCheck: New page: 맵 체크
+[2016.04.06-01.52.51:822][  0]LightingResults: New page: 라이팅 빌드
+[2016.04.06-01.52.51:830][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026207420
+[2016.04.06-01.52.52:359][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고  Selection  핀과  Return Value  핀을 연결할 수 없습니다: Convert 바이트 to botState 열거형
+[2016.04.06-01.52.52:359][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고  Return Value  핀과  Selection  핀을 연결할 수 없습니다: Convert 바이트 to botState 열거형
+[2016.04.06-01.52.52:360][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고 [0006.36] BTT_botAttackEnemy 컴파일에 성공했으나, 경고가 2 회 있습니다. [소요시간 3 ms]
+[2016.04.06-01.52.52:360][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고 [0006.36] BTT_botAttackEnemy 컴파일에 성공했으나, 경고가 3 회 있습니다. [소요시간 0 ms]
+[2016.04.06-01.52.52:360][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고 [0006.36] BTT_botAttackEnemy 컴파일에 성공했으나, 경고가 4 회 있습니다. [소요시간 0 ms]
+[2016.04.06-01.52.52:373][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고  Selection  핀과  Return Value  핀을 연결할 수 없습니다: Convert 바이트 to botState 열거형
+[2016.04.06-01.52.52:373][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고  Return Value  핀과  Selection  핀을 연결할 수 없습니다: Convert 바이트 to botState 열거형
+[2016.04.06-01.52.52:374][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고 [0006.37] BTT_botMoveToEnemy 컴파일에 성공했으나, 경고가 2 회 있습니다. [소요시간 3 ms]
+[2016.04.06-01.52.52:374][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고 [0006.37] BTT_botMoveToEnemy 컴파일에 성공했으나, 경고가 3 회 있습니다. [소요시간 0 ms]
+[2016.04.06-01.52.52:374][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고 [0006.37] BTT_botMoveToEnemy 컴파일에 성공했으나, 경고가 4 회 있습니다. [소요시간 0 ms]
+[2016.04.06-01.52.52:520][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고  Selection  핀과  Return Value  핀을 연결할 수 없습니다: Convert 바이트 to botState 열거형
+[2016.04.06-01.52.52:520][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고  Return Value  핀과  Selection  핀을 연결할 수 없습니다: Convert 바이트 to botState 열거형
+[2016.04.06-01.52.52:520][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고 [0006.52] BTT_botAttackEnemy 컴파일에 성공했으나, 경고가 2 회 있습니다. [소요시간 3 ms]
+[2016.04.06-01.52.52:520][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고 [0006.52] BTT_botAttackEnemy 컴파일에 성공했으나, 경고가 3 회 있습니다. [소요시간 0 ms]
+[2016.04.06-01.52.52:520][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고 [0006.52] BTT_botAttackEnemy 컴파일에 성공했으나, 경고가 4 회 있습니다. [소요시간 0 ms]
+[2016.04.06-01.52.52:524][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고  Selection  핀과  Return Value  핀을 연결할 수 없습니다: Convert 바이트 to botState 열거형
+[2016.04.06-01.52.52:524][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고  Return Value  핀과  Selection  핀을 연결할 수 없습니다: Convert 바이트 to botState 열거형
+[2016.04.06-01.52.52:525][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고 [0006.52] BTT_botMoveToEnemy 컴파일에 성공했으나, 경고가 2 회 있습니다. [소요시간 3 ms]
+[2016.04.06-01.52.52:525][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고 [0006.52] BTT_botMoveToEnemy 컴파일에 성공했으나, 경고가 3 회 있습니다. [소요시간 0 ms]
+[2016.04.06-01.52.52:525][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고 [0006.52] BTT_botMoveToEnemy 컴파일에 성공했으나, 경고가 4 회 있습니다. [소요시간 0 ms]
+[2016.04.06-01.52.54:465][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.04.06-01.52.54:518][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.06-01.52.54:531][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.06-01.52.54:627][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 95.999ms.
+[2016.04.06-01.52.54:627][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.808
+[2016.04.06-01.52.54:735][  0]LogCollectionManager: Loaded 0 collections in 0.002027 seconds
+[2016.04.06-01.52.54:777][  0]LogFileCache: Scanning file cache for directory 'F:/실무/Project/Hero 4.10/Saved/Collections/' took 0.01s
+[2016.04.06-01.52.54:777][  0]LogFileCache: Scanning file cache for directory 'F:/실무/Project/Hero 4.10/Content/Developers/MUHONIecl/Collections/' took 0.01s
+[2016.04.06-01.52.54:777][  0]LogFileCache: Scanning file cache for directory 'F:/실무/Project/Hero 4.10/Content/Collections/' took 0.01s
+[2016.04.06-01.52.54:777][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.04.06-01.52.54:783][  0]LogContentBrowser: Native class hierarchy populated in 0.0054 seconds. Added 1893 classes and 338 folders.
+[2016.04.06-01.52.54:790][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.06-01.52.54:848][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.04.06-01.52.54:866][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.04.06-01.52.54:885][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.06-01.52.54:890][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2016.04.06-01.52.54:910][  0]LogLoad: Full Startup: 8.91 seconds (BP compile: 0.36 seconds)
+[2016.04.06-01.52.54:925][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.06-01.52.55:175][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.06-01.52.55:295][  0]LogRenderer: Reallocating scene render targets to support 1208x600 (Frame:2).
+[2016.04.06-01.52.55:346][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.06-01.52.55:428][  1]LogFileCache: Retrieving MD5 hashes for directory 'F:/실무/Project/Hero 4.10/Content/' took 0.49s
+[2016.04.06-01.52.56:662][ 16]LogAssetRegistry: Asset discovery search completed in 6.5238 seconds
+[2016.04.06-01.52.56:662][ 16]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.06-01.52.56:662][ 16]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2016.04.06-01.53.22:428][883]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2016.04.06-01.53.23:139][944]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.06-01.55.17:830][613]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.06-01.55.18:207][613]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2016.04.06-02.02.25:675][505]LogRenderer: Reallocating scene render targets to support 1336x736 (Frame:69844).
+[2016.04.06-02.02.36:549][694]LogRenderer: Reallocating scene render targets to support 1344x736 (Frame:72351).
+[2016.04.06-02.02.50:266][246]LogRenderer: Reallocating scene render targets to support 1348x736 (Frame:76362).
+[2016.04.06-02.02.54:701][737]BlueprintLog: New page: SkillProjectile4_BP 컴파일
+[2016.04.06-02.02.54:818][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.06-02.02.54:818][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.06-02.02.54:862][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001FA46020
+[2016.04.06-02.02.54:863][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E0CB2E0
+[2016.04.06-02.02.54:864][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005B6CFEC0
+[2016.04.06-02.02.54:864][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E380E00
+[2016.04.06-02.02.54:865][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E380C20
+[2016.04.06-02.02.54:865][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000582A4360
+[2016.04.06-02.02.54:866][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008CAC65C0
+[2016.04.06-02.02.54:866][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008880ACA0
+[2016.04.06-02.02.54:866][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B1D9BC0
+[2016.04.06-02.02.54:867][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000090B37600
+[2016.04.06-02.02.54:890][737]BlueprintEditorCompileResults: 정보 [0608.85] SkillProjectile4_BP 컴파일에 성공했습니다! [소요시간 188 ms]
+[2016.04.06-02.02.55:317][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SGH/Projectile/SkillProjectile4_BP" FILE="F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset" SILENT=true
+[2016.04.06-02.02.55:446][781]LogSavePackage: Save=117.272255ms
+[2016.04.06-02.02.55:446][781]LogSavePackage: Moving 'F:/실무/Project/Hero 4.10/Saved/SkillProjectile4_BP4C9BFF76491E8ACAC0AE379D1E5FD049.tmp' to 'F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset'
+[2016.04.06-02.02.55:447][781]LogSavePackage: Total save time: 129.281215ms
+[2016.04.06-02.02.55:447][781]LogSavePackage:Display: Finished SavePackage F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset
+[2016.04.06-02.04.23:553][974]BlueprintLog: New page: SkillProjectile4_BP 컴파일
+[2016.04.06-02.04.23:583][974]LogBlueprint:Error: [compiler SkillProjectile4_BP] 오류 이 블루프린트(self)는 SceneComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.04.06-02.04.23:583][974]LogBlueprint:Error: [compiler SkillProjectile4_BP] 오류 이 블루프린트(self)는 SceneComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.04.06-02.04.23:584][974]LogBlueprint:Error: [compiler SkillProjectile4_BP] 오류 이 블루프린트(self)는 BoxComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.04.06-02.04.23:584][974]LogBlueprint:Error: [compiler SkillProjectile4_BP] 오류 이 블루프린트(self)는 ActorComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.04.06-02.04.23:584][974]LogBlueprint:Error: [compiler SkillProjectile4_BP] 오류  RelativeLocation 구하기  변수 노드가 유효하지 않은 타겟을 사용합니다. 실행 체인에 연결되지 않았다가 제거된 노드에 의존하는 것 같습니다.
+[2016.04.06-02.04.23:718][974]LogBlueprint:Warning: [compiler SkillProjectile4_BP] 경고 [0697.67] SkillProjectile4_BP 컴파일에 실패했습니다. 치명적 오류 5 회, 경고 0 회, [소요시간 165 ms]
+[2016.04.06-02.04.23:718][974]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 SceneComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.04.06-02.04.23:718][974]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 SceneComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.04.06-02.04.23:718][974]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 BoxComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.04.06-02.04.23:718][974]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 ActorComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.04.06-02.04.23:718][974]BlueprintEditorCompileResults:Error: 오류  RelativeLocation 구하기  변수 노드가 유효하지 않은 타겟을 사용합니다. 실행 체인에 연결되지 않았다가 제거된 노드에 의존하는 것 같습니다.
+[2016.04.06-02.04.23:718][974]BlueprintEditorCompileResults:Warning: 경고 [0697.67] SkillProjectile4_BP 컴파일에 실패했습니다. 치명적 오류 5 회, 경고 0 회, [소요시간 165 ms]
+[2016.04.06-02.04.24:059][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SGH/Projectile/SkillProjectile4_BP" FILE="F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset" SILENT=true
+[2016.04.06-02.04.24:175][  0]LogSavePackage: Save=115.199455ms
+[2016.04.06-02.04.24:175][  0]LogSavePackage: Moving 'F:/실무/Project/Hero 4.10/Saved/SkillProjectile4_BP39190D5641420ACC099549AEB333E101.tmp' to 'F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset'
+[2016.04.06-02.04.24:176][  0]LogSavePackage: Total save time: 116.677366ms
+[2016.04.06-02.04.24:176][  0]LogSavePackage:Display: Finished SavePackage F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset
+[2016.04.06-02.04.39:464][565]BlueprintLog: New page: SkillProjectile4_BP 컴파일
+[2016.04.06-02.04.39:590][565]BlueprintEditorCompileResults: 정보 [0713.54] SkillProjectile4_BP 컴파일에 성공했습니다! [소요시간 126 ms]
+[2016.04.06-02.04.40:043][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SGH/Projectile/SkillProjectile4_BP" FILE="F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset" SILENT=true
+[2016.04.06-02.04.40:143][604]LogSavePackage: Save=98.784409ms
+[2016.04.06-02.04.40:143][604]LogSavePackage: Moving 'F:/실무/Project/Hero 4.10/Saved/SkillProjectile4_BP7BE6CA7F44AA814387CAA5A074A35F68.tmp' to 'F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset'
+[2016.04.06-02.04.40:144][604]LogSavePackage: Total save time: 100.173987ms
+[2016.04.06-02.04.40:144][604]LogSavePackage:Display: Finished SavePackage F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset
+[2016.04.06-02.05.17:381][368]BlueprintLog: New page: SkillProjectile4_BP 컴파일
+[2016.04.06-02.05.17:468][368]BlueprintEditorCompileResults: 정보 [0751.42] SkillProjectile4_BP 컴파일에 성공했습니다! [소요시간 87 ms]
+[2016.04.06-02.05.18:335][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SGH/Projectile/SkillProjectile4_BP" FILE="F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset" SILENT=true
+[2016.04.06-02.05.18:432][451]LogSavePackage: Save=95.664551ms
+[2016.04.06-02.05.18:432][451]LogSavePackage: Moving 'F:/실무/Project/Hero 4.10/Saved/SkillProjectile4_BP0B3846854D694532DDC7B7B52CC7704F.tmp' to 'F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset'
+[2016.04.06-02.05.18:433][451]LogSavePackage: Total save time: 97.193535ms
+[2016.04.06-02.05.18:433][451]LogSavePackage:Display: Finished SavePackage F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset
+[2016.04.06-02.05.49:295][777]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.06-02.05.51:406][997]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2016.04.06-02.05.52:417][101]BlueprintLog: New page: SkillProjectile4_BP 컴파일
+[2016.04.06-02.05.52:509][101]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2016.04.06-02.05.52:541][101]BlueprintEditorCompileResults: 정보 [0786.49] SkillProjectile4_BP 컴파일에 성공했습니다! [소요시간 124 ms]
+[2016.04.06-02.06.20:095][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.06-02.06.20:118][ 16]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.023
+[2016.04.06-02.06.20:123][ 16]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SGH/Projectile/SkillProjectile4_BP] ([1] browsable assets)...
+[2016.04.06-02.06.20:133][ 16]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SGH/Projectile/SkillProjectile4_BP.SkillProjectile4_BP]
+[2016.04.06-02.06.20:133][ 16]OBJ SavePackage: Finished generating thumbnails for package [/Game/SGH/Projectile/SkillProjectile4_BP]
+[2016.04.06-02.06.20:133][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SGH/Projectile/SkillProjectile4_BP" FILE="F:/실무/Project/Hero 4.10/Saved/Autosaves/Game/SGH/Projectile/SkillProjectile4_BP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.04.06-02.06.20:231][ 16]LogSavePackage: Save=97.103699ms
+[2016.04.06-02.06.20:231][ 16]LogSavePackage: Moving 'F:/실무/Project/Hero 4.10/Saved/SkillProjectile4_BP_Auto11E7C131D4AD9C2D16257E597DBAA3E62.tmp' to 'F:/실무/Project/Hero 4.10/Saved/Autosaves/Game/SGH/Projectile/SkillProjectile4_BP_Auto1.uasset'
+[2016.04.06-02.06.20:231][ 16]LogSavePackage: Total save time: 98.119218ms
+[2016.04.06-02.06.20:231][ 16]LogSavePackage:Display: Finished SavePackage F:/실무/Project/Hero 4.10/Saved/Autosaves/Game/SGH/Projectile/SkillProjectile4_BP_Auto1.uasset
+[2016.04.06-02.06.20:232][ 16]LogFileHelpers: Auto-saving content packages took 0.113
+[2016.04.06-02.07.14:888][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SGH/Projectile/SkillProjectile4_BP" FILE="F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset" SILENT=true
+[2016.04.06-02.07.14:981][825]LogSavePackage: Save=92.322952ms
+[2016.04.06-02.07.14:981][825]LogSavePackage: Moving 'F:/실무/Project/Hero 4.10/Saved/SkillProjectile4_BP12977C184A6A33142B8E36AE9E950A9A.tmp' to 'F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset'
+[2016.04.06-02.07.14:982][825]LogSavePackage: Total save time: 93.878675ms
+[2016.04.06-02.07.14:982][825]LogSavePackage:Display: Finished SavePackage F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset
+[2016.04.06-02.07.27:609][ 91]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.06-02.07.53:315][ 34]BlueprintLog: New page: SkillProjectile4_BP 컴파일
+[2016.04.06-02.07.53:361][ 34]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2016.04.06-02.07.53:387][ 34]BlueprintEditorCompileResults: 정보 [0907.33] SkillProjectile4_BP 컴파일에 성공했습니다! [소요시간 71 ms]
+[2016.04.06-02.07.54:042][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SGH/Projectile/SkillProjectile4_BP" FILE="F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset" SILENT=true
+[2016.04.06-02.07.54:088][106]LogSavePackage: Save=44.574352ms
+[2016.04.06-02.07.54:088][106]LogSavePackage: Moving 'F:/실무/Project/Hero 4.10/Saved/SkillProjectile4_BP7599ED144CBF01ED946D8AB850C1547D.tmp' to 'F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset'
+[2016.04.06-02.07.54:089][106]LogSavePackage: Total save time: 45.996077ms
+[2016.04.06-02.07.54:089][106]LogSavePackage:Display: Finished SavePackage F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset
+[2016.04.06-02.07.54:966][209]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.06-02.08.01:812][  8]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2016.04.06-02.08.08:792][827]BlueprintLog: New page: SkillProjectile4_BP 컴파일
+[2016.04.06-02.08.08:869][827]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2016.04.06-02.08.08:898][827]BlueprintEditorCompileResults: 정보 [0922.84] SkillProjectile4_BP 컴파일에 성공했습니다! [소요시간 105 ms]
+[2016.04.06-02.08.09:240][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SGH/Projectile/SkillProjectile4_BP" FILE="F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset" SILENT=true
+[2016.04.06-02.08.09:286][860]LogSavePackage: Save=44.106552ms
+[2016.04.06-02.08.09:287][860]LogSavePackage: Moving 'F:/실무/Project/Hero 4.10/Saved/SkillProjectile4_BP9D4CFDE0453BACF2EA4C82A46E7BF832.tmp' to 'F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset'
+[2016.04.06-02.08.09:287][860]LogSavePackage: Total save time: 46.560623ms
+[2016.04.06-02.08.09:287][860]LogSavePackage:Display: Finished SavePackage F:/실무/Project/Hero 4.10/Content/SGH/Projectile/SkillProjectile4_BP.uasset
+[2016.04.06-02.08.20:750][197]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.06-02.08.20:750][197]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2016.04.06-02.08.32:566][197]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'NewVar_0' or package '/Game/SGH/Projectile/SkillProjectile4_BP'.
+[2016.04.06-02.08.33:348][197]LogCrashTracker: 
+
+
+[2016.04.06-02.08.33:349][197]LogCrashTracker: 
+
+
+[2016.04.06-02.08.33:349][197]LogWindows:Error: === Critical error: ===
+Fatal error!
+
+
+
+[2016.04.06-02.08.33:391][197]LogExit: Executing StaticShutdownAfterError
+[2016.04.06-02.08.33:395][197]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.06-02.08.33:395][197]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.06-02.08.33:395][197]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.06-02.08.33:395][197]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.06-02.08.33:396][197]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.04.06-02.08.33:396][197]Log file closed, 04/06/16 11:08:33
