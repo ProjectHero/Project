@@ -1,0 +1,1310 @@
+﻿[2016.04.06-11.17.38:296][  0]Log file open, 04/06/16 20:17:38
+[2016.04.06-11.17.38:296][  0]LogInit:Display: Running engine for game: Hero
+[2016.04.06-11.17.38:296][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.06-11.17.38:296][  0]LogInit:Display: RandInit(-864095967) SRandInit(-864095966).
+[2016.04.06-11.17.38:296][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.06-11.17.38:296][  0]LogStats: Stats thread started at 0.084610
+[2016.04.06-11.17.38:296][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.06-11.17.38:296][  0]LogInit: API Version: 2758231
+[2016.04.06-11.17.38:296][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.06-11.17.38:296][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.06-11.17.38:296][  0]LogInit: Build Configuration: Development
+[2016.04.06-11.17.38:296][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.06-11.17.38:296][  0]LogInit: Command line: -EpicPortal 
+[2016.04.06-11.17.38:296][  0]LogInit: Base directory: D:/DevelopmentKit/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.06-11.17.38:296][  0]LogInit: Rocket: 1
+[2016.04.06-11.17.38:301][  0]LogInit: Using libcurl 7.41.0
+[2016.04.06-11.17.38:301][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.06-11.17.38:301][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.06-11.17.38:301][  0]LogInit:  - other features:
+[2016.04.06-11.17.38:301][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.06-11.17.38:301][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.06-11.17.38:301][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.06-11.17.38:301][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.06-11.17.38:301][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.06-11.17.38:301][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.06-11.17.38:301][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.06-11.17.38:301][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.06-11.17.38:301][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.06-11.17.38:301][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.06-11.17.38:305][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.06-11.17.38:310][  0]LogInit: Object subsystem initialized
+[2016.04.06-11.17.38:310][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.06-11.17.38:310][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.06-11.17.38:327][  0]LogInit: Computer: NARAMLOPTOP
+[2016.04.06-11.17.38:327][  0]LogInit: User: sylve
+[2016.04.06-11.17.38:327][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.06-11.17.38:327][  0]LogInit: High frequency timer resolution =2.728070 MHz
+[2016.04.06-11.17.38:327][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.06-11.17.38:327][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.06-11.17.38:327][  0]LogMemory: Process Physical Memory: 57.09 MB used, 57.09 MB peak
+[2016.04.06-11.17.38:327][  0]LogMemory: Process Virtual Memory: 56.96 MB used, 56.96 MB peak
+[2016.04.06-11.17.38:327][  0]LogMemory: Physical Memory: 4936.49 MB used, 8112.01 MB total
+[2016.04.06-11.17.38:327][  0]LogMemory: Virtual Memory: 383.54 MB used, 134217728.00 MB total
+[2016.04.06-11.17.38:364][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2016.04.06-11.17.38:395][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2016.04.06-11.17.38:395][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2016.04.06-11.17.38:396][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2016.04.06-11.17.38:536][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 765M  (Feature Level 11_0)
+[2016.04.06-11.17.38:536][  0]LogD3D11RHI: Adapter has 1991MB of dedicated video memory, 0MB of dedicated system memory, and 4056MB of shared system memory, 1 output[s]
+[2016.04.06-11.17.38:541][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.04.06-11.17.38:541][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4056MB of shared system memory, 0 output[s]
+[2016.04.06-11.17.38:542][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.06-11.17.38:542][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4056MB of shared system memory, 0 output[s]
+[2016.04.06-11.17.38:542][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.06-11.17.38:548][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.06-11.17.38:548][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.06-11.17.38:559][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.06-11.17.38:575][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../sylve/Documents/Unreal Projects/Project/Hero 4.10/Intermediate/Shaders/WorkingDirectory/18664/).
+[2016.04.06-11.17.38:575][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sylve/AppData/Local/Temp/UnrealShaderWorkingDir/D76C31CA4B071C8B434048A085E00D7E/'.
+[2016.04.06-11.17.38:575][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.06-11.17.39:272][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.06-11.17.39:275][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.06-11.17.39:279][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.06-11.17.39:282][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.06-11.17.39:286][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.06-11.17.39:290][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.06-11.17.39:293][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.06-11.17.39:296][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.06-11.17.39:299][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.06-11.17.39:302][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.06-11.17.39:305][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.06-11.17.39:310][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.06-11.17.39:310][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.06-11.17.39:311][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.06-11.17.39:327][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.06-11.17.39:332][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.06-11.17.39:335][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.06-11.17.39:338][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.06-11.17.39:338][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.06-11.17.39:404][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.06-11.17.39:463][  0]LogDerivedDataCache: Loaded boot cache 0.06s 41MB C:/Users/sylve/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.06-11.17.39:463][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sylve/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.06-11.17.39:464][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../sylve/Documents/Unreal Projects/Project/Hero 4.10/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.06-11.17.39:464][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.06-11.17.39:464][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../sylve/Documents/Unreal Projects/Project/Hero 4.10/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.06-11.17.39:464][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.06-11.17.39:515][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.06-11.17.39:527][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sylve/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.06-11.17.39:710][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.06-11.17.39:712][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.06-11.17.39:853][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.06-11.17.39:853][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.06-11.17.40:094][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.06-11.17.40:952][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.06-11.17.41:076][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2016.04.06-11.17.41:228][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.04.06-11.17.41:229][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.04.06-11.17.41:241][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.04.06-11.17.41:252][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.04.06-11.17.41:509][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.06-11.17.41:509][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.04.06-11.17.41:558][  0]LogEngine: Initializing Engine...
+[2016.04.06-11.17.41:560][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.06-11.17.41:561][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.06-11.17.41:670][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.06-11.17.41:678][  0]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.06-11.17.41:688][  0]LogInit: FAudioDevice initialized.
+[2016.04.06-11.17.41:714][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/sylve/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.06-11.17.41:721][  0]LogInit: Texture streaming: Enabled
+[2016.04.06-11.17.41:726][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.06-11.17.41:726][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.06-11.17.41:726][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 87a6af9d4023301e4ee99981cf3c496b|5757bc0e79d542efb21b5d5f30a43a1b|386686de-ea3e-42a5-87a2-6f6f6f575754
+[2016.04.06-11.17.41:726][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.06-11.17.41:757][  0]LogInit: Transaction tracking system initialized
+[2016.04.06-11.17.41:770][  0]BlueprintLog: New page: 에디터 로드
+[2016.04.06-11.17.41:817][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2016.04.06-11.17.41:874][  0]LogConsoleResponse:Display: 
+[2016.04.06-11.17.42:168][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.06-11.17.42:239][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.04.06-11.17.42:239][  0]Cmd: MAP LOAD FILE="../../../../../../sylve/Documents/Unreal Projects/Project/Hero 4.10/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.06-11.17.42:394][  0]LightingResults: New page: 라이팅 빌드
+[2016.04.06-11.17.42:396][  0]MapCheck: New page: 맵 체크
+[2016.04.06-11.17.42:396][  0]LightingResults: New page: 라이팅 빌드
+[2016.04.06-11.17.42:406][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CDBE0C1080
+[2016.04.06-11.17.45:650][  0]LogFileCache: Scanning file cache for directory 'D:/sylve/Documents/Unreal Projects/Project/Hero 4.10/Content/' took 2.77s
+[2016.04.06-11.17.52:445][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고  Selection  핀과  Return Value  핀을 연결할 수 없습니다: Convert 바이트 to botState 열거형
+[2016.04.06-11.17.52:445][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고  Return Value  핀과  Selection  핀을 연결할 수 없습니다: Convert 바이트 to botState 열거형
+[2016.04.06-11.17.52:446][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고 [0014.85] BTT_botAttackEnemy 컴파일에 성공했으나, 경고가 2 회 있습니다. [소요시간 116 ms]
+[2016.04.06-11.17.52:446][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고 [0014.85] BTT_botAttackEnemy 컴파일에 성공했으나, 경고가 3 회 있습니다. [소요시간 0 ms]
+[2016.04.06-11.17.52:446][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고 [0014.85] BTT_botAttackEnemy 컴파일에 성공했으나, 경고가 4 회 있습니다. [소요시간 0 ms]
+[2016.04.06-11.17.52:474][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고  Selection  핀과  Return Value  핀을 연결할 수 없습니다: Convert 바이트 to botState 열거형
+[2016.04.06-11.17.52:474][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고  Return Value  핀과  Selection  핀을 연결할 수 없습니다: Convert 바이트 to botState 열거형
+[2016.04.06-11.17.52:475][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고 [0014.88] BTT_botMoveToEnemy 컴파일에 성공했으나, 경고가 2 회 있습니다. [소요시간 7 ms]
+[2016.04.06-11.17.52:475][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고 [0014.88] BTT_botMoveToEnemy 컴파일에 성공했으나, 경고가 3 회 있습니다. [소요시간 0 ms]
+[2016.04.06-11.17.52:475][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고 [0014.88] BTT_botMoveToEnemy 컴파일에 성공했으나, 경고가 4 회 있습니다. [소요시간 0 ms]
+[2016.04.06-11.17.52:724][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고  Selection  핀과  Return Value  핀을 연결할 수 없습니다: Convert 바이트 to botState 열거형
+[2016.04.06-11.17.52:724][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고  Return Value  핀과  Selection  핀을 연결할 수 없습니다: Convert 바이트 to botState 열거형
+[2016.04.06-11.17.52:726][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고 [0015.13] BTT_botAttackEnemy 컴파일에 성공했으나, 경고가 2 회 있습니다. [소요시간 6 ms]
+[2016.04.06-11.17.52:726][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고 [0015.13] BTT_botAttackEnemy 컴파일에 성공했으나, 경고가 3 회 있습니다. [소요시간 0 ms]
+[2016.04.06-11.17.52:726][  0]LogBlueprint:Warning: [compiler BTT_botAttackEnemy] 경고 [0015.13] BTT_botAttackEnemy 컴파일에 성공했으나, 경고가 4 회 있습니다. [소요시간 0 ms]
+[2016.04.06-11.17.52:732][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고  Selection  핀과  Return Value  핀을 연결할 수 없습니다: Convert 바이트 to botState 열거형
+[2016.04.06-11.17.52:732][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고  Return Value  핀과  Selection  핀을 연결할 수 없습니다: Convert 바이트 to botState 열거형
+[2016.04.06-11.17.52:733][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고 [0015.14] BTT_botMoveToEnemy 컴파일에 성공했으나, 경고가 2 회 있습니다. [소요시간 5 ms]
+[2016.04.06-11.17.52:733][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고 [0015.14] BTT_botMoveToEnemy 컴파일에 성공했으나, 경고가 3 회 있습니다. [소요시간 0 ms]
+[2016.04.06-11.17.52:733][  0]LogBlueprint:Warning: [compiler BTT_botMoveToEnemy] 경고 [0015.14] BTT_botMoveToEnemy 컴파일에 성공했으나, 경고가 4 회 있습니다. [소요시간 0 ms]
+[2016.04.06-11.18.05:149][  0]LogMaterial: Missing cached shader map for material M_Add_Sprite_Master, compiling. 
+[2016.04.06-11.18.05:569][  0]LogTexture:Display: 텍스처 빌드중: T_GlowNoise_Circular_02 (AutoDXT)
+[2016.04.06-11.18.05:820][  0]LogTexture:Display: 텍스처 빌드중: ThumbnailTexture (DXT1)
+[2016.04.06-11.18.05:949][  0]LogStaticMesh: SM_SwipeTrail 스태틱 메시 빌드중...
+[2016.04.06-11.18.06:044][  0]LogStaticMesh: Built static mesh [0.095106.2s] /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_SwipeTrail.SM_SwipeTrail
+[2016.04.06-11.18.06:086][  0]LogTexture:Display: 텍스처 빌드중: T_SwipeTrail (AutoDXT)
+[2016.04.06-11.18.06:132][  0]LogMaterial: Missing cached shader map for material M_Add_Sprite_2Sided_Master, compiling. 
+[2016.04.06-11.18.06:168][  0]LogTexture:Display: 텍스처 빌드중: ThumbnailTexture (DXT1)
+[2016.04.06-11.18.06:249][  0]LogStaticMesh: SM_PotDebris_02 스태틱 메시 빌드중...
+[2016.04.06-11.18.06:249][  0]LogStaticMesh: Built static mesh [0.001122.2s] /Game/InfinityBladeEffects/Environments/Breakables/StaticMesh/pot1/SM_PotDebris_02.SM_PotDebris_02
+[2016.04.06-11.18.06:250][  0]LogStaticMesh: SM_FireBlastMesh 스태틱 메시 빌드중...
+[2016.04.06-11.18.06:255][  0]LogStaticMesh: Built static mesh [0.005161.2s] /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_FireBlastMesh.SM_FireBlastMesh
+[2016.04.06-11.18.06:321][  0]LogTexture:Display: 텍스처 빌드중: T_Sparks_03_SubUV_1_4 (AutoDXT)
+[2016.04.06-11.18.06:426][  0]LogMaterial: Missing cached shader map for material M_Add_Sprite_SubUV_Master, compiling. 
+[2016.04.06-11.18.06:546][  0]LogTexture:Display: 텍스처 빌드중: T_SmokeBall_01_8_8 (AutoDXT)
+[2016.04.06-11.18.07:678][  0]LogTexture:Display: 텍스처 빌드중: T_Env_Breakables_Breakables_D (AutoDXT)
+[2016.04.06-11.18.08:545][  0]LogTexture:Display: 텍스처 빌드중: T_Env_Breakables_Box1_D (AutoDXT)
+[2016.04.06-11.18.09:650][  0]LogMaterial: Missing cached shader map for material Beakable_Master_MeshEmit, compiling. 
+[2016.04.06-11.18.09:701][  0]LogTexture:Display: 텍스처 빌드중: T_SoftFallOff (AutoDXT)
+[2016.04.06-11.18.09:717][  0]LogMaterial: Missing cached shader map for material M_Add_Sprite_Master_DepthFade, compiling. 
+[2016.04.06-11.18.09:757][  0]LogTexture:Display: 텍스처 빌드중: T_Fireball_02_SubUV_4_4 (AutoDXT)
+[2016.04.06-11.18.09:913][  0]LogMaterial: Missing cached shader map for material M_Trans_Sprite_SubUV_Master, compiling. 
+[2016.04.06-11.18.10:217][  0]LogTexture:Display: 텍스처 빌드중: T_Hair_war_color (AutoDXT)
+[2016.04.06-11.18.10:768][  0]LogTexture:Display: 텍스처 빌드중: T_Hair_priest_Roughness (AutoDXT)
+[2016.04.06-11.18.11:361][  0]LogTexture:Display: 텍스처 빌드중: T_Plain_Metallic (AutoDXT)
+[2016.04.06-11.18.11:836][  0]LogTexture:Display: 텍스처 빌드중: T_cPriest2_head_Roughness (AutoDXT)
+[2016.04.06-11.18.12:504][  0]LogTexture:Display: 텍스처 빌드중: T_Plain_NM (BC5)
+[2016.04.06-11.18.13:201][  0]LogTexture:Display: 텍스처 빌드중: T_cPriest2_head_BaseColor (AutoDXT)
+[2016.04.06-11.18.14:647][  0]LogMaterial: Missing cached shader map for material M_Hair_Master, compiling. 
+[2016.04.06-11.18.14:917][  0]LogTexture:Display: 텍스처 빌드중: T_Hair_war_Mask (AutoDXT)
+[2016.04.06-11.18.15:390][  0]LogTexture:Display: 텍스처 빌드중: T_Hair_war_NM (BC5)
+[2016.04.06-11.18.15:602][  0]LogTexture:Display: 텍스처 빌드중: T_CM_skirt_OP (AutoDXT)
+[2016.04.06-11.18.16:707][  0]LogTexture:Display: 텍스처 빌드중: T_staff01_cristal_ball_Opacity (AutoDXT)
+[2016.04.06-11.18.18:958][  0]LogMaterial: Missing cached shader map for material M_ChibiF_master, compiling. 
+[2016.04.06-11.18.19:322][  0]LogTexture:Display: 텍스처 빌드중: T_war_Helm_gloves_Color (AutoDXT)
+[2016.04.06-11.18.20:954][  0]LogTexture:Display: 텍스처 빌드중: T_war_Helm_gloves_Metallic (AutoDXT)
+[2016.04.06-11.18.22:276][  0]LogTexture:Display: 텍스처 빌드중: T_war_Helm_gloves_Normal (BC5)
+[2016.04.06-11.18.23:083][  0]LogTexture:Display: 텍스처 빌드중: T_war_Helm_gloves_Roughness (AutoDXT)
+[2016.04.06-11.18.24:223][  0]LogTexture:Display: 텍스처 빌드중: T_war_chest_boots_B_Color (AutoDXT)
+[2016.04.06-11.18.25:571][  0]LogTexture:Display: 텍스처 빌드중: T_war_chest_boots_B_Metallic (AutoDXT)
+[2016.04.06-11.18.27:426][  0]LogTexture:Display: 텍스처 빌드중: T_war_chest_boots_B_Normal (BC5)
+[2016.04.06-11.18.28:320][  0]LogTexture:Display: 텍스처 빌드중: T_war_chest_boots_B_Roughness (AutoDXT)
+[2016.04.06-11.18.29:515][  0]LogTexture:Display: 텍스처 빌드중: T_war_Shoulder_accleg_Roughness (AutoDXT)
+[2016.04.06-11.18.31:834][  0]LogTexture:Display: 텍스처 빌드중: Ground_GrassThickGreen_2k_alb (AutoDXT)
+[2016.04.06-11.18.36:833][  0]LogTexture:Display: 텍스처 빌드중: Ground_GrassThickGreen_2k_n (BC5)
+[2016.04.06-11.18.38:094][  0]LogTexture:Display: 텍스처 빌드중: Ground_GrassThickGreen_2k_g (AutoDXT)
+[2016.04.06-11.18.41:693][  0]LogTexture:Display: 텍스처 빌드중: Ground_GrassThickGreen_2k_h1 (AutoDXT)
+[2016.04.06-11.18.42:808][  0]LogMaterial: Missing cached shader map for material Ground_GrassThickGreen, compiling. 
+[2016.04.06-11.18.42:972][  0]LogTexture:Display: 텍스처 빌드중: Texture2D_3 (BGRA8)
+[2016.04.06-11.18.43:005][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_100 (AutoDXT)
+[2016.04.06-11.18.43:068][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_101 (AutoDXT)
+[2016.04.06-11.18.43:128][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_11 (AutoDXT)
+[2016.04.06-11.18.43:150][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_12 (AutoDXT)
+[2016.04.06-11.18.43:170][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_13 (AutoDXT)
+[2016.04.06-11.18.43:190][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_14 (AutoDXT)
+[2016.04.06-11.18.43:211][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_18 (AutoDXT)
+[2016.04.06-11.18.43:230][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_2 (AutoDXT)
+[2016.04.06-11.18.43:250][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_20 (AutoDXT)
+[2016.04.06-11.18.43:271][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_21 (AutoDXT)
+[2016.04.06-11.18.43:291][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_22 (AutoDXT)
+[2016.04.06-11.18.43:311][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_24 (AutoDXT)
+[2016.04.06-11.18.43:331][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_25 (AutoDXT)
+[2016.04.06-11.18.43:351][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_26 (AutoDXT)
+[2016.04.06-11.18.43:371][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_27 (AutoDXT)
+[2016.04.06-11.18.43:391][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_3 (AutoDXT)
+[2016.04.06-11.18.43:412][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_30 (AutoDXT)
+[2016.04.06-11.18.43:432][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_31 (AutoDXT)
+[2016.04.06-11.18.43:452][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_33 (AutoDXT)
+[2016.04.06-11.18.43:473][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_34 (AutoDXT)
+[2016.04.06-11.18.43:495][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_35 (AutoDXT)
+[2016.04.06-11.18.43:514][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_36 (AutoDXT)
+[2016.04.06-11.18.43:534][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_39 (AutoDXT)
+[2016.04.06-11.18.43:555][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_4 (AutoDXT)
+[2016.04.06-11.18.43:575][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_40 (AutoDXT)
+[2016.04.06-11.18.43:595][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_41 (AutoDXT)
+[2016.04.06-11.18.43:615][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_42 (AutoDXT)
+[2016.04.06-11.18.43:635][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_43 (AutoDXT)
+[2016.04.06-11.18.43:656][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_44 (AutoDXT)
+[2016.04.06-11.18.43:676][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_48 (AutoDXT)
+[2016.04.06-11.18.43:696][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_49 (AutoDXT)
+[2016.04.06-11.18.43:716][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_5 (AutoDXT)
+[2016.04.06-11.18.43:736][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_50 (AutoDXT)
+[2016.04.06-11.18.43:757][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_51 (AutoDXT)
+[2016.04.06-11.18.43:776][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_52 (AutoDXT)
+[2016.04.06-11.18.43:796][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_53 (AutoDXT)
+[2016.04.06-11.18.43:817][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_54 (AutoDXT)
+[2016.04.06-11.18.43:835][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_55 (AutoDXT)
+[2016.04.06-11.18.43:853][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_56 (AutoDXT)
+[2016.04.06-11.18.43:873][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_57 (AutoDXT)
+[2016.04.06-11.18.43:895][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_58 (AutoDXT)
+[2016.04.06-11.18.43:917][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_59 (AutoDXT)
+[2016.04.06-11.18.43:938][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_60 (AutoDXT)
+[2016.04.06-11.18.43:958][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_61 (AutoDXT)
+[2016.04.06-11.18.43:978][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_62 (AutoDXT)
+[2016.04.06-11.18.43:997][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_63 (AutoDXT)
+[2016.04.06-11.18.44:018][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_64 (AutoDXT)
+[2016.04.06-11.18.44:038][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_65 (AutoDXT)
+[2016.04.06-11.18.44:059][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_8 (AutoDXT)
+[2016.04.06-11.18.44:084][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_88 (AutoDXT)
+[2016.04.06-11.18.44:198][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_89 (AutoDXT)
+[2016.04.06-11.18.44:396][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_9 (AutoDXT)
+[2016.04.06-11.18.44:421][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_90 (AutoDXT)
+[2016.04.06-11.18.44:462][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_91 (AutoDXT)
+[2016.04.06-11.18.44:546][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_92 (AutoDXT)
+[2016.04.06-11.18.44:586][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_93 (AutoDXT)
+[2016.04.06-11.18.44:658][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_94 (AutoDXT)
+[2016.04.06-11.18.45:249][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_95 (AutoDXT)
+[2016.04.06-11.18.45:322][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_96 (AutoDXT)
+[2016.04.06-11.18.45:510][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_97 (AutoDXT)
+[2016.04.06-11.18.45:548][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_98 (AutoDXT)
+[2016.04.06-11.18.45:619][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_99 (AutoDXT)
+[2016.04.06-11.18.45:738][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_1 (AutoDXT)
+[2016.04.06-11.18.46:726][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_10 (AutoDXT)
+[2016.04.06-11.18.46:752][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_102 (AutoDXT)
+[2016.04.06-11.18.46:801][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_103 (AutoDXT)
+[2016.04.06-11.18.46:848][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_104 (AutoDXT)
+[2016.04.06-11.18.46:895][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_105 (AutoDXT)
+[2016.04.06-11.18.46:946][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_106 (AutoDXT)
+[2016.04.06-11.18.46:985][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_107 (AutoDXT)
+[2016.04.06-11.18.47:023][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_108 (AutoDXT)
+[2016.04.06-11.18.47:057][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_109 (AutoDXT)
+[2016.04.06-11.18.47:106][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_110 (AutoDXT)
+[2016.04.06-11.18.47:149][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_112 (AutoDXT)
+[2016.04.06-11.18.47:184][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_113 (AutoDXT)
+[2016.04.06-11.18.47:220][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_114 (AutoDXT)
+[2016.04.06-11.18.47:257][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_115 (AutoDXT)
+[2016.04.06-11.18.47:279][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_116 (AutoDXT)
+[2016.04.06-11.18.47:316][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_117 (AutoDXT)
+[2016.04.06-11.18.47:356][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_118 (AutoDXT)
+[2016.04.06-11.18.47:395][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_119 (AutoDXT)
+[2016.04.06-11.18.47:431][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_120 (AutoDXT)
+[2016.04.06-11.18.47:468][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_121 (AutoDXT)
+[2016.04.06-11.18.47:475][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_15 (AutoDXT)
+[2016.04.06-11.18.47:495][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_16 (AutoDXT)
+[2016.04.06-11.18.47:516][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_17 (AutoDXT)
+[2016.04.06-11.18.47:536][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_19 (AutoDXT)
+[2016.04.06-11.18.47:556][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_23 (AutoDXT)
+[2016.04.06-11.18.47:576][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_28 (AutoDXT)
+[2016.04.06-11.18.47:597][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_29 (AutoDXT)
+[2016.04.06-11.18.47:618][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_32 (AutoDXT)
+[2016.04.06-11.18.47:650][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_37 (AutoDXT)
+[2016.04.06-11.18.47:675][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_38 (AutoDXT)
+[2016.04.06-11.18.47:696][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_45 (AutoDXT)
+[2016.04.06-11.18.47:717][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_46 (AutoDXT)
+[2016.04.06-11.18.47:737][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_47 (AutoDXT)
+[2016.04.06-11.18.47:758][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_6 (AutoDXT)
+[2016.04.06-11.18.47:807][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_66 (AutoDXT)
+[2016.04.06-11.18.48:426][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_67 (AutoDXT)
+[2016.04.06-11.18.49:186][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_68 (AutoDXT)
+[2016.04.06-11.18.50:210][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_69 (AutoDXT)
+[2016.04.06-11.18.50:933][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_7 (AutoDXT)
+[2016.04.06-11.18.50:978][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_70 (AutoDXT)
+[2016.04.06-11.18.51:165][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_71 (AutoDXT)
+[2016.04.06-11.18.51:325][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_72 (AutoDXT)
+[2016.04.06-11.18.51:406][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_73 (AutoDXT)
+[2016.04.06-11.18.51:531][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_74 (AutoDXT)
+[2016.04.06-11.18.51:643][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_75 (AutoDXT)
+[2016.04.06-11.18.51:705][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_76 (AutoDXT)
+[2016.04.06-11.18.51:797][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_77 (AutoDXT)
+[2016.04.06-11.18.51:842][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_78 (AutoDXT)
+[2016.04.06-11.18.51:924][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_79 (AutoDXT)
+[2016.04.06-11.18.52:011][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_80 (AutoDXT)
+[2016.04.06-11.18.52:207][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_81 (AutoDXT)
+[2016.04.06-11.18.52:266][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_82 (AutoDXT)
+[2016.04.06-11.18.52:312][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_83 (AutoDXT)
+[2016.04.06-11.18.52:347][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_84 (AutoDXT)
+[2016.04.06-11.18.52:365][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_85 (AutoDXT)
+[2016.04.06-11.18.52:390][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_86 (AutoDXT)
+[2016.04.06-11.18.52:559][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_87 (AutoDXT)
+[2016.04.06-11.18.52:777][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_100 (DXT1)
+[2016.04.06-11.18.52:819][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_101 (DXT1)
+[2016.04.06-11.18.52:894][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_11 (DXT1)
+[2016.04.06-11.18.52:917][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_12 (DXT1)
+[2016.04.06-11.18.52:937][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_13 (DXT1)
+[2016.04.06-11.18.52:957][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_14 (DXT1)
+[2016.04.06-11.18.52:977][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_18 (DXT1)
+[2016.04.06-11.18.52:991][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_2 (DXT1)
+[2016.04.06-11.18.53:005][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_20 (DXT1)
+[2016.04.06-11.18.53:025][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_21 (DXT1)
+[2016.04.06-11.18.53:045][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_22 (DXT1)
+[2016.04.06-11.18.53:065][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_24 (DXT1)
+[2016.04.06-11.18.53:085][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_25 (DXT1)
+[2016.04.06-11.18.53:105][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_26 (DXT1)
+[2016.04.06-11.18.53:125][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_27 (DXT1)
+[2016.04.06-11.18.53:140][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_3 (DXT1)
+[2016.04.06-11.18.53:159][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_30 (DXT1)
+[2016.04.06-11.18.53:181][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_31 (DXT1)
+[2016.04.06-11.18.53:200][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_33 (DXT1)
+[2016.04.06-11.18.53:218][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_34 (DXT1)
+[2016.04.06-11.18.53:236][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_35 (DXT1)
+[2016.04.06-11.18.53:251][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_36 (DXT1)
+[2016.04.06-11.18.53:272][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_39 (DXT1)
+[2016.04.06-11.18.53:291][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_4 (DXT1)
+[2016.04.06-11.18.53:310][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_40 (DXT1)
+[2016.04.06-11.18.53:328][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_41 (DXT1)
+[2016.04.06-11.18.53:345][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_42 (DXT1)
+[2016.04.06-11.18.53:366][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_43 (DXT1)
+[2016.04.06-11.18.53:384][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_44 (DXT1)
+[2016.04.06-11.18.53:403][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_48 (DXT1)
+[2016.04.06-11.18.53:418][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_49 (DXT1)
+[2016.04.06-11.18.53:437][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_5 (DXT1)
+[2016.04.06-11.18.53:456][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_50 (DXT1)
+[2016.04.06-11.18.53:476][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_51 (DXT1)
+[2016.04.06-11.18.53:493][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_52 (DXT1)
+[2016.04.06-11.18.53:507][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_53 (DXT1)
+[2016.04.06-11.18.53:526][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_54 (DXT1)
+[2016.04.06-11.18.53:537][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_55 (DXT1)
+[2016.04.06-11.18.53:543][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_56 (DXT1)
+[2016.04.06-11.18.53:568][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_57 (DXT1)
+[2016.04.06-11.18.53:588][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_58 (DXT1)
+[2016.04.06-11.18.53:607][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_59 (DXT1)
+[2016.04.06-11.18.53:620][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_60 (DXT1)
+[2016.04.06-11.18.53:635][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_61 (DXT1)
+[2016.04.06-11.18.53:654][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_62 (DXT1)
+[2016.04.06-11.18.53:669][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_63 (DXT1)
+[2016.04.06-11.18.53:687][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_64 (DXT1)
+[2016.04.06-11.18.53:704][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_65 (DXT1)
+[2016.04.06-11.18.53:724][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_8 (DXT1)
+[2016.04.06-11.18.53:749][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_88 (DXT1)
+[2016.04.06-11.18.53:864][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_89 (DXT1)
+[2016.04.06-11.18.54:036][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_9 (DXT1)
+[2016.04.06-11.18.54:056][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_90 (DXT1)
+[2016.04.06-11.18.54:089][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_91 (DXT1)
+[2016.04.06-11.18.54:169][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_92 (DXT1)
+[2016.04.06-11.18.54:225][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_93 (DXT1)
+[2016.04.06-11.18.54:303][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_94 (DXT1)
+[2016.04.06-11.18.54:685][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_95 (DXT1)
+[2016.04.06-11.18.54:774][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_96 (DXT1)
+[2016.04.06-11.18.54:914][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_97 (DXT1)
+[2016.04.06-11.18.54:944][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_98 (DXT1)
+[2016.04.06-11.18.55:003][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_99 (DXT1)
+[2016.04.06-11.18.55:084][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_1 (DXT1)
+[2016.04.06-11.18.55:665][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_10 (DXT1)
+[2016.04.06-11.18.55:688][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_102 (DXT1)
+[2016.04.06-11.18.55:725][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_103 (DXT1)
+[2016.04.06-11.18.55:760][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_104 (DXT1)
+[2016.04.06-11.18.55:796][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_105 (DXT1)
+[2016.04.06-11.18.55:832][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_106 (DXT1)
+[2016.04.06-11.18.55:863][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_107 (DXT1)
+[2016.04.06-11.18.55:892][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_108 (DXT1)
+[2016.04.06-11.18.55:935][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_109 (DXT1)
+[2016.04.06-11.18.55:971][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_110 (DXT1)
+[2016.04.06-11.18.56:000][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_112 (DXT1)
+[2016.04.06-11.18.56:026][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_113 (DXT1)
+[2016.04.06-11.18.56:054][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_114 (DXT1)
+[2016.04.06-11.18.56:079][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_115 (DXT1)
+[2016.04.06-11.18.56:095][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_116 (DXT1)
+[2016.04.06-11.18.56:122][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_117 (DXT1)
+[2016.04.06-11.18.56:154][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_118 (DXT1)
+[2016.04.06-11.18.56:183][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_119 (DXT1)
+[2016.04.06-11.18.56:212][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_120 (DXT1)
+[2016.04.06-11.18.56:238][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_121 (DXT1)
+[2016.04.06-11.18.56:243][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_15 (DXT1)
+[2016.04.06-11.18.56:259][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_16 (DXT1)
+[2016.04.06-11.18.56:275][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_17 (DXT1)
+[2016.04.06-11.18.56:288][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_19 (DXT1)
+[2016.04.06-11.18.56:304][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_23 (DXT1)
+[2016.04.06-11.18.56:323][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_28 (DXT1)
+[2016.04.06-11.18.56:344][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_29 (DXT1)
+[2016.04.06-11.18.56:359][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_32 (DXT1)
+[2016.04.06-11.18.56:389][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_37 (DXT1)
+[2016.04.06-11.18.56:406][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_38 (DXT1)
+[2016.04.06-11.18.56:421][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_45 (DXT1)
+[2016.04.06-11.18.56:431][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_46 (DXT1)
+[2016.04.06-11.18.56:442][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_47 (DXT1)
+[2016.04.06-11.18.56:456][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_6 (DXT1)
+[2016.04.06-11.18.56:489][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_66 (DXT1)
+[2016.04.06-11.18.56:783][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_67 (DXT1)
+[2016.04.06-11.18.57:191][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_68 (DXT1)
+[2016.04.06-11.18.57:726][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_69 (DXT1)
+[2016.04.06-11.18.58:097][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_7 (DXT1)
+[2016.04.06-11.18.58:128][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_70 (DXT1)
+[2016.04.06-11.18.58:222][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_71 (DXT1)
+[2016.04.06-11.18.58:313][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_72 (DXT1)
+[2016.04.06-11.18.58:367][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_73 (DXT1)
+[2016.04.06-11.18.58:469][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_74 (DXT1)
+[2016.04.06-11.18.58:538][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_75 (DXT1)
+[2016.04.06-11.18.58:581][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_76 (DXT1)
+[2016.04.06-11.18.58:640][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_77 (DXT1)
+[2016.04.06-11.18.58:670][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_78 (DXT1)
+[2016.04.06-11.18.58:715][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_79 (DXT1)
+[2016.04.06-11.18.58:772][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_80 (DXT1)
+[2016.04.06-11.18.58:886][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_81 (DXT1)
+[2016.04.06-11.18.58:935][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_82 (DXT1)
+[2016.04.06-11.18.58:962][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_83 (DXT1)
+[2016.04.06-11.18.58:985][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_84 (DXT1)
+[2016.04.06-11.18.58:996][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_85 (DXT1)
+[2016.04.06-11.18.59:011][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_86 (DXT1)
+[2016.04.06-11.18.59:088][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_87 (DXT1)
+[2016.04.06-11.18.59:170][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_100 (AutoDXT)
+[2016.04.06-11.18.59:195][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_101 (AutoDXT)
+[2016.04.06-11.18.59:226][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_11 (AutoDXT)
+[2016.04.06-11.18.59:234][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_12 (AutoDXT)
+[2016.04.06-11.18.59:242][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_13 (AutoDXT)
+[2016.04.06-11.18.59:250][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_14 (AutoDXT)
+[2016.04.06-11.18.59:257][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_18 (AutoDXT)
+[2016.04.06-11.18.59:264][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_2 (AutoDXT)
+[2016.04.06-11.18.59:271][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_20 (AutoDXT)
+[2016.04.06-11.18.59:279][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_21 (AutoDXT)
+[2016.04.06-11.18.59:287][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_22 (AutoDXT)
+[2016.04.06-11.18.59:295][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_24 (AutoDXT)
+[2016.04.06-11.18.59:302][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_25 (AutoDXT)
+[2016.04.06-11.18.59:310][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_26 (AutoDXT)
+[2016.04.06-11.18.59:318][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_27 (AutoDXT)
+[2016.04.06-11.18.59:323][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_3 (AutoDXT)
+[2016.04.06-11.18.59:331][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_30 (AutoDXT)
+[2016.04.06-11.18.59:338][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_31 (AutoDXT)
+[2016.04.06-11.18.59:347][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_33 (AutoDXT)
+[2016.04.06-11.18.59:355][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_34 (AutoDXT)
+[2016.04.06-11.18.59:363][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_35 (AutoDXT)
+[2016.04.06-11.18.59:369][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_36 (AutoDXT)
+[2016.04.06-11.18.59:377][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_39 (AutoDXT)
+[2016.04.06-11.18.59:385][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_4 (AutoDXT)
+[2016.04.06-11.18.59:432][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_40 (AutoDXT)
+[2016.04.06-11.18.59:440][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_41 (AutoDXT)
+[2016.04.06-11.18.59:448][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_42 (AutoDXT)
+[2016.04.06-11.18.59:456][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_43 (AutoDXT)
+[2016.04.06-11.18.59:463][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_44 (AutoDXT)
+[2016.04.06-11.18.59:470][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_48 (AutoDXT)
+[2016.04.06-11.18.59:478][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_49 (AutoDXT)
+[2016.04.06-11.18.59:485][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_5 (AutoDXT)
+[2016.04.06-11.18.59:493][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_50 (AutoDXT)
+[2016.04.06-11.18.59:501][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_51 (AutoDXT)
+[2016.04.06-11.18.59:509][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_52 (AutoDXT)
+[2016.04.06-11.18.59:523][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_53 (AutoDXT)
+[2016.04.06-11.18.59:529][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_54 (AutoDXT)
+[2016.04.06-11.18.59:529][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_55 (AutoDXT)
+[2016.04.06-11.18.59:532][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_56 (AutoDXT)
+[2016.04.06-11.18.59:537][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_57 (AutoDXT)
+[2016.04.06-11.18.59:543][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_58 (AutoDXT)
+[2016.04.06-11.18.59:551][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_59 (AutoDXT)
+[2016.04.06-11.18.59:555][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_60 (AutoDXT)
+[2016.04.06-11.18.59:561][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_61 (AutoDXT)
+[2016.04.06-11.18.59:567][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_62 (AutoDXT)
+[2016.04.06-11.18.59:572][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_63 (AutoDXT)
+[2016.04.06-11.18.59:580][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_64 (AutoDXT)
+[2016.04.06-11.18.59:587][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_65 (AutoDXT)
+[2016.04.06-11.18.59:595][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_8 (AutoDXT)
+[2016.04.06-11.18.59:605][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_88 (AutoDXT)
+[2016.04.06-11.18.59:642][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_89 (AutoDXT)
+[2016.04.06-11.18.59:711][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_9 (AutoDXT)
+[2016.04.06-11.18.59:718][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_90 (AutoDXT)
+[2016.04.06-11.18.59:733][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_91 (AutoDXT)
+[2016.04.06-11.18.59:763][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_92 (AutoDXT)
+[2016.04.06-11.18.59:777][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_93 (AutoDXT)
+[2016.04.06-11.18.59:805][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_94 (AutoDXT)
+[2016.04.06-11.18.59:961][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_95 (AutoDXT)
+[2016.04.06-11.18.59:993][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_96 (AutoDXT)
+[2016.04.06-11.19.00:058][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_97 (AutoDXT)
+[2016.04.06-11.19.00:080][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_98 (AutoDXT)
+[2016.04.06-11.19.00:111][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion0_99 (AutoDXT)
+[2016.04.06-11.19.00:171][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_1 (AutoDXT)
+[2016.04.06-11.19.00:412][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_10 (AutoDXT)
+[2016.04.06-11.19.00:421][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_102 (AutoDXT)
+[2016.04.06-11.19.00:439][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_103 (AutoDXT)
+[2016.04.06-11.19.00:457][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_104 (AutoDXT)
+[2016.04.06-11.19.00:475][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_105 (AutoDXT)
+[2016.04.06-11.19.00:494][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_106 (AutoDXT)
+[2016.04.06-11.19.00:507][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_107 (AutoDXT)
+[2016.04.06-11.19.00:521][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_108 (AutoDXT)
+[2016.04.06-11.19.00:538][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_109 (AutoDXT)
+[2016.04.06-11.19.00:557][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_110 (AutoDXT)
+[2016.04.06-11.19.00:571][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_112 (AutoDXT)
+[2016.04.06-11.19.00:585][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_113 (AutoDXT)
+[2016.04.06-11.19.00:598][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_114 (AutoDXT)
+[2016.04.06-11.19.00:612][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_115 (AutoDXT)
+[2016.04.06-11.19.00:620][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_116 (AutoDXT)
+[2016.04.06-11.19.00:634][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_117 (AutoDXT)
+[2016.04.06-11.19.00:648][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_118 (AutoDXT)
+[2016.04.06-11.19.00:661][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_119 (AutoDXT)
+[2016.04.06-11.19.00:675][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_120 (AutoDXT)
+[2016.04.06-11.19.00:689][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_121 (AutoDXT)
+[2016.04.06-11.19.00:691][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_15 (AutoDXT)
+[2016.04.06-11.19.00:699][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_16 (AutoDXT)
+[2016.04.06-11.19.00:707][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_17 (AutoDXT)
+[2016.04.06-11.19.00:715][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_19 (AutoDXT)
+[2016.04.06-11.19.00:723][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_23 (AutoDXT)
+[2016.04.06-11.19.00:731][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_28 (AutoDXT)
+[2016.04.06-11.19.00:739][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_29 (AutoDXT)
+[2016.04.06-11.19.00:747][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_32 (AutoDXT)
+[2016.04.06-11.19.00:763][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_37 (AutoDXT)
+[2016.04.06-11.19.00:771][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_38 (AutoDXT)
+[2016.04.06-11.19.00:778][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_45 (AutoDXT)
+[2016.04.06-11.19.00:785][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_46 (AutoDXT)
+[2016.04.06-11.19.00:791][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_47 (AutoDXT)
+[2016.04.06-11.19.00:799][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_6 (AutoDXT)
+[2016.04.06-11.19.00:869][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_66 (AutoDXT)
+[2016.04.06-11.19.01:014][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_67 (AutoDXT)
+[2016.04.06-11.19.01:215][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_68 (AutoDXT)
+[2016.04.06-11.19.01:468][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_69 (AutoDXT)
+[2016.04.06-11.19.01:647][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_7 (AutoDXT)
+[2016.04.06-11.19.01:661][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_70 (AutoDXT)
+[2016.04.06-11.19.01:727][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_71 (AutoDXT)
+[2016.04.06-11.19.01:773][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_72 (AutoDXT)
+[2016.04.06-11.19.01:814][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_73 (AutoDXT)
+[2016.04.06-11.19.01:850][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_74 (AutoDXT)
+[2016.04.06-11.19.01:875][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_75 (AutoDXT)
+[2016.04.06-11.19.01:909][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_76 (AutoDXT)
+[2016.04.06-11.19.01:943][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_77 (AutoDXT)
+[2016.04.06-11.19.01:961][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_78 (AutoDXT)
+[2016.04.06-11.19.01:988][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_79 (AutoDXT)
+[2016.04.06-11.19.02:020][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_80 (AutoDXT)
+[2016.04.06-11.19.02:083][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_81 (AutoDXT)
+[2016.04.06-11.19.02:114][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_82 (AutoDXT)
+[2016.04.06-11.19.02:132][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_83 (AutoDXT)
+[2016.04.06-11.19.02:145][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_84 (AutoDXT)
+[2016.04.06-11.19.02:152][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_85 (AutoDXT)
+[2016.04.06-11.19.02:161][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_86 (AutoDXT)
+[2016.04.06-11.19.02:247][  0]LogTexture:Display: 텍스처 빌드중: SkyOcclusion1_87 (AutoDXT)
+[2016.04.06-11.19.02:352][  0]LogTexture:Display: 텍스처 빌드중: Fire (BGRA8)
+[2016.04.06-11.19.02:393][  0]LogTexture:Display: 텍스처 빌드중: noise_texture (AutoDXT)
+[2016.04.06-11.19.02:446][  0]LogMaterial: Missing cached shader map for material Fire, compiling. 
+[2016.04.06-11.19.02:450][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_243 (G8)
+[2016.04.06-11.19.02:455][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_244 (G8)
+[2016.04.06-11.19.02:456][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_245 (G8)
+[2016.04.06-11.19.02:456][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_246 (G8)
+[2016.04.06-11.19.02:457][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_247 (G8)
+[2016.04.06-11.19.02:459][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_248 (G8)
+[2016.04.06-11.19.02:460][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_249 (G8)
+[2016.04.06-11.19.02:460][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_250 (G8)
+[2016.04.06-11.19.02:461][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_251 (G8)
+[2016.04.06-11.19.02:462][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_252 (G8)
+[2016.04.06-11.19.02:462][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_253 (G8)
+[2016.04.06-11.19.02:463][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_254 (G8)
+[2016.04.06-11.19.02:463][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_255 (G8)
+[2016.04.06-11.19.02:464][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_256 (G8)
+[2016.04.06-11.19.02:464][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_257 (G8)
+[2016.04.06-11.19.02:465][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_258 (G8)
+[2016.04.06-11.19.02:466][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_259 (G8)
+[2016.04.06-11.19.02:466][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_260 (G8)
+[2016.04.06-11.19.02:467][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_261 (G8)
+[2016.04.06-11.19.02:468][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_262 (G8)
+[2016.04.06-11.19.02:468][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_263 (G8)
+[2016.04.06-11.19.02:469][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_264 (G8)
+[2016.04.06-11.19.02:470][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_265 (G8)
+[2016.04.06-11.19.02:471][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_266 (G8)
+[2016.04.06-11.19.02:471][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_267 (G8)
+[2016.04.06-11.19.02:472][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_268 (G8)
+[2016.04.06-11.19.02:473][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_269 (G8)
+[2016.04.06-11.19.02:473][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_270 (G8)
+[2016.04.06-11.19.02:474][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_271 (G8)
+[2016.04.06-11.19.02:475][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_272 (G8)
+[2016.04.06-11.19.02:475][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_273 (G8)
+[2016.04.06-11.19.02:476][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_274 (G8)
+[2016.04.06-11.19.02:478][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_275 (G8)
+[2016.04.06-11.19.02:479][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_276 (G8)
+[2016.04.06-11.19.02:480][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_277 (G8)
+[2016.04.06-11.19.02:481][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_278 (G8)
+[2016.04.06-11.19.02:481][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_279 (G8)
+[2016.04.06-11.19.02:482][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_280 (G8)
+[2016.04.06-11.19.02:483][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_281 (G8)
+[2016.04.06-11.19.02:484][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_282 (G8)
+[2016.04.06-11.19.02:484][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_283 (G8)
+[2016.04.06-11.19.02:485][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_284 (G8)
+[2016.04.06-11.19.02:486][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_285 (G8)
+[2016.04.06-11.19.02:486][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_286 (G8)
+[2016.04.06-11.19.02:487][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_287 (G8)
+[2016.04.06-11.19.02:487][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_288 (G8)
+[2016.04.06-11.19.02:488][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_289 (G8)
+[2016.04.06-11.19.02:489][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_290 (G8)
+[2016.04.06-11.19.02:490][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_291 (G8)
+[2016.04.06-11.19.02:491][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_292 (G8)
+[2016.04.06-11.19.02:492][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_293 (G8)
+[2016.04.06-11.19.02:493][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_294 (G8)
+[2016.04.06-11.19.02:493][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_295 (G8)
+[2016.04.06-11.19.02:494][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_296 (G8)
+[2016.04.06-11.19.02:495][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_297 (G8)
+[2016.04.06-11.19.02:495][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_298 (G8)
+[2016.04.06-11.19.02:496][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_299 (G8)
+[2016.04.06-11.19.02:497][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_300 (G8)
+[2016.04.06-11.19.02:497][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_301 (G8)
+[2016.04.06-11.19.02:498][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_302 (G8)
+[2016.04.06-11.19.02:499][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_303 (G8)
+[2016.04.06-11.19.02:499][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_304 (G8)
+[2016.04.06-11.19.02:500][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_305 (G8)
+[2016.04.06-11.19.02:501][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_306 (G8)
+[2016.04.06-11.19.02:501][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_307 (G8)
+[2016.04.06-11.19.02:505][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_308 (G8)
+[2016.04.06-11.19.02:534][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_309 (G8)
+[2016.04.06-11.19.02:562][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_310 (G8)
+[2016.04.06-11.19.02:589][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_311 (G8)
+[2016.04.06-11.19.02:598][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_312 (G8)
+[2016.04.06-11.19.02:604][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_313 (G8)
+[2016.04.06-11.19.02:607][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_314 (G8)
+[2016.04.06-11.19.02:609][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_315 (G8)
+[2016.04.06-11.19.02:613][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_316 (G8)
+[2016.04.06-11.19.02:643][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_317 (G8)
+[2016.04.06-11.19.02:644][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_318 (G8)
+[2016.04.06-11.19.02:647][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_319 (G8)
+[2016.04.06-11.19.02:649][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_320 (G8)
+[2016.04.06-11.19.02:651][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_321 (G8)
+[2016.04.06-11.19.02:653][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_322 (G8)
+[2016.04.06-11.19.02:661][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_323 (G8)
+[2016.04.06-11.19.02:663][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_324 (G8)
+[2016.04.06-11.19.02:665][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_325 (G8)
+[2016.04.06-11.19.02:666][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_326 (G8)
+[2016.04.06-11.19.02:667][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_327 (G8)
+[2016.04.06-11.19.02:668][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_328 (G8)
+[2016.04.06-11.19.02:676][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_329 (G8)
+[2016.04.06-11.19.02:683][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_330 (G8)
+[2016.04.06-11.19.02:692][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_331 (G8)
+[2016.04.06-11.19.02:700][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_332 (G8)
+[2016.04.06-11.19.02:701][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_333 (G8)
+[2016.04.06-11.19.02:701][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_334 (G8)
+[2016.04.06-11.19.02:706][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_335 (G8)
+[2016.04.06-11.19.02:733][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_336 (G8)
+[2016.04.06-11.19.02:736][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_337 (G8)
+[2016.04.06-11.19.02:742][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_338 (G8)
+[2016.04.06-11.19.02:744][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_339 (G8)
+[2016.04.06-11.19.02:746][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_340 (G8)
+[2016.04.06-11.19.02:747][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_341 (G8)
+[2016.04.06-11.19.02:749][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_342 (G8)
+[2016.04.06-11.19.02:751][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_343 (G8)
+[2016.04.06-11.19.02:753][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_344 (G8)
+[2016.04.06-11.19.02:755][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_345 (G8)
+[2016.04.06-11.19.02:757][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_346 (G8)
+[2016.04.06-11.19.02:760][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_347 (G8)
+[2016.04.06-11.19.02:761][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_348 (G8)
+[2016.04.06-11.19.02:761][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_349 (G8)
+[2016.04.06-11.19.02:763][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_350 (G8)
+[2016.04.06-11.19.02:765][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_351 (G8)
+[2016.04.06-11.19.02:766][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_353 (G8)
+[2016.04.06-11.19.02:767][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_355 (G8)
+[2016.04.06-11.19.02:768][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_356 (G8)
+[2016.04.06-11.19.02:768][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_357 (G8)
+[2016.04.06-11.19.02:769][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_358 (G8)
+[2016.04.06-11.19.02:770][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_359 (G8)
+[2016.04.06-11.19.02:771][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_360 (G8)
+[2016.04.06-11.19.02:771][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_361 (G8)
+[2016.04.06-11.19.02:852][  0]LogStaticMesh: Altar 스태틱 메시 빌드중...
+[2016.04.06-11.19.02:905][  0]LogStaticMesh: Built static mesh [0.053223.2s] /Game/HandPaintedEnvironment/Assets/Models/Altar.Altar
+[2016.04.06-11.19.02:906][  0]LogStaticMesh: Baker_house 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:063][  0]LogStaticMesh: Built static mesh [0.157580.2s] /Game/HandPaintedEnvironment/Assets/Models/Baker_house.Baker_house
+[2016.04.06-11.19.03:064][  0]LogStaticMesh: Cauldron 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:077][  0]LogStaticMesh: Built static mesh [0.013799.2s] /Game/HandPaintedEnvironment/Assets/Models/Cauldron.Cauldron
+[2016.04.06-11.19.03:077][  0]LogStaticMesh: Chest 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:094][  0]LogStaticMesh: Built static mesh [0.016240.2s] /Game/HandPaintedEnvironment/Assets/Models/Chest.Chest
+[2016.04.06-11.19.03:094][  0]LogStaticMesh: Chest_cover 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:110][  0]LogStaticMesh: Built static mesh [0.015844.2s] /Game/HandPaintedEnvironment/Assets/Models/Chest_cover.Chest_cover
+[2016.04.06-11.19.03:110][  0]LogStaticMesh: Crystal_5 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:115][  0]LogStaticMesh: Built static mesh [0.005133.2s] /Game/HandPaintedEnvironment/Assets/Models/Crystal_5.Crystal_5
+[2016.04.06-11.19.03:116][  0]LogStaticMesh: Fence 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:124][  0]LogStaticMesh: Built static mesh [0.008267.2s] /Game/HandPaintedEnvironment/Assets/Models/Fence.Fence
+[2016.04.06-11.19.03:124][  0]LogStaticMesh: Fence_1 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:131][  0]LogStaticMesh: Built static mesh [0.007326.2s] /Game/HandPaintedEnvironment/Assets/Models/Fence_1.Fence_1
+[2016.04.06-11.19.03:132][  0]LogStaticMesh: Fence_2 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:138][  0]LogStaticMesh: Built static mesh [0.006029.2s] /Game/HandPaintedEnvironment/Assets/Models/Fence_2.Fence_2
+[2016.04.06-11.19.03:138][  0]LogStaticMesh: Forge 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:272][  0]LogStaticMesh: Built static mesh [0.134341.2s] /Game/HandPaintedEnvironment/Assets/Models/Forge.Forge
+[2016.04.06-11.19.03:272][  0]LogStaticMesh: Large_house 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:456][  0]LogStaticMesh: Built static mesh [0.183995.2s] /Game/HandPaintedEnvironment/Assets/Models/Large_house.Large_house
+[2016.04.06-11.19.03:457][  0]LogStaticMesh: Log 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:465][  0]LogStaticMesh: Built static mesh [0.008573.2s] /Game/HandPaintedEnvironment/Assets/Models/Log.Log
+[2016.04.06-11.19.03:465][  0]LogStaticMesh: Mill 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:556][  0]LogStaticMesh: Built static mesh [0.091311.2s] /Game/HandPaintedEnvironment/Assets/Models/Mill.Mill
+[2016.04.06-11.19.03:557][  0]LogStaticMesh: Mill_wings 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:645][  0]LogStaticMesh: Built static mesh [0.088585.2s] /Game/HandPaintedEnvironment/Assets/Models/Mill_wings.Mill_wings
+[2016.04.06-11.19.03:646][  0]LogStaticMesh: Mushroom_2 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:652][  0]LogStaticMesh: Built static mesh [0.006574.2s] /Game/HandPaintedEnvironment/Assets/Models/Mushroom_2.Mushroom_2
+[2016.04.06-11.19.03:652][  0]LogStaticMesh: Mushroom_3 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:658][  0]LogStaticMesh: Built static mesh [0.005760.2s] /Game/HandPaintedEnvironment/Assets/Models/Mushroom_3.Mushroom_3
+[2016.04.06-11.19.03:658][  0]LogStaticMesh: Mushroom_4 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:665][  0]LogStaticMesh: Built static mesh [0.006408.2s] /Game/HandPaintedEnvironment/Assets/Models/Mushroom_4.Mushroom_4
+[2016.04.06-11.19.03:665][  0]LogStaticMesh: Mushroom_1 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:672][  0]LogStaticMesh: Built static mesh [0.007612.2s] /Game/HandPaintedEnvironment/Assets/Models/Mushroom_1.Mushroom_1
+[2016.04.06-11.19.03:673][  0]LogStaticMesh: Pillar 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:679][  0]LogStaticMesh: Built static mesh [0.006585.2s] /Game/HandPaintedEnvironment/Assets/Models/Pillar.Pillar
+[2016.04.06-11.19.03:680][  0]LogStaticMesh: Pillar_ruined_2 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:686][  0]LogStaticMesh: Built static mesh [0.006319.2s] /Game/HandPaintedEnvironment/Assets/Models/Pillar_ruined_2.Pillar_ruined_2
+[2016.04.06-11.19.03:686][  0]LogStaticMesh: Pine_tree 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:722][  0]LogStaticMesh: Built static mesh [0.036060.2s] /Game/HandPaintedEnvironment/Assets/Models/Pine_tree.Pine_tree
+[2016.04.06-11.19.03:723][  0]LogStaticMesh: Pine_tree_2 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:752][  0]LogStaticMesh: Built static mesh [0.028336.2s] /Game/HandPaintedEnvironment/Assets/Models/Pine_tree_2.Pine_tree_2
+[2016.04.06-11.19.03:752][  0]LogStaticMesh: Rock_1 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:756][  0]LogStaticMesh: Built static mesh [0.004254.2s] /Game/HandPaintedEnvironment/Assets/Models/Rock_1.Rock_1
+[2016.04.06-11.19.03:757][  0]LogStaticMesh: Rock_3 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:764][  0]LogStaticMesh: Built static mesh [0.007174.2s] /Game/HandPaintedEnvironment/Assets/Models/Rock_3.Rock_3
+[2016.04.06-11.19.03:764][  0]LogStaticMesh: Rock_4 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:771][  0]LogStaticMesh: Built static mesh [0.006522.2s] /Game/HandPaintedEnvironment/Assets/Models/Rock_4.Rock_4
+[2016.04.06-11.19.03:771][  0]LogStaticMesh: Rock_2 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:779][  0]LogStaticMesh: Built static mesh [0.008382.2s] /Game/HandPaintedEnvironment/Assets/Models/Rock_2.Rock_2
+[2016.04.06-11.19.03:779][  0]LogStaticMesh: Small_house 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:816][  0]LogStaticMesh: Built static mesh [0.036099.2s] /Game/HandPaintedEnvironment/Assets/Models/Small_house.Small_house
+[2016.04.06-11.19.03:816][  0]LogStaticMesh: Tile_1 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:821][  0]LogStaticMesh: Built static mesh [0.005309.2s] /Game/HandPaintedEnvironment/Assets/Models/Tile_1.Tile_1
+[2016.04.06-11.19.03:822][  0]LogStaticMesh: Tile_2 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:826][  0]LogStaticMesh: Built static mesh [0.004598.2s] /Game/HandPaintedEnvironment/Assets/Models/Tile_2.Tile_2
+[2016.04.06-11.19.03:826][  0]LogStaticMesh: Tile_3 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:831][  0]LogStaticMesh: Built static mesh [0.004769.2s] /Game/HandPaintedEnvironment/Assets/Models/Tile_3.Tile_3
+[2016.04.06-11.19.03:831][  0]LogStaticMesh: Tile_4 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:837][  0]LogStaticMesh: Built static mesh [0.006339.2s] /Game/HandPaintedEnvironment/Assets/Models/Tile_4.Tile_4
+[2016.04.06-11.19.03:838][  0]LogStaticMesh: Tile_5 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:841][  0]LogStaticMesh: Built static mesh [0.003399.2s] /Game/HandPaintedEnvironment/Assets/Models/Tile_5.Tile_5
+[2016.04.06-11.19.03:841][  0]LogStaticMesh: Tile_6 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:845][  0]LogStaticMesh: Built static mesh [0.003871.2s] /Game/HandPaintedEnvironment/Assets/Models/Tile_6.Tile_6
+[2016.04.06-11.19.03:845][  0]LogStaticMesh: Tile_7 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:849][  0]LogStaticMesh: Built static mesh [0.004005.2s] /Game/HandPaintedEnvironment/Assets/Models/Tile_7.Tile_7
+[2016.04.06-11.19.03:853][  0]LogStaticMesh: Town_Hall 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:971][  0]LogStaticMesh: Built static mesh [0.118522.2s] /Game/HandPaintedEnvironment/Assets/Models/Town_Hall.Town_Hall
+[2016.04.06-11.19.03:972][  0]LogStaticMesh: Tree_1 스태틱 메시 빌드중...
+[2016.04.06-11.19.03:994][  0]LogStaticMesh: Built static mesh [0.022668.2s] /Game/HandPaintedEnvironment/Assets/Models/Tree_1.Tree_1
+[2016.04.06-11.19.03:995][  0]LogStaticMesh: Tree_4 스태틱 메시 빌드중...
+[2016.04.06-11.19.04:014][  0]LogStaticMesh: Built static mesh [0.018951.2s] /Game/HandPaintedEnvironment/Assets/Models/Tree_4.Tree_4
+[2016.04.06-11.19.04:014][  0]LogStaticMesh: Tree_2 스태틱 메시 빌드중...
+[2016.04.06-11.19.04:034][  0]LogStaticMesh: Built static mesh [0.020511.2s] /Game/HandPaintedEnvironment/Assets/Models/Tree_2.Tree_2
+[2016.04.06-11.19.04:034][  0]LogStaticMesh: Tree_2_1 스태틱 메시 빌드중...
+[2016.04.06-11.19.04:059][  0]LogStaticMesh: Built static mesh [0.025025.2s] /Game/HandPaintedEnvironment/Assets/Models/Tree_2_1.Tree_2_1
+[2016.04.06-11.19.04:060][  0]LogStaticMesh: Wall_2 스태틱 메시 빌드중...
+[2016.04.06-11.19.04:066][  0]LogStaticMesh: Built static mesh [0.005880.2s] /Game/HandPaintedEnvironment/Assets/Models/Wall_2.Wall_2
+[2016.04.06-11.19.04:068][  0]LogStaticMesh: Wall_1 스태틱 메시 빌드중...
+[2016.04.06-11.19.04:075][  0]LogStaticMesh: Built static mesh [0.006580.2s] /Game/HandPaintedEnvironment/Assets/Models/Wall_1.Wall_1
+[2016.04.06-11.19.04:077][  0]LogStaticMesh: Well 스태틱 메시 빌드중...
+[2016.04.06-11.19.04:096][  0]LogStaticMesh: Built static mesh [0.019297.2s] /Game/HandPaintedEnvironment/Assets/Models/Well.Well
+[2016.04.06-11.19.04:096][  0]LogStaticMesh: Witch_house 스태틱 메시 빌드중...
+[2016.04.06-11.19.04:213][  0]LogStaticMesh: Built static mesh [0.116524.2s] /Game/HandPaintedEnvironment/Assets/Models/Witch_house.Witch_house
+[2016.04.06-11.19.04:441][  0]LogTexture:Display: 텍스처 빌드중: skel_base_col (AutoDXT)
+[2016.04.06-11.19.05:303][  0]LogTexture:Display: 텍스처 빌드중: skel_base_col_N (BC5)
+[2016.04.06-11.19.05:437][  0]LogTexture:Display: 텍스처 빌드중: T_Skel_Grunt_M (AutoDXT)
+[2016.04.06-11.19.05:525][  0]LogMaterial: Missing cached shader map for material M_Skel_Base, compiling. 
+[2016.04.06-11.19.06:882][  0]LogTexture:Display: 텍스처 빌드중: T_Env_Fire_deco_pots_Red_D (AutoDXT)
+[2016.04.06-11.19.11:301][  0]LogTexture:Display: 텍스처 빌드중: T_Env_Fire_deco_Pots_N (BC5)
+[2016.04.06-11.19.12:131][  0]LogMaterial: Missing cached shader map for material M_Breakables_Pots_Red, compiling. 
+[2016.04.06-11.19.12:235][  0]LogTexture:Display: 텍스처 빌드중: T_Fire_subUV_6X6 (AutoDXT)
+[2016.04.06-11.19.12:896][  0]LogTexture:Display: 텍스처 빌드중: T_Black_32 (AutoDXT)
+[2016.04.06-11.19.12:900][  0]LogMaterial: Missing cached shader map for material M_Trans_Sprite_Master_Surface, compiling. 
+[2016.04.06-11.19.13:073][  0]LogTexture:Display: 텍스처 빌드중: T_cracksFirey_01 (AutoDXT)
+[2016.04.06-11.19.14:561][  0]LogTexture:Display: 텍스처 빌드중: T_cracks_01_N (BC5)
+[2016.04.06-11.19.15:011][  0]LogTexture:Display: 텍스처 빌드중: T_war_Shoulder_accleg_Color (AutoDXT)
+[2016.04.06-11.19.16:952][  0]LogTexture:Display: 텍스처 빌드중: T_war_Shoulder_accleg_Metallic (AutoDXT)
+[2016.04.06-11.19.18:128][  0]LogTexture:Display: 텍스처 빌드중: T_war_Shoulder_accleg_Normal (BC5)
+[2016.04.06-11.19.18:902][  0]LogTexture:Display: 텍스처 빌드중: T_Ears_color (AutoDXT)
+[2016.04.06-11.19.19:094][  0]LogTexture:Display: 텍스처 빌드중: T_war_Calz_Color (AutoDXT)
+[2016.04.06-11.19.20:351][  0]LogTexture:Display: 텍스처 빌드중: T_war_Calz_Metallic (AutoDXT)
+[2016.04.06-11.19.21:281][  0]LogTexture:Display: 텍스처 빌드중: T_war_Calz_Normal (BC5)
+[2016.04.06-11.19.22:079][  0]LogTexture:Display: 텍스처 빌드중: T_war_Calz_Roughness (AutoDXT)
+[2016.04.06-11.19.22:755][  0]LogTexture:Display: 텍스처 빌드중: T_Sword_01_Metallic (AutoDXT)
+[2016.04.06-11.19.23:514][  0]LogTexture:Display: 텍스처 빌드중: T_Sword_01_Color (AutoDXT)
+[2016.04.06-11.19.26:801][  0]LogTexture:Display: 텍스처 빌드중: T_Sword_01_Normal (BC5)
+[2016.04.06-11.19.27:352][  0]LogTexture:Display: 텍스처 빌드중: T_Sword_01_Roughness (AutoDXT)
+[2016.04.06-11.19.27:884][  0]LogTexture:Display: 텍스처 빌드중: T_baseFBX_cuerpo_Roughness (AutoDXT)
+[2016.04.06-11.19.28:280][  0]LogTexture:Display: 텍스처 빌드중: T_baseFBX_cuerpo_BaseColor (AutoDXT)
+[2016.04.06-11.19.29:449][  0]LogTexture:Display: 텍스처 빌드중: T_BodyChainmail_Color (AutoDXT)
+[2016.04.06-11.19.36:101][  0]LogTexture:Display: 텍스처 빌드중: T_BodyChainmail_Metallic (AutoDXT)
+[2016.04.06-11.19.40:281][  0]LogTexture:Display: 텍스처 빌드중: T_BodyChainmail_Normal (BC5)
+[2016.04.06-11.19.42:641][  0]LogTexture:Display: 텍스처 빌드중: T_BodyChainmail_Roughness (AutoDXT)
+[2016.04.06-11.19.47:108][  0]LogTexture:Display: 텍스처 빌드중: ThumbnailTexture (DXT1)
+[2016.04.06-11.19.47:187][  0]LogMaterial: Missing cached shader map for material M_Add_Trail_2Sided_Pan_Master, compiling. 
+[2016.04.06-11.19.47:200][  0]LogTexture:Display: 텍스처 빌드중: T_FireBlastTile (AutoDXT)
+[2016.04.06-11.19.47:272][  0]LogMaterial: Missing cached shader map for material M_Add_Trail_2Sided_Pan_Master, compiling. 
+[2016.04.06-11.19.47:336][  0]LogTexture:Display: 텍스처 빌드중: T_BlastWave (AutoDXT)
+[2016.04.06-11.19.47:833][  0]LogTexture:Display: 텍스처 빌드중: T_Trail_Ice_01 (AutoDXT)
+[2016.04.06-11.19.47:903][  0]LogTexture:Display: 텍스처 빌드중: T_BlastHalf (AutoDXT)
+[2016.04.06-11.19.47:944][  0]LogTexture:Display: 텍스처 빌드중: ThumbnailTexture (DXT1)
+[2016.04.06-11.19.48:072][  0]LogTexture:Display: 텍스처 빌드중: Skill5 (BGRA8)
+[2016.04.06-11.19.48:073][  0]LogTexture:Display: 텍스처 빌드중: Skill4 (BGRA8)
+[2016.04.06-11.19.48:073][  0]LogTexture:Display: 텍스처 빌드중: Skill3 (BGRA8)
+[2016.04.06-11.19.48:925][  0]LogTexture:Display: 텍스처 빌드중: Skill6 (BGRA8)
+[2016.04.06-11.19.48:995][  0]LogTexture:Display: 텍스처 빌드중: Baker_house_texture (AutoDXT)
+[2016.04.06-11.19.50:362][  0]LogTexture:Display: 텍스처 빌드중: Baker_house_normal (BC5)
+[2016.04.06-11.19.50:516][  0]LogMaterial: Missing cached shader map for material Baker_house, compiling. 
+[2016.04.06-11.19.50:769][  0]LogTexture:Display: 텍스처 빌드중: Lampposts_normal (BC5)
+[2016.04.06-11.19.51:811][  0]LogTexture:Display: 텍스처 빌드중: Lampposts_texture (AutoDXT)
+[2016.04.06-11.19.55:727][  0]LogMaterial: Missing cached shader map for material Lampposts, compiling. 
+[2016.04.06-11.19.56:214][  0]LogTexture:Display: 텍스처 빌드중: Forge_texture (AutoDXT)
+[2016.04.06-11.20.00:911][  0]LogTexture:Display: 텍스처 빌드중: Forge_normal (BC5)
+[2016.04.06-11.20.01:396][  0]LogMaterial: Missing cached shader map for material Forge, compiling. 
+[2016.04.06-11.20.01:739][  0]LogTexture:Display: 텍스처 빌드중: Large_house_texture (AutoDXT)
+[2016.04.06-11.20.06:696][  0]LogTexture:Display: 텍스처 빌드중: Large_house_normal (BC5)
+[2016.04.06-11.20.07:146][  0]LogMaterial: Missing cached shader map for material Large_house, compiling. 
+[2016.04.06-11.20.07:442][  0]LogTexture:Display: 텍스처 빌드중: Mill_texture (AutoDXT)
+[2016.04.06-11.20.12:122][  0]LogTexture:Display: 텍스처 빌드중: Mill_normal (BC5)
+[2016.04.06-11.20.12:647][  0]LogMaterial: Missing cached shader map for material Mill, compiling. 
+[2016.04.06-11.20.12:758][  0]LogTexture:Display: 텍스처 빌드중: Small_house_texture (AutoDXT)
+[2016.04.06-11.20.14:086][  0]LogTexture:Display: 텍스처 빌드중: Small_house_normal (AutoDXT)
+[2016.04.06-11.20.14:864][  0]LogMaterial: Missing cached shader map for material Small_house, compiling. 
+[2016.04.06-11.20.15:092][  0]LogTexture:Display: 텍스처 빌드중: T_staff01_cristal_ball_Normal (BC5)
+[2016.04.06-11.20.15:785][  0]LogTexture:Display: 텍스처 빌드중: T_staff01_cristal_ball_Metallic (AutoDXT)
+[2016.04.06-11.20.16:404][  0]LogTexture:Display: 텍스처 빌드중: T_staff01_cristal_ball_Color (AutoDXT)
+[2016.04.06-11.20.18:195][  0]LogTexture:Display: 텍스처 빌드중: T_wand_02f_Roughness (AutoDXT)
+[2016.04.06-11.20.18:562][  0]LogMaterial: Missing cached shader map for material M_ChibiF_master, compiling. 
+[2016.04.06-11.20.18:661][  0]LogTexture:Display: 텍스처 빌드중: T_Staff01_Metallic (AutoDXT)
+[2016.04.06-11.20.19:474][  0]LogTexture:Display: 텍스처 빌드중: T_Staff01_Color (AutoDXT)
+[2016.04.06-11.20.21:013][  0]LogTexture:Display: 텍스처 빌드중: T_Staff01_Normal (BC5)
+[2016.04.06-11.20.21:735][  0]LogTexture:Display: 텍스처 빌드중: T_Staff01_Roughness (AutoDXT)
+[2016.04.06-11.20.23:216][  0]LogTexture:Display: 텍스처 빌드중: Town_Hall_texture (AutoDXT)
+[2016.04.06-11.20.29:620][  0]LogTexture:Display: 텍스처 빌드중: Town_Hall_normal (BC5)
+[2016.04.06-11.20.30:496][  0]LogMaterial: Missing cached shader map for material TownHall, compiling. 
+[2016.04.06-11.20.30:892][  0]LogTexture:Display: 텍스처 빌드중: Witch_house_texture (AutoDXT)
+[2016.04.06-11.20.37:358][  0]LogTexture:Display: 텍스처 빌드중: Witch_house_normal (BC5)
+[2016.04.06-11.20.38:159][  0]LogMaterial: Missing cached shader map for material Witch_house, compiling. 
+[2016.04.06-11.20.38:416][  0]LogTexture:Display: 텍스처 빌드중: Cauldron_texture (AutoDXT)
+[2016.04.06-11.20.43:827][  0]LogTexture:Display: 텍스처 빌드중: Cauldron_normal (BC5)
+[2016.04.06-11.20.44:302][  0]LogMaterial: Missing cached shader map for material Cualdron, compiling. 
+[2016.04.06-11.20.44:556][  0]LogTexture:Display: 텍스처 빌드중: Chest_texture (AutoDXT)
+[2016.04.06-11.20.48:782][  0]LogTexture:Display: 텍스처 빌드중: Chest_normal (BC5)
+[2016.04.06-11.20.49:338][  0]LogMaterial: Missing cached shader map for material Chest, compiling. 
+[2016.04.06-11.20.49:558][  0]LogTexture:Display: 텍스처 빌드중: Crystals_texture (AutoDXT)
+[2016.04.06-11.20.53:609][  0]LogMaterial: Missing cached shader map for material Crystals, compiling. 
+[2016.04.06-11.20.53:841][  0]LogTexture:Display: 텍스처 빌드중: Fence_texture (AutoDXT)
+[2016.04.06-11.20.59:427][  0]LogTexture:Display: 텍스처 빌드중: Fence_normal (BC5)
+[2016.04.06-11.21.00:136][  0]LogMaterial: Missing cached shader map for material Fence_wooden, compiling. 
+[2016.04.06-11.21.00:564][  0]LogTexture:Display: 텍스처 빌드중: Log_stump_mushrooms_texture (AutoDXT)
+[2016.04.06-11.21.04:984][  0]LogTexture:Display: 텍스처 빌드중: Log_stump_mushrooms_normal (BC5)
+[2016.04.06-11.21.05:625][  0]LogMaterial: Missing cached shader map for material Log_stump_mushrooms, compiling. 
+[2016.04.06-11.21.05:946][  0]LogTexture:Display: 텍스처 빌드중: Pillars_arch_normal (BC5)
+[2016.04.06-11.21.07:017][  0]LogTexture:Display: 텍스처 빌드중: Pillars_arch_texture (AutoDXT)
+[2016.04.06-11.21.11:227][  0]LogMaterial: Missing cached shader map for material Pillars_arch, compiling. 
+[2016.04.06-11.21.11:522][  0]LogTexture:Display: 텍스처 빌드중: Pine_tree_texture (AutoDXT)
+[2016.04.06-11.21.16:742][  0]LogTexture:Display: 텍스처 빌드중: Pine_tree_normal (BC5)
+[2016.04.06-11.21.17:353][  0]LogTexture:Display: 텍스처 빌드중: Pine_tree_alpha (AutoDXT)
+[2016.04.06-11.21.17:859][  0]LogMaterial: Missing cached shader map for material Pine_tree, compiling. 
+[2016.04.06-11.21.18:361][  0]LogTexture:Display: 텍스처 빌드중: Pine_tree_2_texture (AutoDXT)
+[2016.04.06-11.21.24:228][  0]LogMaterial: Missing cached shader map for material Pine_tree_2, compiling. 
+[2016.04.06-11.21.24:487][  0]LogTexture:Display: 텍스처 빌드중: Rocks_1_2_normal (BC5)
+[2016.04.06-11.21.25:586][  0]LogTexture:Display: 텍스처 빌드중: Rocks_1_2_texture (AutoDXT)
+[2016.04.06-11.21.30:028][  0]LogMaterial: Missing cached shader map for material Rocks_1_2, compiling. 
+[2016.04.06-11.21.30:342][  0]LogTexture:Display: 텍스처 빌드중: Rocks_3_4_texture (AutoDXT)
+[2016.04.06-11.21.35:091][  0]LogTexture:Display: 텍스처 빌드중: Rocks_3_4_normal (BC5)
+[2016.04.06-11.21.35:862][  0]LogMaterial: Missing cached shader map for material Rocks_3_4, compiling. 
+[2016.04.06-11.21.36:145][  0]LogTexture:Display: 텍스처 빌드중: Stone_tiles_texture (AutoDXT)
+[2016.04.06-11.21.41:445][  0]LogTexture:Display: 텍스처 빌드중: Stone_tiles_normal (BC5)
+[2016.04.06-11.21.42:139][  0]LogMaterial: Missing cached shader map for material Tiles, compiling. 
+[2016.04.06-11.21.42:529][  0]LogTexture:Display: 텍스처 빌드중: Tree_1_1_texture (AutoDXT)
+[2016.04.06-11.21.47:302][  0]LogTexture:Display: 텍스처 빌드중: Tree_1_normal (BC5)
+[2016.04.06-11.21.47:957][  0]LogTexture:Display: 텍스처 빌드중: Tree_1_alpha (AutoDXT)
+[2016.04.06-11.21.48:600][  0]LogMaterial: Missing cached shader map for material Tree_1_1, compiling. 
+[2016.04.06-11.21.48:862][  0]LogTexture:Display: 텍스처 빌드중: Tree_2_1_texture (AutoDXT)
+[2016.04.06-11.21.53:335][  0]LogTexture:Display: 텍스처 빌드중: Tree_2_normal (BC5)
+[2016.04.06-11.21.54:286][  0]LogTexture:Display: 텍스처 빌드중: Tree_2_alpha (AutoDXT)
+[2016.04.06-11.21.55:215][  0]LogMaterial: Missing cached shader map for material Tree_2_1, compiling. 
+[2016.04.06-11.21.55:494][  0]LogTexture:Display: 텍스처 빌드중: Tree_1_2_texture (AutoDXT)
+[2016.04.06-11.22.00:448][  0]LogMaterial: Missing cached shader map for material Tree_1_2, compiling. 
+[2016.04.06-11.22.00:746][  0]LogTexture:Display: 텍스처 빌드중: Tree_2_2_texture (AutoDXT)
+[2016.04.06-11.22.05:498][  0]LogMaterial: Missing cached shader map for material Tree_2_2, compiling. 
+[2016.04.06-11.22.05:828][  0]LogTexture:Display: 텍스처 빌드중: Ruined_walls_normal (BC5)
+[2016.04.06-11.22.06:956][  0]LogTexture:Display: 텍스처 빌드중: Ruined_walls_texture (AutoDXT)
+[2016.04.06-11.22.11:712][  0]LogMaterial: Missing cached shader map for material Ruined_walls, compiling. 
+[2016.04.06-11.22.12:016][  0]LogTexture:Display: 텍스처 빌드중: Well_texture (AutoDXT)
+[2016.04.06-11.22.18:452][  0]LogTexture:Display: 텍스처 빌드중: Well_normal (BC5)
+[2016.04.06-11.22.19:341][  0]LogMaterial: Missing cached shader map for material Well, compiling. 
+[2016.04.06-11.22.19:474][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.04.06-11.22.21:525][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2016.04.06-11.22.21:722][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.06-11.22.22:580][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 857.385ms.
+[2016.04.06-11.22.22:581][  0]LogFileHelpers: Loading map 'Minimal_Default' took 280.342
+[2016.04.06-11.22.24:613][  0]LogCollectionManager: Loaded 0 collections in 0.001997 seconds
+[2016.04.06-11.22.24:840][  0]LogFileCache: Scanning file cache for directory 'D:/sylve/Documents/Unreal Projects/Project/Hero 4.10/Saved/Collections/' took 0.01s
+[2016.04.06-11.22.24:840][  0]LogFileCache: Scanning file cache for directory 'D:/sylve/Documents/Unreal Projects/Project/Hero 4.10/Content/Developers/sylve/Collections/' took 0.01s
+[2016.04.06-11.22.24:840][  0]LogFileCache: Scanning file cache for directory 'D:/sylve/Documents/Unreal Projects/Project/Hero 4.10/Content/Collections/' took 0.01s
+[2016.04.06-11.22.24:840][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.04.06-11.22.24:866][  0]LogContentBrowser: Native class hierarchy populated in 0.0251 seconds. Added 1893 classes and 338 folders.
+[2016.04.06-11.22.25:044][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2016.04.06-11.22.25:957][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.04.06-11.22.26:070][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2016.04.06-11.22.26:624][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.06-11.22.26:945][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.04.06-11.22.27:262][  0]LogLoad: Full Startup: 289.67 seconds (BP compile: 2.07 seconds)
+[2016.04.06-11.22.27:361][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.06-11.22.28:043][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.06-11.22.28:970][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.04.06-11.22.29:507][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.06-11.22.30:204][  1]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.06-11.22.30:769][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/sylve/Documents/Unreal Projects/Project/Hero 4.10/Content/' took 3.33s
+[2016.04.06-11.22.33:585][ 21]LogAssetRegistry: Asset discovery search completed in 292.5203 seconds
+[2016.04.06-11.22.33:613][ 21]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.06-11.22.33:613][ 21]LogCollectionManager: Fixed up redirectors for 0 collections in 0.020546 seconds (updated 0 objects)
+[2016.04.06-11.27.13:946][708]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.04.06-11.27.13:947][708]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.06-11.27.13:994][708]PIE: New page: PIE 세션: Minimal_Default (2016. 4. 7. 오전 5:27:13)
+[2016.04.06-11.27.14:014][708]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.04.06-11.27.14:367][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.352564s)
+[2016.04.06-11.27.14:371][708]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.04.06-11.27.14:373][708]LogPlayLevel: PIE: World Init took: (0.006043s)
+[2016.04.06-11.27.14:384][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.370219s)
+[2016.04.06-11.27.14:887][708]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.06-11.27.14:900][708]LogInit: FAudioDevice initialized.
+[2016.04.06-11.27.15:166][708]LogWorld: Game class is 'CustomMode_BP_C'
+[2016.04.06-11.27.15:490][708]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2016.04.06-20.27.15
+[2016.04.06-11.27.15:490][708]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.06-11.27.15:498][708]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.06-11.27.15:741][708]LogWorld: Bringing up level for play took: 0.452268
+[2016.04.06-11.27.16:155][708]PIE: 정보 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 에 대한 에디터에서 플레이 시작 시간: 1.849
+[2016.04.06-11.27.16:155][708]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.04.06-11.27.28:655][317]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.29:117][338]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.29:696][365]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.30:211][392]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.30:636][415]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.31:214][446]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.31:820][478]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.32:742][523]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.33:322][555]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.33:790][581]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.34:336][610]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.34:874][639]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.35:439][668]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.36:030][699]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.36:587][728]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.37:012][750]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.37:551][778]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.37:998][802]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.38:479][827]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.38:958][853]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.39:471][882]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.39:873][903]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.40:393][930]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.40:875][956]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.41:416][985]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.41:919][ 12]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.42:349][ 35]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.42:790][ 59]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.43:377][ 90]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.43:932][119]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.44:547][151]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.45:063][178]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.45:585][205]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.46:158][235]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.47:257][293]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.47:715][317]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.48:163][341]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.49:187][397]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.49:649][421]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.50:160][447]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.51:205][502]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.51:780][533]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.52:371][563]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.52:866][591]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.53:458][624]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.53:951][651]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.54:424][677]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.54:926][703]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.55:544][737]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.56:119][768]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.56:683][799]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.57:178][825]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.57:621][849]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.58:120][876]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.59:029][923]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.27.59:646][955]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.00:114][974]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.00:680][  4]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.01:124][ 27]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.02:166][ 81]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.02:744][111]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.03:326][143]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.03:898][173]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.04:323][194]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.04:796][216]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.05:404][247]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.05:924][273]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.06:331][292]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.06:828][318]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.07:363][345]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.07:854][371]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.08:288][393]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.08:885][424]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.09:300][446]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.09:852][477]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.10:352][504]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.10:874][531]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.11:395][559]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.11:855][584]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.12:394][613]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.12:941][643]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.13:435][670]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.14:040][702]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.14:614][733]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.15:087][758]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.16:040][810]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.16:522][832]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.17:124][864]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.17:573][889]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.18:009][914]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.18:480][938]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.18:901][960]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.19:415][987]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.19:974][ 16]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.20:417][ 40]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] Projectile_BP26
+[2016.04.06-11.28.20:918][ 67]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.21:440][ 94]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.21:920][119]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.22:439][145]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.22:990][174]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.23:429][197]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.24:028][229]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.24:508][254]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.25:088][285]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.25:665][316]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.26:769][372]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.27:246][397]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.27:664][419]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.28:114][443]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.28:640][468]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.29:227][499]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.29:805][527]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.30:222][548]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.30:751][575]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.31:333][605]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.31:938][636]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.32:361][659]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.32:929][689]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.33:508][720]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.34:026][746]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.34:473][769]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.34:903][791]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.35:371][814]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.35:926][843]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.36:402][866]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.37:424][919]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.38:012][950]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.38:579][980]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.39:177][ 11]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.39:582][ 32]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.40:152][ 60]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.40:712][ 90]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.41:124][112]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.41:635][139]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.42:700][194]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.43:231][222]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.43:699][245]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.44:233][272]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.44:735][297]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.45:249][325]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.45:716][350]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.46:135][371]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.46:606][395]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.47:101][421]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.47:639][450]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.48:120][475]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.48:584][500]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.49:121][528]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.49:572][553]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.04.06-11.28.49:899][569]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.04.06-11.28.50:216][569]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.04.06-11.28.50:311][569]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CDCE7ECE00
+[2016.04.06-11.58.24:806][161]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.06-11.58.26:200][161]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 107 classes and 0 folders.
+[2016.04.06-12.43.45:965][970]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE09982CA0
+[2016.04.06-12.43.45:969][970]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE099814E0
+[2016.04.06-12.43.45:974][970]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CDD72C2E80
+[2016.04.06-12.43.45:978][970]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CDD72C1C60
+[2016.04.06-12.43.45:982][970]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CD8D4D94E0
+[2016.04.06-12.43.45:986][970]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CD8D4D9DA0
+[2016.04.06-12.43.46:584][971]Cmd: QUIT_EDITOR
+[2016.04.06-12.43.47:137][971]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.04.06-12.43.47:247][971]LogExit: Preparing to exit.
+[2016.04.06-12.43.48:916][971]LogExit: Editor shut down
+[2016.04.06-12.43.48:917][971]LogExit: Transaction tracking system shut down
+[2016.04.06-12.43.48:985][971]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE02AC04A0
+[2016.04.06-12.43.48:999][971]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE09052020
+[2016.04.06-12.43.50:658][971]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE02AC2660
+[2016.04.06-12.43.50:658][971]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CDCCB9E7A0
+[2016.04.06-12.43.50:658][971]LogExit: Object subsystem successfully closed.
+[2016.04.06-12.43.50:887][971]LogD3D11RHI: Shutdown
+[2016.04.06-12.43.50:887][971]LogD3D11RHI: CleanupD3DDevice
+[2016.04.06-12.43.51:020][971]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.06-12.43.51:672][971]LogModuleManager: Shutting down and abandoning module SequencerWidgets (200)
+[2016.04.06-12.43.51:673][971]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.04.06-12.43.51:673][971]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.04.06-12.43.51:673][971]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.04.06-12.43.51:673][971]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.04.06-12.43.51:673][971]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.04.06-12.43.51:680][971]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.04.06-12.43.51:715][971]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.04.06-12.43.51:715][971]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.04.06-12.43.51:733][971]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.04.06-12.43.51:752][971]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.04.06-12.43.51:764][971]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.04.06-12.43.51:782][971]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.04.06-12.43.51:782][971]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.04.06-12.43.51:782][971]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.04.06-12.43.51:782][971]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.04.06-12.43.51:782][971]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.04.06-12.43.51:783][971]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.04.06-12.43.51:783][971]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.04.06-12.43.51:783][971]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.04.06-12.43.51:783][971]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.04.06-12.43.51:783][971]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.04.06-12.43.51:821][971]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.04.06-12.43.51:835][971]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.04.06-12.43.51:849][971]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.04.06-12.43.51:862][971]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.04.06-12.43.51:869][971]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.04.06-12.43.51:869][971]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.04.06-12.43.52:502][971]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.04.06-12.43.52:502][971]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.04.06-12.43.52:502][971]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.04.06-12.43.52:502][971]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.04.06-12.43.52:540][971]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.04.06-12.43.52:540][971]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.04.06-12.43.52:561][971]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.04.06-12.43.52:568][971]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.04.06-12.43.52:578][971]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.04.06-12.43.52:584][971]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.04.06-12.43.52:593][971]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.04.06-12.43.52:630][971]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.04.06-12.43.52:643][971]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.04.06-12.43.52:643][971]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.04.06-12.43.52:643][971]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.04.06-12.43.52:650][971]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.04.06-12.43.52:650][971]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.04.06-12.43.52:657][971]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.04.06-12.43.52:658][971]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.04.06-12.43.52:667][971]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.04.06-12.43.52:667][971]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.04.06-12.43.52:680][971]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.04.06-12.43.52:695][971]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.04.06-12.43.52:709][971]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.04.06-12.43.52:719][971]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.04.06-12.43.52:727][971]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.04.06-12.43.52:735][971]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.04.06-12.43.52:743][971]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.04.06-12.43.52:752][971]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.04.06-12.43.52:773][971]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.04.06-12.43.52:773][971]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.04.06-12.43.52:780][971]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.04.06-12.43.52:780][971]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.04.06-12.43.52:805][971]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.04.06-12.43.52:805][971]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.04.06-12.43.52:805][971]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.04.06-12.43.52:811][971]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.04.06-12.43.52:811][971]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.04.06-12.43.52:818][971]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.04.06-12.43.52:818][971]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.04.06-12.43.52:818][971]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.04.06-12.43.52:825][971]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.04.06-12.43.52:826][971]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.04.06-12.43.52:826][971]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.04.06-12.43.52:826][971]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.04.06-12.43.52:827][971]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.04.06-12.43.52:827][971]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.04.06-12.43.52:844][971]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.04.06-12.43.52:853][971]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.04.06-12.43.52:853][971]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.04.06-12.43.52:876][971]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.04.06-12.43.52:890][971]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.04.06-12.43.52:890][971]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.04.06-12.43.52:890][971]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.04.06-12.43.52:890][971]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.04.06-12.43.52:890][971]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.04.06-12.43.52:890][971]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.04.06-12.43.52:890][971]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.04.06-12.43.52:952][971]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.04.06-12.43.52:953][971]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.04.06-12.43.52:962][971]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.04.06-12.43.52:962][971]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.04.06-12.43.52:979][971]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.04.06-12.43.52:993][971]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.04.06-12.43.52:993][971]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.04.06-12.43.52:993][971]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.04.06-12.43.53:001][971]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.04.06-12.43.53:008][971]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.04.06-12.43.53:020][971]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.04.06-12.43.53:026][971]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.04.06-12.43.53:026][971]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.04.06-12.43.53:032][971]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.04.06-12.43.53:042][971]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.04.06-12.43.53:055][971]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.04.06-12.43.53:069][971]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.04.06-12.43.53:069][971]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.04.06-12.43.53:076][971]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.04.06-12.43.53:077][971]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.04.06-12.43.53:077][971]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.04.06-12.43.53:095][971]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.04.06-12.43.53:106][971]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.04.06-12.43.53:106][971]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.04.06-12.43.53:127][971]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.04.06-12.43.53:151][971]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.04.06-12.43.53:608][971]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.04.06-12.43.53:609][971]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.04.06-12.43.53:626][971]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.06-12.43.53:727][971]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.06-12.43.53:727][971]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.06-12.43.53:734][971]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.06-12.43.53:755][971]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.06-12.43.53:755][971]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.06-12.43.53:773][971]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.06-12.43.53:773][971]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.06-12.43.53:773][971]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.06-12.43.53:781][971]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.06-12.43.53:817][971]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.06-12.43.53:817][971]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.06-12.43.53:822][971]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.06-12.43.53:834][971]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.06-12.43.53:834][971]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.06-12.43.53:835][971]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.06-12.43.53:855][971]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.06-12.43.53:855][971]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.06-12.43.53:855][971]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.06-12.43.53:855][971]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.06-12.43.53:864][971]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.06-12.43.53:864][971]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.06-12.43.53:864][971]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.06-12.43.53:864][971]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.06-12.43.53:864][971]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.06-12.43.53:864][971]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.06-12.43.53:864][971]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.06-12.43.53:864][971]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.06-12.43.53:864][971]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.06-12.43.53:869][971]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.06-12.43.53:964][971]LogDerivedDataCache: Shutdown
+[2016.04.06-12.43.53:964][971]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.06-12.43.53:975][971]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.06-12.43.53:981][971]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.06-12.43.53:991][971]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.06-12.43.53:992][971]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.06-12.43.53:992][971]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.06-12.43.53:998][971]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.06-12.43.53:998][971]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.06-12.43.53:998][971]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.06-12.43.53:999][971]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.06-12.43.53:999][971]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.06-12.43.54:004][971]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.06-12.43.54:010][971]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.06-12.43.54:017][971]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.06-12.43.54:018][971]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.06-12.43.54:030][971]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.06-12.43.54:031][971]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.06-12.43.54:031][971]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.06-12.43.54:031][971]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.06-12.43.54:031][971]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.06-12.43.54:031][971]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.06-12.43.54:032][971]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.06-12.43.54:032][971]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.06-12.43.54:032][971]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.06-12.43.54:032][971]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.06-12.43.54:032][971]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.06-12.43.54:032][971]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.06-12.43.54:032][971]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.06-12.43.54:033][971]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.06-12.43.54:042][971]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.06-12.43.54:055][971]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.06-12.43.54:066][971]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.06-12.43.54:066][971]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.06-12.43.54:066][971]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.06-12.43.54:066][971]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.06-12.43.54:066][971]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.06-12.43.54:066][971]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.06-12.43.55:070][971]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.06-12.43.55:128][971]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.06-12.43.55:144][971]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.06-12.43.55:145][971]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.06-12.43.55:145][971]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.06-12.43.55:145][971]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.06-12.43.55:145][971]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.06-12.43.55:202][971]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.06-12.43.55:207][971]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.06-12.43.55:207][971]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.06-12.43.55:207][971]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.06-12.43.55:207][971]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.06-12.43.55:207][971]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.06-12.43.55:207][971]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.06-12.43.55:217][971]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.06-12.43.55:231][971]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.06-12.43.55:239][971]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.06-12.43.55:255][971]LogExit: Exiting.
+[2016.04.06-12.43.55:277][971]Log file closed, 04/06/16 21:43:55
