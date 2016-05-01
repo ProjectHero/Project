@@ -1,0 +1,570 @@
+﻿[2016.05.01-05.53.55:532][  0]Log file open, 05/01/16 14:53:55
+[2016.05.01-05.53.55:532][  0]LogInit:Display: Running engine for game: Hero
+[2016.05.01-05.53.55:532][  0]LogPlatformFile: Not using cached read wrapper
+[2016.05.01-05.53.55:532][  0]LogInit:Display: RandInit(1253483866) SRandInit(1253483868).
+[2016.05.01-05.53.55:532][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.05.01-05.53.55:532][  0]LogStats: Stats thread started at 0.474352
+[2016.05.01-05.53.55:532][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.05.01-05.53.55:532][  0]LogInit: API Version: 2758231
+[2016.05.01-05.53.55:532][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.05.01-05.53.55:532][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.05.01-05.53.55:532][  0]LogInit: Build Configuration: Development
+[2016.05.01-05.53.55:532][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.05.01-05.53.55:532][  0]LogInit: Command line:  
+[2016.05.01-05.53.55:532][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.05.01-05.53.55:532][  0]LogInit: Rocket: 1
+[2016.05.01-05.53.55:547][  0]LogInit: Using libcurl 7.41.0
+[2016.05.01-05.53.55:547][  0]LogInit:  - built for x86_64-pc-win32
+[2016.05.01-05.53.55:547][  0]LogInit:  - supports SSL with WinSSL
+[2016.05.01-05.53.55:547][  0]LogInit:  - other features:
+[2016.05.01-05.53.55:547][  0]LogInit:      CURL_VERSION_SSL
+[2016.05.01-05.53.55:547][  0]LogInit:      CURL_VERSION_IPV6
+[2016.05.01-05.53.55:547][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.05.01-05.53.55:547][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.05.01-05.53.55:547][  0]LogInit:      CURL_VERSION_IDN
+[2016.05.01-05.53.55:547][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.05.01-05.53.55:547][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.05.01-05.53.55:547][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.05.01-05.53.55:547][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.05.01-05.53.55:547][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.05.01-05.53.55:563][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.05.01-05.53.55:579][  0]LogInit: Object subsystem initialized
+[2016.05.01-05.53.55:579][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.01-05.53.55:579][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.01-05.53.55:600][  0]LogInit: Computer: PARK
+[2016.05.01-05.53.55:600][  0]LogInit: User: PARK1
+[2016.05.01-05.53.55:600][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.05.01-05.53.55:600][  0]LogInit: High frequency timer resolution =2.636721 MHz
+[2016.05.01-05.53.55:600][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.05.01-05.53.55:600][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.01-05.53.55:600][  0]LogMemory: Process Physical Memory: 55.05 MB used, 55.05 MB peak
+[2016.05.01-05.53.55:600][  0]LogMemory: Process Virtual Memory: 55.34 MB used, 55.34 MB peak
+[2016.05.01-05.53.55:600][  0]LogMemory: Physical Memory: 2494.38 MB used, 8094.42 MB total
+[2016.05.01-05.53.55:600][  0]LogMemory: Virtual Memory: 358.59 MB used, 134217728.00 MB total
+[2016.05.01-05.53.55:771][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2016.05.01-05.53.55:815][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2016.05.01-05.53.55:815][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2016.05.01-05.53.55:815][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2016.05.01-05.53.55:974][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) Iris(TM) Graphics 6100 (Feature Level 11_0)
+[2016.05.01-05.53.55:974][  0]LogD3D11RHI: Adapter has 160MB of dedicated video memory, 0MB of dedicated system memory, and 3807MB of shared system memory, 1 output[s]
+[2016.05.01-05.53.55:975][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.05.01-05.53.55:975][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.05.01-05.53.55:975][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.05.01-05.53.55:979][  0]LogD3D11RHI: !Direct3DDevice
+[2016.05.01-05.53.55:979][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.01-05.53.55:985][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.01-05.53.56:001][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Intermediate/Shaders/WorkingDirectory/668/).
+[2016.05.01-05.53.56:001][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PARK1/AppData/Local/Temp/UnrealShaderWorkingDir/C90F77004EADCED2FFD766B5ECB357CF/'.
+[2016.05.01-05.53.56:001][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.01-05.53.56:960][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.01-05.53.56:965][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.01-05.53.56:971][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.01-05.53.56:976][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.01-05.53.56:982][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.01-05.53.56:986][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.01-05.53.56:990][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.01-05.53.56:995][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.01-05.53.56:999][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.01-05.53.57:003][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.01-05.53.57:008][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.01-05.53.57:016][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.01-05.53.57:016][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.01-05.53.57:018][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.01-05.53.57:040][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.01-05.53.57:043][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.01-05.53.57:047][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.01-05.53.57:052][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.01-05.53.57:052][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.01-05.53.57:165][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.01-05.53.57:255][  0]LogDerivedDataCache: Loaded boot cache 0.09s 41MB C:/Users/PARK1/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.05.01-05.53.57:255][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/PARK1/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.05.01-05.53.57:255][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.01-05.53.57:255][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.01-05.53.57:255][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.01-05.53.57:255][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.01-05.53.57:331][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.01-05.53.57:344][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PARK1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.01-05.53.57:879][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.01-05.53.57:884][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.05.01-05.53.58:033][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.01-05.53.58:033][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.01-05.53.58:366][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.01-05.53.59:684][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.01-05.53.59:845][  0]LogAssetRegistry: FAssetRegistry took 0.0126 seconds to start up
+[2016.05.01-05.54.00:095][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.01-05.54.00:098][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.01-05.54.00:114][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.01-05.54.00:128][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.01-05.54.00:413][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.05.01-05.54.00:413][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.05.01-05.54.00:499][  0]LogEngine: Initializing Engine...
+[2016.05.01-05.54.00:506][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.05.01-05.54.00:509][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.05.01-05.54.00:638][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.01-05.54.00:650][  0]LogInit: XAudio2 using '스피커(Cirrus Logic CS4208 (AB 123))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.05.01-05.54.00:692][  0]LogInit: FAudioDevice initialized.
+[2016.05.01-05.54.00:715][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/PARK1/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.05.01-05.54.00:718][  0]LogInit: Texture streaming: Enabled
+[2016.05.01-05.54.00:725][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.05.01-05.54.00:727][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.05.01-05.54.00:727][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId ec92aaad4986c24cc41b53a460c851aa|1ee373e9bedc4d7e9c76f780c6814fe5|cbdc7173-795e-4ae5-bdc1-0623b0ee0ea3
+[2016.05.01-05.54.00:727][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.05.01-05.54.00:759][  0]LogInit: Transaction tracking system initialized
+[2016.05.01-05.54.00:815][  0]BlueprintLog: New page: 에디터 로드
+[2016.05.01-05.54.00:993][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2016.05.01-05.54.01:243][  0]LogConsoleResponse:Display: 
+[2016.05.01-05.54.01:423][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.01-05.54.01:542][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/' took 0.04s
+[2016.05.01-05.54.01:542][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.01-05.54.01:543][  0]Cmd: MAP LOAD FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.01-05.54.01:543][  0]LightingResults: New page: 라이팅 빌드
+[2016.05.01-05.54.01:549][  0]MapCheck: New page: 맵 체크
+[2016.05.01-05.54.01:549][  0]LightingResults: New page: 라이팅 빌드
+[2016.05.01-05.54.01:577][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FDE5365260
+[2016.05.01-05.54.03:868][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.01-05.54.04:014][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.01-05.54.04:041][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.01-05.54.04:097][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 55.104ms.
+[2016.05.01-05.54.04:097][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.554
+[2016.05.01-05.54.04:251][  0]LogCollectionManager: Loaded 0 collections in 0.002169 seconds
+[2016.05.01-05.54.04:307][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Collections/' took 0.01s
+[2016.05.01-05.54.04:307][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/Developers/PARK1/Collections/' took 0.01s
+[2016.05.01-05.54.04:307][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/Collections/' took 0.01s
+[2016.05.01-05.54.04:307][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.05.01-05.54.04:316][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 1893 classes and 338 folders.
+[2016.05.01-05.54.04:328][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.01-05.54.04:439][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.01-05.54.04:448][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.01-05.54.04:492][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.01-05.54.04:505][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2016.05.01-05.54.04:530][  0]LogLoad: Full Startup: 9.85 seconds (BP compile: 0.28 seconds)
+[2016.05.01-05.54.04:921][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.05.01-05.54.05:032][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.05.01-05.54.05:263][  0]LogRenderer: Reallocating scene render targets to support 1072x568 (Frame:2).
+[2016.05.01-05.54.05:650][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.05.01-05.54.11:333][ 18]LogAssetRegistry: Asset discovery search completed in 11.4998 seconds
+[2016.05.01-05.54.11:335][ 18]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2016.05.01-05.54.11:335][ 18]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000265 seconds (updated 0 objects)
+[2016.05.01-05.54.28:716][682]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.01-05.54.28:716][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.01-05.54.28:717][682]PIE: New page: PIE 세션: Minimal_Default (2016. 5. 1. 오후 11:54:28)
+[2016.05.01-05.54.28:717][682]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.05.01-05.54.28:809][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091181s)
+[2016.05.01-05.54.28:811][682]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.01-05.54.28:811][682]LogPlayLevel: PIE: World Init took: (0.002808s)
+[2016.05.01-05.54.28:812][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.094482s)
+[2016.05.01-05.54.28:861][682]LogInit: XAudio2 using '스피커(Cirrus Logic CS4208 (AB 123))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.05.01-05.54.28:866][682]LogInit: FAudioDevice initialized.
+[2016.05.01-05.54.29:290][682]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/SGH/Projectile/Beam_BP.Beam_BP_C:스킬 기본값 설정.SkillStruct'. Unknown structure.
+[2016.05.01-05.54.31:421][682]LogWorld: Game class is 'CustomMode_BP_C'
+[2016.05.01-05.54.31:495][682]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.05.01-14.54.31
+[2016.05.01-05.54.31:495][682]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.01-05.54.31:495][682]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.01-05.54.31:506][682]LogWorld: Bringing up level for play took: 0.082503
+[2016.05.01-05.54.31:522][682]PIE: 정보 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 에 대한 에디터에서 플레이 시작 시간: 3.217
+[2016.05.01-05.54.31:522][682]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.01-05.54.31:763][684]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.32:281][698]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.32:755][716]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.33:243][736]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.33:675][753]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.34:238][774]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.34:752][792]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.35:319][812]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.35:947][832]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.36:382][848]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.36:806][864]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.37:223][880]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.37:706][899]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.38:299][922]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.38:826][943]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.39:391][965]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.39:869][984]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.40:327][  2]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.40:878][ 23]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.41:422][ 44]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.41:888][ 62]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.42:429][ 83]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.42:987][105]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.43:427][122]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.44:000][144]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.44:572][166]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.45:164][189]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.45:714][211]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.46:196][230]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.46:750][251]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.47:179][268]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.47:709][289]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.48:259][311]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.48:832][334]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.49:254][351]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.49:712][370]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.50:159][388]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.50:759][412]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.51:343][436]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.51:815][455]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.52:350][477]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.52:890][499]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.53:479][523]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.53:912][540]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.54:409][559]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.54:871][577]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.55:397][598]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.55:870][616]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.56:417][636]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.56:915][655]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.57:508][677]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.58:083][699]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.58:549][717]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.59:118][738]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.54.59:478][751]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Rock_Basalt.M_Rock_Basalt missing bUsedWithSkeletalMesh=True! Default Material will be used in game.
+[2016.05.01-05.54.59:478][751]LogMaterial:Warning:      The material will recompile every editor launch until resaved.
+[2016.05.01-05.54.59:552][753]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.00:093][773]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.00:627][793]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.01:204][815]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.01:816][838]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.02:397][860]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.02:848][877]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.03:339][896]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] BP_FHero_Warrior
+[2016.05.01-05.55.03:938][919]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.04:496][940]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.04:960][958]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.05:406][975]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.05:950][996]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.06:419][ 14]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.06:968][ 36]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.07:457][ 55]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.08:028][ 78]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.08:483][ 96]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.08:927][114]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.09:396][132]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.09:940][153]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.10:545][176]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.11:146][199]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.11:765][223]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.12:256][243]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.12:830][266]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.13:330][286]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.13:851][307]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.14:395][329]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.14:817][346]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.15:330][365]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.15:771][382]LogBlueprintUserMessages: [BTS_botDetectEnemy_C_1] LargeHouse_BP
+[2016.05.01-05.55.16:281][404]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.01-05.55.16:354][404]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.05.01-05.55.16:442][404]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FDF5035580
+[2016.05.01-05.57.31:911][ 25]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.01-05.57.32:566][ 25]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 107 classes and 0 folders.
+[2016.05.01-05.57.33:010][ 25]LogActor:Warning: GameNetworkManager /Engine/Transient.World_2:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.01-06.00.27:394][357]LogLinker:Warning: Asset '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/Sounds/SoundClassesAndMixes/Master.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.01-06.00.27:395][357]LogLinker:Warning: Asset '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/Sounds/SoundClassesAndMixes/UI.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.01-06.00.27:395][357]LogLinker:Warning: Asset '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/Sounds/SoundClassesAndMixes/UIControllerSounds.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.01-06.00.27:528][357]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  LookUpRate 입력 축  에 대한 미확인 'LookUpRate' 축을 레퍼런싱합니다.
+[2016.05.01-06.00.27:528][357]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  TurnRate 입력 축  에 대한 미확인 'TurnRate' 축을 레퍼런싱합니다.
+[2016.05.01-06.00.27:528][357]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  Turn 입력 축  에 대한 미확인 'Turn' 축을 레퍼런싱합니다.
+[2016.05.01-06.00.27:529][357]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  LookUp 입력 축  에 대한 미확인 'LookUp' 축을 레퍼런싱합니다.
+[2016.05.01-06.00.27:529][357]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 액션 이벤트가  Jump 입력 액션  에 대한 미확인 'Jump' 액션을 레퍼런싱합니다.
+[2016.05.01-06.00.27:534][357]LogBlueprint:Warning: [compiler MyCharacter] 경고 [0392.85] MyCharacter 컴파일에 성공했으나, 경고가 5 회 있습니다. [소요시간 29 ms]
+[2016.05.01-06.00.27:534][357]LogBlueprint:Warning: [compiler MyCharacter] 경고 [0392.85] MyCharacter 컴파일에 성공했으나, 경고가 6 회 있습니다. [소요시간 0 ms]
+[2016.05.01-06.00.27:534][357]LogBlueprint:Warning: [compiler MyCharacter] 경고 [0392.85] MyCharacter 컴파일에 성공했으나, 경고가 7 회 있습니다. [소요시간 0 ms]
+[2016.05.01-06.00.27:562][357]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  LookUpRate 입력 축  에 대한 미확인 'LookUpRate' 축을 레퍼런싱합니다.
+[2016.05.01-06.00.27:563][357]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  TurnRate 입력 축  에 대한 미확인 'TurnRate' 축을 레퍼런싱합니다.
+[2016.05.01-06.00.27:563][357]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  Turn 입력 축  에 대한 미확인 'Turn' 축을 레퍼런싱합니다.
+[2016.05.01-06.00.27:563][357]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  LookUp 입력 축  에 대한 미확인 'LookUp' 축을 레퍼런싱합니다.
+[2016.05.01-06.00.27:564][357]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 액션 이벤트가  Jump 입력 액션  에 대한 미확인 'Jump' 액션을 레퍼런싱합니다.
+[2016.05.01-06.00.27:569][357]LogBlueprint:Warning: [compiler MyCharacter] 경고 [0392.89] MyCharacter 컴파일에 성공했으나, 경고가 5 회 있습니다. [소요시간 27 ms]
+[2016.05.01-06.00.27:569][357]LogBlueprint:Warning: [compiler MyCharacter] 경고 [0392.89] MyCharacter 컴파일에 성공했으나, 경고가 6 회 있습니다. [소요시간 0 ms]
+[2016.05.01-06.00.27:569][357]LogBlueprint:Warning: [compiler MyCharacter] 경고 [0392.89] MyCharacter 컴파일에 성공했으나, 경고가 7 회 있습니다. [소요시간 0 ms]
+[2016.05.01-06.00.27:613][357]LogSkeletalMesh:Warning: Building adjacency information for skeletal mesh '/Game/ExampleContent/AnimationDemo/Meshes/Owen.Owen'.
+[2016.05.01-06.00.28:833][357]LogTexture:Display: 텍스처 빌드중: T_Mask_Eye_Coat (AutoDXT)
+[2016.05.01-06.00.29:267][357]LogTexture:Display: 텍스처 빌드중: T_Leather_N (BC5)
+[2016.05.01-06.00.30:509][357]LogTexture:Display: 텍스처 빌드중: T_Leather (DXT1)
+[2016.05.01-06.00.37:195][357]LogTexture:Display: 텍스처 빌드중: T_Coat_N (BC5)
+[2016.05.01-06.00.40:087][357]LogTexture:Display: 텍스처 빌드중: T_Mask_Shirt_Hands (AutoDXT)
+[2016.05.01-06.00.40:411][357]LogTexture:Display: 텍스처 빌드중: T_Metal_Metal01_D (AutoDXT)
+[2016.05.01-06.00.48:602][357]LogTexture:Display: 텍스처 빌드중: T_Metal_Metal01_N (BC5)
+[2016.05.01-06.00.49:430][357]LogTexture:Display: 텍스처 빌드중: T_Fabric_Weave (DXT1)
+[2016.05.01-06.00.52:025][357]LogTexture:Display: 텍스처 빌드중: T_Pants_N (BC5)
+[2016.05.01-06.00.55:782][357]LogTexture:Display: 텍스처 빌드중: T_head_N (BC5)
+[2016.05.01-06.00.59:208][357]LogTexture:Display: 텍스처 빌드중: T_Mask_AO_02 (AutoDXT)
+[2016.05.01-06.01.03:301][357]LogMaterial: Missing cached shader map for material M_Owen_Master, compiling. 
+[2016.05.01-06.01.03:400][357]LogTexture:Display: 텍스처 빌드중: T_Mask_AO_03 (AutoDXT)
+[2016.05.01-06.01.05:208][357]LogTexture:Display: 텍스처 빌드중: T_Hand_N (BC5)
+[2016.05.01-06.01.06:841][357]LogTexture:Display: 텍스처 빌드중: T_Shoes_N (BC5)
+[2016.05.01-06.01.45:256][843]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 축 이벤트가  LookUpRate 입력 축  에 대한 미확인 'LookUpRate' 축을 레퍼런싱합니다.
+[2016.05.01-06.01.45:256][843]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 축 이벤트가  TurnRate 입력 축  에 대한 미확인 'TurnRate' 축을 레퍼런싱합니다.
+[2016.05.01-06.01.45:257][843]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 축 이벤트가  Turn 입력 축  에 대한 미확인 'Turn' 축을 레퍼런싱합니다.
+[2016.05.01-06.01.45:258][843]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 축 이벤트가  LookUp 입력 축  에 대한 미확인 'LookUp' 축을 레퍼런싱합니다.
+[2016.05.01-06.01.45:258][843]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 액션 이벤트가  Jump 입력 액션  에 대한 미확인 'Jump' 액션을 레퍼런싱합니다.
+[2016.05.01-06.01.45:269][843]LogBlueprint:Warning: [compiler botCharacter] 경고 [0470.59] botCharacter 컴파일에 성공했으나, 경고가 5 회 있습니다. [소요시간 60 ms]
+[2016.05.01-06.01.45:269][843]LogBlueprint:Warning: [compiler botCharacter] 경고 [0470.59] botCharacter 컴파일에 성공했으나, 경고가 6 회 있습니다. [소요시간 0 ms]
+[2016.05.01-06.01.45:269][843]LogBlueprint:Warning: [compiler botCharacter] 경고 [0470.59] botCharacter 컴파일에 성공했으나, 경고가 7 회 있습니다. [소요시간 0 ms]
+[2016.05.01-06.01.45:329][843]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 축 이벤트가  LookUpRate 입력 축  에 대한 미확인 'LookUpRate' 축을 레퍼런싱합니다.
+[2016.05.01-06.01.45:330][843]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 축 이벤트가  TurnRate 입력 축  에 대한 미확인 'TurnRate' 축을 레퍼런싱합니다.
+[2016.05.01-06.01.45:331][843]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 축 이벤트가  Turn 입력 축  에 대한 미확인 'Turn' 축을 레퍼런싱합니다.
+[2016.05.01-06.01.45:331][843]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 축 이벤트가  LookUp 입력 축  에 대한 미확인 'LookUp' 축을 레퍼런싱합니다.
+[2016.05.01-06.01.45:332][843]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 액션 이벤트가  Jump 입력 액션  에 대한 미확인 'Jump' 액션을 레퍼런싱합니다.
+[2016.05.01-06.01.45:344][843]LogBlueprint:Warning: [compiler botCharacter] 경고 [0470.66] botCharacter 컴파일에 성공했으나, 경고가 5 회 있습니다. [소요시간 63 ms]
+[2016.05.01-06.01.45:344][843]LogBlueprint:Warning: [compiler botCharacter] 경고 [0470.66] botCharacter 컴파일에 성공했으나, 경고가 6 회 있습니다. [소요시간 0 ms]
+[2016.05.01-06.01.45:344][843]LogBlueprint:Warning: [compiler botCharacter] 경고 [0470.66] botCharacter 컴파일에 성공했으나, 경고가 7 회 있습니다. [소요시간 0 ms]
+[2016.05.01-06.05.01:907][652]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.146
+[2016.05.01-06.05.01:939][652]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomMode_BP] ([1] browsable assets)...
+[2016.05.01-06.05.01:939][652]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomMode_BP]
+[2016.05.01-06.05.01:939][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomMode_BP" FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/CustomMode_BP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.05.01-06.05.01:975][652]LogSavePackage: Save=18.150574ms
+[2016.05.01-06.05.01:975][652]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/CustomMode_BP_Auto16F4B683B48D3A6D28729C7A1E496C7BD.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/CustomMode_BP_Auto1.uasset'
+[2016.05.01-06.05.01:976][652]LogSavePackage: Total save time: 34.796249ms
+[2016.05.01-06.05.01:976][652]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/CustomMode_BP_Auto1.uasset
+[2016.05.01-06.05.01:977][652]LogFileHelpers: Auto-saving content packages took 0.069
+[2016.05.01-06.06.45:171][ 61]LogActor:Warning: GameNetworkManager /Engine/Transient.World_3:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.01-06.10.48:248][217]LogActor:Warning: GameNetworkManager /Engine/Transient.World_4:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.01-06.15.02:145][201]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.074
+[2016.05.01-06.15.02:152][201]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomMode_BP] ([1] browsable assets)...
+[2016.05.01-06.15.02:152][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomMode_BP]
+[2016.05.01-06.15.02:152][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomMode_BP" FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/CustomMode_BP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.05.01-06.15.02:176][201]LogSavePackage: Save=20.780735ms
+[2016.05.01-06.15.02:176][201]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/CustomMode_BP_Auto2087FED914F3B983FF0CFC5868DEF3ED3.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/CustomMode_BP_Auto2.uasset'
+[2016.05.01-06.15.02:177][201]LogSavePackage: Total save time: 24.246022ms
+[2016.05.01-06.15.02:177][201]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/CustomMode_BP_Auto2.uasset
+[2016.05.01-06.15.02:177][201]LogFileHelpers: Auto-saving content packages took 0.031
+[2016.05.01-06.15.26:720][594]BlueprintLog: New page: CustomMode_BP 컴파일
+[2016.05.01-06.15.26:910][594]BlueprintEditorCompileResults: 정보 [1292.23] CustomMode_BP 컴파일에 성공했습니다! [소요시간 190 ms]
+[2016.05.01-06.19.06:134][ 49]LogActor:Warning: GameNetworkManager /Engine/Transient.World_7:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.01-06.24.27:110][771]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-06.24.27:112][771]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.05.01-06.24.27:112][771]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.05.01-06.24.27:113][771]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.05.01-06.24.27:113][771]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2016.05.01-06.24.32:558][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomMode_BP" FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/CustomMode_BP.uasset" SILENT=true
+[2016.05.01-06.24.32:584][771]LogSavePackage: Save=22.774120ms
+[2016.05.01-06.24.32:584][771]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/CustomMode_BPC92D8B3A4FC82D03D385639B5B71EF4D.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/CustomMode_BP.uasset'
+[2016.05.01-06.24.32:586][771]LogSavePackage: Total save time: 26.898179ms
+[2016.05.01-06.24.32:586][771]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/CustomMode_BP.uasset
+[2016.05.01-06.24.32:717][771]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.05.01-06.24.32:950][772]Cmd: QUIT_EDITOR
+[2016.05.01-06.24.34:086][772]LogExit: Preparing to exit.
+[2016.05.01-06.24.34:814][772]LogExit: Editor shut down
+[2016.05.01-06.24.34:814][772]LogExit: Transaction tracking system shut down
+[2016.05.01-06.24.34:825][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FDEC198680
+[2016.05.01-06.24.34:831][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FDF57C0E00
+[2016.05.01-06.24.34:834][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FD8C0BFA60
+[2016.05.01-06.24.34:838][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FD8346B060
+[2016.05.01-06.24.34:839][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FD8E057BA0
+[2016.05.01-06.24.34:843][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FDA425D4E0
+[2016.05.01-06.24.34:843][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FD900A4FE0
+[2016.05.01-06.24.34:844][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FDA1A359E0
+[2016.05.01-06.24.34:844][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FD8FAE0220
+[2016.05.01-06.24.35:146][772]LogExit: Object subsystem successfully closed.
+[2016.05.01-06.24.35:169][772]LogD3D11RHI: Shutdown
+[2016.05.01-06.24.35:169][772]LogD3D11RHI: CleanupD3DDevice
+[2016.05.01-06.24.35:333][772]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.01-06.24.35:351][772]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.05.01-06.24.35:351][772]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.05.01-06.24.35:351][772]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.05.01-06.24.35:351][772]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.05.01-06.24.35:351][772]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.05.01-06.24.35:351][772]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.05.01-06.24.35:351][772]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.05.01-06.24.35:355][772]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.05.01-06.24.35:355][772]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.05.01-06.24.35:355][772]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.05.01-06.24.35:355][772]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.05.01-06.24.35:355][772]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.05.01-06.24.35:356][772]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.05.01-06.24.35:356][772]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.05.01-06.24.35:356][772]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.05.01-06.24.35:356][772]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.05.01-06.24.35:356][772]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.05.01-06.24.35:356][772]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.05.01-06.24.35:356][772]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.05.01-06.24.35:356][772]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.05.01-06.24.35:356][772]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.05.01-06.24.35:356][772]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.05.01-06.24.35:356][772]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.05.01-06.24.35:356][772]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.05.01-06.24.35:356][772]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.05.01-06.24.35:356][772]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.05.01-06.24.35:356][772]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.05.01-06.24.35:356][772]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.05.01-06.24.36:033][772]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.05.01-06.24.36:033][772]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.05.01-06.24.36:033][772]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.05.01-06.24.36:033][772]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.05.01-06.24.36:033][772]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.05.01-06.24.36:033][772]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.05.01-06.24.36:034][772]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.05.01-06.24.36:034][772]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.05.01-06.24.36:034][772]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.05.01-06.24.36:034][772]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.05.01-06.24.36:034][772]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.05.01-06.24.36:034][772]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.05.01-06.24.36:034][772]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.05.01-06.24.36:034][772]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.05.01-06.24.36:034][772]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.05.01-06.24.36:035][772]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.05.01-06.24.36:035][772]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.05.01-06.24.36:035][772]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.05.01-06.24.36:035][772]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.05.01-06.24.36:036][772]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.05.01-06.24.36:036][772]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.05.01-06.24.36:036][772]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.05.01-06.24.36:036][772]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.05.01-06.24.36:036][772]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.05.01-06.24.36:036][772]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.05.01-06.24.36:037][772]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.05.01-06.24.36:037][772]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.05.01-06.24.36:037][772]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.05.01-06.24.36:037][772]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.05.01-06.24.36:037][772]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.05.01-06.24.36:037][772]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.05.01-06.24.36:038][772]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.05.01-06.24.36:038][772]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.05.01-06.24.36:038][772]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.05.01-06.24.36:038][772]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.05.01-06.24.36:039][772]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.05.01-06.24.36:039][772]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.05.01-06.24.36:039][772]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.05.01-06.24.36:039][772]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.05.01-06.24.36:039][772]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.05.01-06.24.36:039][772]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.05.01-06.24.36:039][772]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.05.01-06.24.36:039][772]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.05.01-06.24.36:039][772]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.05.01-06.24.36:039][772]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.05.01-06.24.36:039][772]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.05.01-06.24.36:039][772]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.05.01-06.24.36:039][772]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.05.01-06.24.36:040][772]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.05.01-06.24.36:040][772]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.05.01-06.24.36:289][772]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.05.01-06.24.36:289][772]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.05.01-06.24.36:289][772]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.05.01-06.24.36:289][772]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.05.01-06.24.36:290][772]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.05.01-06.24.36:290][772]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.05.01-06.24.36:290][772]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.05.01-06.24.36:290][772]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.05.01-06.24.36:322][772]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.05.01-06.24.36:322][772]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.05.01-06.24.36:322][772]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.05.01-06.24.36:322][772]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.05.01-06.24.36:322][772]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.05.01-06.24.36:322][772]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.05.01-06.24.36:322][772]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.05.01-06.24.36:322][772]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.05.01-06.24.36:322][772]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.05.01-06.24.36:322][772]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.05.01-06.24.36:322][772]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.05.01-06.24.36:323][772]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.05.01-06.24.36:323][772]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.05.01-06.24.36:323][772]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.05.01-06.24.36:323][772]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.05.01-06.24.36:323][772]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.05.01-06.24.36:323][772]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.05.01-06.24.36:324][772]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.05.01-06.24.36:324][772]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.05.01-06.24.36:324][772]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.05.01-06.24.36:324][772]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.05.01-06.24.36:324][772]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.05.01-06.24.36:324][772]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.05.01-06.24.36:324][772]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.05.01-06.24.36:326][772]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.05.01-06.24.36:335][772]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.05.01-06.24.36:579][772]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.05.01-06.24.36:580][772]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.05.01-06.24.36:580][772]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.05.01-06.24.36:681][772]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.05.01-06.24.36:681][772]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.05.01-06.24.36:681][772]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.05.01-06.24.36:686][772]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.05.01-06.24.36:686][772]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.05.01-06.24.36:686][772]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.05.01-06.24.36:686][772]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.05.01-06.24.36:686][772]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.05.01-06.24.36:686][772]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.05.01-06.24.36:687][772]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.05.01-06.24.36:687][772]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.05.01-06.24.36:687][772]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.05.01-06.24.36:687][772]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.05.01-06.24.36:687][772]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.05.01-06.24.36:687][772]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.05.01-06.24.36:687][772]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.05.01-06.24.36:687][772]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.05.01-06.24.36:687][772]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.05.01-06.24.36:687][772]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.05.01-06.24.36:689][772]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.05.01-06.24.36:689][772]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.05.01-06.24.36:689][772]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.05.01-06.24.36:689][772]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.05.01-06.24.36:689][772]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.05.01-06.24.36:689][772]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.05.01-06.24.36:689][772]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.05.01-06.24.36:689][772]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.05.01-06.24.36:689][772]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.05.01-06.24.36:689][772]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.05.01-06.24.36:739][772]LogDerivedDataCache: Shutdown
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.01-06.24.36:739][772]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.01-06.24.38:788][772]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.01-06.24.38:788][772]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.01-06.24.38:788][772]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.01-06.24.38:788][772]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.01-06.24.38:788][772]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.01-06.24.38:788][772]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.01-06.24.38:788][772]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.01-06.24.38:800][772]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.01-06.24.38:800][772]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.01-06.24.38:800][772]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.01-06.24.38:800][772]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.01-06.24.38:800][772]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.01-06.24.38:800][772]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.01-06.24.38:800][772]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.01-06.24.38:801][772]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.01-06.24.38:801][772]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.01-06.24.38:801][772]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.01-06.24.38:802][772]LogExit: Exiting.
+[2016.05.01-06.24.38:820][772]Log file closed, 05/01/16 15:24:38

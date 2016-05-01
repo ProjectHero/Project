@@ -1,0 +1,829 @@
+﻿[2016.05.01-09.43.23:999][  0]Log file open, 05/01/16 18:43:23
+[2016.05.01-09.43.23:999][  0]LogInit:Display: Running engine for game: Hero
+[2016.05.01-09.43.23:999][  0]LogPlatformFile: Not using cached read wrapper
+[2016.05.01-09.43.23:999][  0]LogInit:Display: RandInit(-1097228232) SRandInit(-1097228231).
+[2016.05.01-09.43.23:999][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.05.01-09.43.23:999][  0]LogStats: Stats thread started at 0.057566
+[2016.05.01-09.43.23:999][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.05.01-09.43.23:999][  0]LogInit: API Version: 2758231
+[2016.05.01-09.43.23:999][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.05.01-09.43.23:999][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.05.01-09.43.23:999][  0]LogInit: Build Configuration: Development
+[2016.05.01-09.43.23:999][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.05.01-09.43.23:999][  0]LogInit: Command line:  
+[2016.05.01-09.43.23:999][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.05.01-09.43.23:999][  0]LogInit: Rocket: 1
+[2016.05.01-09.43.24:006][  0]LogInit: Using libcurl 7.41.0
+[2016.05.01-09.43.24:006][  0]LogInit:  - built for x86_64-pc-win32
+[2016.05.01-09.43.24:006][  0]LogInit:  - supports SSL with WinSSL
+[2016.05.01-09.43.24:006][  0]LogInit:  - other features:
+[2016.05.01-09.43.24:006][  0]LogInit:      CURL_VERSION_SSL
+[2016.05.01-09.43.24:006][  0]LogInit:      CURL_VERSION_IPV6
+[2016.05.01-09.43.24:006][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.05.01-09.43.24:006][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.05.01-09.43.24:006][  0]LogInit:      CURL_VERSION_IDN
+[2016.05.01-09.43.24:006][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.05.01-09.43.24:006][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.05.01-09.43.24:006][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.05.01-09.43.24:006][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.05.01-09.43.24:006][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.05.01-09.43.24:013][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.05.01-09.43.24:018][  0]LogInit: Object subsystem initialized
+[2016.05.01-09.43.24:019][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.01-09.43.24:019][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.01-09.43.24:025][  0]LogInit: Computer: PARK
+[2016.05.01-09.43.24:025][  0]LogInit: User: PARK1
+[2016.05.01-09.43.24:025][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.05.01-09.43.24:025][  0]LogInit: High frequency timer resolution =2.636721 MHz
+[2016.05.01-09.43.24:025][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.05.01-09.43.24:025][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.01-09.43.24:025][  0]LogMemory: Process Physical Memory: 54.95 MB used, 54.95 MB peak
+[2016.05.01-09.43.24:025][  0]LogMemory: Process Virtual Memory: 55.34 MB used, 55.34 MB peak
+[2016.05.01-09.43.24:025][  0]LogMemory: Physical Memory: 2788.54 MB used, 8094.42 MB total
+[2016.05.01-09.43.24:025][  0]LogMemory: Virtual Memory: 358.59 MB used, 134217728.00 MB total
+[2016.05.01-09.43.24:106][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2016.05.01-09.43.24:140][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2016.05.01-09.43.24:140][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2016.05.01-09.43.24:140][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2016.05.01-09.43.24:294][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) Iris(TM) Graphics 6100 (Feature Level 11_0)
+[2016.05.01-09.43.24:294][  0]LogD3D11RHI: Adapter has 160MB of dedicated video memory, 0MB of dedicated system memory, and 3807MB of shared system memory, 1 output[s]
+[2016.05.01-09.43.24:295][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.05.01-09.43.24:295][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.05.01-09.43.24:295][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.05.01-09.43.24:299][  0]LogD3D11RHI: !Direct3DDevice
+[2016.05.01-09.43.24:299][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.01-09.43.24:306][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.01-09.43.24:311][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Intermediate/Shaders/WorkingDirectory/3940/).
+[2016.05.01-09.43.24:311][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PARK1/AppData/Local/Temp/UnrealShaderWorkingDir/F1BDE6AD4F978C227B75E3A973E25FEE/'.
+[2016.05.01-09.43.24:311][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.01-09.43.25:135][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.01-09.43.25:140][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.01-09.43.25:145][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.01-09.43.25:150][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.01-09.43.25:154][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.01-09.43.25:157][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.01-09.43.25:161][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.01-09.43.25:164][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.01-09.43.25:167][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.01-09.43.25:170][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.01-09.43.25:173][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.01-09.43.25:180][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.01-09.43.25:180][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.01-09.43.25:181][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.01-09.43.25:197][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.01-09.43.25:199][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.01-09.43.25:202][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.01-09.43.25:205][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.01-09.43.25:205][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.01-09.43.25:292][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.01-09.43.25:344][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/PARK1/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.05.01-09.43.25:344][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/PARK1/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.05.01-09.43.25:344][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.01-09.43.25:344][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.01-09.43.25:344][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.01-09.43.25:344][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.01-09.43.25:401][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.01-09.43.25:412][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PARK1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.01-09.43.25:577][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.01-09.43.25:580][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.05.01-09.43.25:681][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.01-09.43.25:681][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.01-09.43.25:932][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.01-09.43.26:646][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.01-09.43.26:753][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2016.05.01-09.43.26:918][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.01-09.43.26:920][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.01-09.43.26:933][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.01-09.43.26:943][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.01-09.43.27:178][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.05.01-09.43.27:178][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.05.01-09.43.27:230][  0]LogEngine: Initializing Engine...
+[2016.05.01-09.43.27:246][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.05.01-09.43.27:246][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.05.01-09.43.27:349][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.01-09.43.27:353][  0]LogInit: XAudio2 using '스피커(Cirrus Logic CS4208 (AB 123))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.05.01-09.43.27:427][  0]LogInit: FAudioDevice initialized.
+[2016.05.01-09.43.27:446][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/PARK1/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.05.01-09.43.27:449][  0]LogInit: Texture streaming: Enabled
+[2016.05.01-09.43.27:454][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.05.01-09.43.27:454][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.05.01-09.43.27:454][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId ec92aaad4986c24cc41b53a460c851aa|1ee373e9bedc4d7e9c76f780c6814fe5|cbdc7173-795e-4ae5-bdc1-0623b0ee0ea3
+[2016.05.01-09.43.27:455][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.05.01-09.43.27:462][  0]LogInit: Transaction tracking system initialized
+[2016.05.01-09.43.27:488][  0]BlueprintLog: New page: 에디터 로드
+[2016.05.01-09.43.27:567][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2016.05.01-09.43.27:754][  0]LogConsoleResponse:Display: 
+[2016.05.01-09.43.27:870][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.01-09.43.27:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/' took 0.03s
+[2016.05.01-09.43.27:922][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.01-09.43.27:923][  0]Cmd: MAP LOAD FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.01-09.43.27:923][  0]LightingResults: New page: 라이팅 빌드
+[2016.05.01-09.43.27:926][  0]MapCheck: New page: 맵 체크
+[2016.05.01-09.43.27:926][  0]LightingResults: New page: 라이팅 빌드
+[2016.05.01-09.43.27:943][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000974B659260
+[2016.05.01-09.43.29:632][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.01-09.43.29:706][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.01-09.43.29:731][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.01-09.43.29:789][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 57.762ms.
+[2016.05.01-09.43.29:789][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.867
+[2016.05.01-09.43.29:901][  0]LogCollectionManager: Loaded 0 collections in 0.001898 seconds
+[2016.05.01-09.43.29:940][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Collections/' took 0.01s
+[2016.05.01-09.43.29:940][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/Developers/PARK1/Collections/' took 0.01s
+[2016.05.01-09.43.29:940][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/Collections/' took 0.01s
+[2016.05.01-09.43.29:940][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.05.01-09.43.29:947][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 1893 classes and 338 folders.
+[2016.05.01-09.43.29:953][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.01-09.43.29:986][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.01-09.43.29:990][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.01-09.43.30:006][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.01-09.43.30:011][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2016.05.01-09.43.30:035][  0]LogLoad: Full Startup: 6.36 seconds (BP compile: 0.20 seconds)
+[2016.05.01-09.43.30:049][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.05.01-09.43.30:077][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.05.01-09.43.30:122][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.05.01-09.43.30:259][  0]LogRenderer: Reallocating scene render targets to support 1072x568 (Frame:2).
+[2016.05.01-09.43.30:617][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.05.01-09.43.31:558][ 10]LogAssetRegistry: Asset discovery search completed in 4.8165 seconds
+[2016.05.01-09.43.31:558][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.05.01-09.43.31:558][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2016.05.01-09.43.34:594][276]LogLinker:Warning: Asset '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/Sounds/SoundClassesAndMixes/Master.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.01-09.43.34:595][276]LogLinker:Warning: Asset '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/Sounds/SoundClassesAndMixes/UI.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.01-09.43.34:595][276]LogLinker:Warning: Asset '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/Sounds/SoundClassesAndMixes/UIControllerSounds.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.01-09.43.34:692][276]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 축 이벤트가  LookUpRate 입력 축  에 대한 미확인 'LookUpRate' 축을 레퍼런싱합니다.
+[2016.05.01-09.43.34:692][276]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 축 이벤트가  TurnRate 입력 축  에 대한 미확인 'TurnRate' 축을 레퍼런싱합니다.
+[2016.05.01-09.43.34:692][276]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 축 이벤트가  Turn 입력 축  에 대한 미확인 'Turn' 축을 레퍼런싱합니다.
+[2016.05.01-09.43.34:692][276]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 축 이벤트가  LookUp 입력 축  에 대한 미확인 'LookUp' 축을 레퍼런싱합니다.
+[2016.05.01-09.43.34:693][276]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 액션 이벤트가  Jump 입력 액션  에 대한 미확인 'Jump' 액션을 레퍼런싱합니다.
+[2016.05.01-09.43.34:698][276]LogBlueprint:Warning: [compiler botCharacter] 경고 [0011.03] botCharacter 컴파일에 성공했으나, 경고가 5 회 있습니다. [소요시간 28 ms]
+[2016.05.01-09.43.34:698][276]LogBlueprint:Warning: [compiler botCharacter] 경고 [0011.03] botCharacter 컴파일에 성공했으나, 경고가 6 회 있습니다. [소요시간 0 ms]
+[2016.05.01-09.43.34:698][276]LogBlueprint:Warning: [compiler botCharacter] 경고 [0011.03] botCharacter 컴파일에 성공했으나, 경고가 7 회 있습니다. [소요시간 0 ms]
+[2016.05.01-09.43.34:725][276]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 축 이벤트가  LookUpRate 입력 축  에 대한 미확인 'LookUpRate' 축을 레퍼런싱합니다.
+[2016.05.01-09.43.34:725][276]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 축 이벤트가  TurnRate 입력 축  에 대한 미확인 'TurnRate' 축을 레퍼런싱합니다.
+[2016.05.01-09.43.34:726][276]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 축 이벤트가  Turn 입력 축  에 대한 미확인 'Turn' 축을 레퍼런싱합니다.
+[2016.05.01-09.43.34:726][276]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 축 이벤트가  LookUp 입력 축  에 대한 미확인 'LookUp' 축을 레퍼런싱합니다.
+[2016.05.01-09.43.34:726][276]LogBlueprint:Warning: [compiler botCharacter] 경고 입력 액션 이벤트가  Jump 입력 액션  에 대한 미확인 'Jump' 액션을 레퍼런싱합니다.
+[2016.05.01-09.43.34:732][276]LogBlueprint:Warning: [compiler botCharacter] 경고 [0011.06] botCharacter 컴파일에 성공했으나, 경고가 5 회 있습니다. [소요시간 28 ms]
+[2016.05.01-09.43.34:732][276]LogBlueprint:Warning: [compiler botCharacter] 경고 [0011.06] botCharacter 컴파일에 성공했으나, 경고가 6 회 있습니다. [소요시간 0 ms]
+[2016.05.01-09.43.34:733][276]LogBlueprint:Warning: [compiler botCharacter] 경고 [0011.06] botCharacter 컴파일에 성공했으나, 경고가 7 회 있습니다. [소요시간 0 ms]
+[2016.05.01-09.43.35:075][276]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/SGH/Projectile/Beam_BP.Beam_BP_C:스킬 기본값 설정.SkillStruct'. Unknown structure.
+[2016.05.01-09.43.35:443][276]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 BP_TowerDefenceHUD_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-09.43.35:443][276]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 BP_TowerDefenceHUD_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-09.43.35:444][276]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  BP_TowerDefenceHUD 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-09.43.35:444][276]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-09.43.35:444][276]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 Pawn 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-09.43.35:444][276]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-09.43.35:444][276]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-09.43.35:451][276]LogBlueprint:Warning: [compiler CustomMode_BP] 경고 [0011.78] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 7 회, 경고 0 회, [소요시간 15 ms]
+[2016.05.01-09.43.35:451][276]LogBlueprint:Warning: [compiler CustomMode_BP] 경고 [0011.78] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 7 회, 경고 1 회, [소요시간 0 ms]
+[2016.05.01-09.43.35:451][276]LogBlueprint:Warning: [compiler CustomMode_BP] 경고 [0011.78] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 7 회, 경고 2 회, [소요시간 0 ms]
+[2016.05.01-09.43.35:633][276]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 BP_TowerDefenceHUD_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-09.43.35:633][276]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 BP_TowerDefenceHUD_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-09.43.35:634][276]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  BP_TowerDefenceHUD 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-09.43.35:634][276]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-09.43.35:634][276]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 Pawn 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-09.43.35:634][276]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-09.43.35:634][276]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-09.43.35:642][276]LogBlueprint:Warning: [compiler CustomMode_BP] 경고 [0011.97] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 7 회, 경고 0 회, [소요시간 15 ms]
+[2016.05.01-09.43.35:642][276]LogBlueprint:Warning: [compiler CustomMode_BP] 경고 [0011.97] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 7 회, 경고 1 회, [소요시간 0 ms]
+[2016.05.01-09.43.35:642][276]LogBlueprint:Warning: [compiler CustomMode_BP] 경고 [0011.97] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 7 회, 경고 2 회, [소요시간 0 ms]
+[2016.05.01-09.43.35:703][276]LogSkeletalMesh:Warning: Building adjacency information for skeletal mesh '/Game/ExampleContent/AnimationDemo/Meshes/Owen.Owen'.
+[2016.05.01-09.43.38:762][276]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.01-09.43.39:266][276]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2016.05.01-09.43.39:636][276]LogActor:Warning: GameNetworkManager /Engine/Transient.World_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.01-09.44.00:441][280]BlueprintLog: New page: CustomMode_BP 컴파일
+[2016.05.01-09.44.00:519][280]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 BP_TowerDefenceHUD_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-09.44.00:520][280]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  BP_TowerDefenceHUD 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-09.44.00:520][280]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-09.44.00:520][280]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 Pawn 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-09.44.00:520][280]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-09.44.00:520][280]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-09.44.00:792][280]LogBlueprint:Warning: [compiler CustomMode_BP] 경고 [0037.12] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 6 회, 경고 0 회, [소요시간 351 ms]
+[2016.05.01-09.44.00:792][280]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 BP_TowerDefenceHUD_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-09.44.00:792][280]BlueprintEditorCompileResults:Error: 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  BP_TowerDefenceHUD 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-09.44.00:792][280]BlueprintEditorCompileResults: 정보 실행 경로가 반환 노드로 끝나지 않습니다.  Cast Failed 
+[2016.05.01-09.44.00:792][280]BlueprintEditorCompileResults:Error: 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-09.44.00:792][280]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 Pawn 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-09.44.00:792][280]BlueprintEditorCompileResults:Error: 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-09.44.00:792][280]BlueprintEditorCompileResults:Error: 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-09.44.00:792][280]BlueprintEditorCompileResults:Warning: 경고 [0037.12] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 6 회, 경고 0 회, [소요시간 351 ms]
+[2016.05.01-09.44.02:804][372]BlueprintLog: New page: CustomMode_BP 컴파일
+[2016.05.01-09.44.02:880][372]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 BP_TowerDefenceHUD_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-09.44.02:881][372]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  BP_TowerDefenceHUD 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-09.44.02:881][372]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-09.44.02:881][372]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 Pawn 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-09.44.02:881][372]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-09.44.02:881][372]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-09.44.03:038][372]LogBlueprint:Warning: [compiler CustomMode_BP] 경고 [0039.37] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 6 회, 경고 0 회, [소요시간 233 ms]
+[2016.05.01-09.44.03:038][372]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 BP_TowerDefenceHUD_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-09.44.03:038][372]BlueprintEditorCompileResults:Error: 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  BP_TowerDefenceHUD 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-09.44.03:038][372]BlueprintEditorCompileResults: 정보 실행 경로가 반환 노드로 끝나지 않습니다.  Cast Failed 
+[2016.05.01-09.44.03:038][372]BlueprintEditorCompileResults:Error: 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-09.44.03:038][372]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 Pawn 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-09.44.03:038][372]BlueprintEditorCompileResults:Error: 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-09.44.03:038][372]BlueprintEditorCompileResults:Error: 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-09.44.03:038][372]BlueprintEditorCompileResults:Warning: 경고 [0039.37] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 6 회, 경고 0 회, [소요시간 233 ms]
+[2016.05.01-09.52.25:369][ 78]LogAIModule: Creating AISystem for world StarterMap
+[2016.05.01-09.52.25:372][ 78]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.P_Ambient_Dust_17.ParticleSystemComponent0
+[2016.05.01-09.52.25:404][ 78]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Fire_C_1.P_Fire
+[2016.05.01-09.52.25:404][ 78]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Smoke.P_Smoke Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Smoke_C_1.P_Smoke
+[2016.05.01-09.52.25:405][ 78]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Sparks.P_Sparks Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Sparks_C_1.Sparks
+[2016.05.01-09.52.25:405][ 78]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Steam_C_1.P_Steam_Lit
+[2016.05.01-09.52.25:415][ 78]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Fire_C_1.P_Fire
+[2016.05.01-09.52.25:415][ 78]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Fire_C_1.P_Fire
+[2016.05.01-09.52.25:415][ 78]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Smoke.P_Smoke Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Smoke_C_1.P_Smoke
+[2016.05.01-09.52.25:416][ 78]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Smoke.P_Smoke Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Smoke_C_1.P_Smoke
+[2016.05.01-09.52.25:466][ 78]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Sparks.P_Sparks Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Sparks_C_1.Sparks
+[2016.05.01-09.52.25:467][ 78]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Sparks.P_Sparks Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Sparks_C_1.Sparks
+[2016.05.01-09.52.25:467][ 78]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Steam_C_1.P_Steam_Lit
+[2016.05.01-09.52.25:468][ 78]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit Component=/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Steam_C_1.P_Steam_Lit
+[2016.05.01-09.52.27:161][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomMode_BP" FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/CustomMode_BP.uasset" SILENT=true
+[2016.05.01-09.52.27:621][ 78]LogSavePackage: Save=450.807648ms
+[2016.05.01-09.52.27:621][ 78]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/CustomMode_BP11980FA7471C466011CE048DB8D0ACB8.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/CustomMode_BP.uasset'
+[2016.05.01-09.52.27:623][ 78]LogSavePackage: Total save time: 461.565711ms
+[2016.05.01-09.52.27:624][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/CustomMode_BP.uasset
+[2016.05.01-09.52.27:625][ 78]Cmd: MAP LOAD FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/StarterContent/Maps/StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.01-09.52.27:625][ 78]LightingResults: New page: 라이팅 빌드
+[2016.05.01-09.52.27:641][ 78]LoadErrors: New page: 맵 로드중: StarterMap.umap
+[2016.05.01-09.52.27:651][ 78]MapCheck: New page: 맵 체크
+[2016.05.01-09.52.27:651][ 78]LightingResults: New page: 라이팅 빌드
+[2016.05.01-09.52.27:704][ 78]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009753CC9120
+[2016.05.01-09.52.27:710][ 78]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009773745F80
+[2016.05.01-09.52.27:741][ 78]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.01-09.52.27:760][ 78]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.01-09.52.27:888][ 78]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 127.48ms.
+[2016.05.01-09.52.27:888][ 78]LogFileHelpers: Loading map 'StarterMap' took 0.264
+[2016.05.01-09.52.27:929][ 79]Cmd: UpdateLandscapeEditorData
+[2016.05.01-09.52.40:781][489]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.01-09.52.40:790][489]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/HandPaintedEnvironment/Assets/Models/Fire.Fire Component=/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Fire_2.ParticleSystemComponent0
+[2016.05.01-09.52.40:792][489]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/HandPaintedEnvironment/Assets/Models/Fire.Fire Component=/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Fire2_2.ParticleSystemComponent0
+[2016.05.01-09.52.40:986][489]Cmd: MAP LOAD FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.01-09.52.40:986][489]LightingResults: New page: 라이팅 빌드
+[2016.05.01-09.52.41:012][489]LoadErrors: New page: 맵 로드중: Minimal_Default.umap
+[2016.05.01-09.52.41:016][489]MapCheck: New page: 맵 체크
+[2016.05.01-09.52.41:016][489]LightingResults: New page: 라이팅 빌드
+[2016.05.01-09.52.41:100][489]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000975844F100
+[2016.05.01-09.52.41:213][489]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.01-09.52.41:287][489]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.01-09.52.41:532][489]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 245.471ms.
+[2016.05.01-09.52.41:534][489]LogFileHelpers: Loading map 'Minimal_Default' took 0.550
+[2016.05.01-09.52.41:691][490]Cmd: UpdateLandscapeEditorData -warnings
+[2016.05.01-09.52.41:696][490]Cmd: UpdateLandscapeEditorData
+[2016.05.01-09.52.44:722][602]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2016.05.01-09.52.44:734][602]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.BP_LightStudio_C_0.Skybox
+Current X=0.000000 Y=0.000000 Z=1500.000000 Cached X=0.000000 Y=0.000000 Z=1500.000000
+[2016.05.01-09.52.44:802][602]Cmd: MAP LOAD FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/StarterContent/Maps/Advanced_Lighting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.01-09.52.44:802][602]LightingResults: New page: 라이팅 빌드
+[2016.05.01-09.52.44:816][602]LoadErrors: New page: 맵 로드중: Advanced_Lighting.umap
+[2016.05.01-09.52.44:823][602]MapCheck: New page: 맵 체크
+[2016.05.01-09.52.44:823][602]LightingResults: New page: 라이팅 빌드
+[2016.05.01-09.52.44:877][602]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000975C007560
+[2016.05.01-09.52.44:886][602]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/StarterContent/Maps/Advanced_Lighting.Advanced_Lighting:PersistentLevel.BP_LightStudio_C_0.Skybox
+Current X=0.000000 Y=0.000000 Z=1500.000000 Cached X=0.000000 Y=0.000000 Z=1500.000000
+[2016.05.01-09.52.44:887][602]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.01-09.52.44:905][602]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.01-09.52.45:040][602]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 134.806ms.
+[2016.05.01-09.52.45:041][602]LogFileHelpers: Loading map 'Advanced_Lighting' took 0.241
+[2016.05.01-09.52.45:082][603]Cmd: UpdateLandscapeEditorData
+[2016.05.01-09.52.52:077][896]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.01-09.52.52:089][896]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/HandPaintedEnvironment/Assets/Models/Fire.Fire Component=/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Fire_2.ParticleSystemComponent0
+[2016.05.01-09.52.52:093][896]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/HandPaintedEnvironment/Assets/Models/Fire.Fire Component=/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Fire2_2.ParticleSystemComponent0
+[2016.05.01-09.52.52:255][896]Cmd: MAP LOAD FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.01-09.52.52:256][896]LightingResults: New page: 라이팅 빌드
+[2016.05.01-09.52.52:289][896]LoadErrors: New page: 맵 로드중: Minimal_Default.umap
+[2016.05.01-09.52.52:291][896]MapCheck: New page: 맵 체크
+[2016.05.01-09.52.52:291][896]LightingResults: New page: 라이팅 빌드
+[2016.05.01-09.52.52:390][896]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000097770CD800
+[2016.05.01-09.52.52:540][896]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.01-09.52.52:591][896]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.01-09.52.52:759][896]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 168.119ms.
+[2016.05.01-09.52.52:761][896]LogFileHelpers: Loading map 'Minimal_Default' took 0.508
+[2016.05.01-09.52.52:860][897]Cmd: UpdateLandscapeEditorData -warnings
+[2016.05.01-09.52.52:865][897]Cmd: UpdateLandscapeEditorData
+[2016.05.01-09.53.59:785][812]LogTexture:Display: 텍스처 빌드중: Example (BGRA8)
+[2016.05.01-09.53.59:918][812]LogAIModule: Creating AISystem for world Main
+[2016.05.01-09.54.00:039][812]Cmd: MAP LOAD FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/KNR/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.01-09.54.00:039][812]LightingResults: New page: 라이팅 빌드
+[2016.05.01-09.54.00:070][812]LoadErrors: New page: 맵 로드중: Main.umap
+[2016.05.01-09.54.00:082][812]MapCheck: New page: 맵 체크
+[2016.05.01-09.54.00:082][812]LightingResults: New page: 라이팅 빌드
+[2016.05.01-09.54.00:186][812]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000974AE2D760
+[2016.05.01-09.54.00:203][812]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.01-09.54.00:257][812]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.01-09.54.00:528][812]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 271.558ms.
+[2016.05.01-09.54.00:530][812]LogFileHelpers: Loading map 'Main' took 0.493
+[2016.05.01-09.54.00:602][813]Cmd: UpdateLandscapeEditorData
+[2016.05.01-09.54.03:278][931]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.01-09.54.03:289][931]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/HandPaintedEnvironment/Assets/Models/Fire.Fire Component=/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Fire_2.ParticleSystemComponent0
+[2016.05.01-09.54.03:292][931]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/HandPaintedEnvironment/Assets/Models/Fire.Fire Component=/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Fire2_2.ParticleSystemComponent0
+[2016.05.01-09.54.03:529][931]Cmd: MAP LOAD FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.01-09.54.03:530][931]LightingResults: New page: 라이팅 빌드
+[2016.05.01-09.54.03:562][931]LoadErrors: New page: 맵 로드중: Minimal_Default.umap
+[2016.05.01-09.54.03:563][931]MapCheck: New page: 맵 체크
+[2016.05.01-09.54.03:563][931]LightingResults: New page: 라이팅 빌드
+[2016.05.01-09.54.03:665][931]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000097051018A0
+[2016.05.01-09.54.03:792][931]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.01-09.54.03:849][931]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.01-09.54.03:989][931]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 139.853ms.
+[2016.05.01-09.54.03:990][931]LogFileHelpers: Loading map 'Minimal_Default' took 0.463
+[2016.05.01-09.54.04:057][932]Cmd: UpdateLandscapeEditorData -warnings
+[2016.05.01-09.54.04:059][932]Cmd: UpdateLandscapeEditorData
+[2016.05.01-09.54.20:271][ 19]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.05.01-09.54.22:057][ 77]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.05.01-09.54.34:287][219]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.05.01-09.55.06:969][973]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.05.01-09.55.07:433][985]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.05.01-09.55.19:723][212]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.05.01-09.55.20:027][218]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.05.01-09.59.24:338][751]LogEditorTransaction: Undo 노드 추가
+[2016.05.01-10.03.24:101][688]LogActor:Warning: GameNetworkManager /Engine/Transient.World_5:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.01-10.04.45:112][ 62]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  LookUpRate 입력 축  에 대한 미확인 'LookUpRate' 축을 레퍼런싱합니다.
+[2016.05.01-10.04.45:112][ 62]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  TurnRate 입력 축  에 대한 미확인 'TurnRate' 축을 레퍼런싱합니다.
+[2016.05.01-10.04.45:113][ 62]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  Turn 입력 축  에 대한 미확인 'Turn' 축을 레퍼런싱합니다.
+[2016.05.01-10.04.45:113][ 62]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  LookUp 입력 축  에 대한 미확인 'LookUp' 축을 레퍼런싱합니다.
+[2016.05.01-10.04.45:113][ 62]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 액션 이벤트가  Jump 입력 액션  에 대한 미확인 'Jump' 액션을 레퍼런싱합니다.
+[2016.05.01-10.04.45:118][ 62]LogBlueprint:Warning: [compiler MyCharacter] 경고 [1281.45] MyCharacter 컴파일에 성공했으나, 경고가 5 회 있습니다. [소요시간 24 ms]
+[2016.05.01-10.04.45:118][ 62]LogBlueprint:Warning: [compiler MyCharacter] 경고 [1281.45] MyCharacter 컴파일에 성공했으나, 경고가 6 회 있습니다. [소요시간 0 ms]
+[2016.05.01-10.04.45:118][ 62]LogBlueprint:Warning: [compiler MyCharacter] 경고 [1281.45] MyCharacter 컴파일에 성공했으나, 경고가 7 회 있습니다. [소요시간 0 ms]
+[2016.05.01-10.04.45:142][ 62]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  LookUpRate 입력 축  에 대한 미확인 'LookUpRate' 축을 레퍼런싱합니다.
+[2016.05.01-10.04.45:142][ 62]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  TurnRate 입력 축  에 대한 미확인 'TurnRate' 축을 레퍼런싱합니다.
+[2016.05.01-10.04.45:143][ 62]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  Turn 입력 축  에 대한 미확인 'Turn' 축을 레퍼런싱합니다.
+[2016.05.01-10.04.45:143][ 62]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  LookUp 입력 축  에 대한 미확인 'LookUp' 축을 레퍼런싱합니다.
+[2016.05.01-10.04.45:143][ 62]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 액션 이벤트가  Jump 입력 액션  에 대한 미확인 'Jump' 액션을 레퍼런싱합니다.
+[2016.05.01-10.04.45:149][ 62]LogBlueprint:Warning: [compiler MyCharacter] 경고 [1281.48] MyCharacter 컴파일에 성공했으나, 경고가 5 회 있습니다. [소요시간 25 ms]
+[2016.05.01-10.04.45:149][ 62]LogBlueprint:Warning: [compiler MyCharacter] 경고 [1281.48] MyCharacter 컴파일에 성공했으나, 경고가 6 회 있습니다. [소요시간 0 ms]
+[2016.05.01-10.04.45:149][ 62]LogBlueprint:Warning: [compiler MyCharacter] 경고 [1281.48] MyCharacter 컴파일에 성공했으나, 경고가 7 회 있습니다. [소요시간 0 ms]
+[2016.05.01-10.04.55:113][320]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/CustomMode_BP.CustomMode_BP:EventGraph.K2Node_DynamicCast_617 or K2Node_DynamicCast /Game/Blueprints/Pawn/MyCharacter.MyCharacter:EventGraph.K2Node_DynamicCast_617
+[2016.05.01-10.04.55:113][320]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/CustomMode_BP.CustomMode_BP:EventGraph.K2Node_DynamicCast_617.EdGraphPin_57137) from referencer (EdGraphPin /Game/Blueprints/Pawn/MyCharacter.MyCharacter:EventGraph.K2Node_CustomEvent_154.EdGraphPin_56851).  Import failed...
+[2016.05.01-10.04.55:113][320]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_617.EdGraphPin_57137''
+[2016.05.01-10.04.55:115][320]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/CustomMode_BP.CustomMode_BP:EventGraph.K2Node_CallFunction_4541 or K2Node_CallFunction /Game/Blueprints/Pawn/MyCharacter.MyCharacter:EventGraph.K2Node_CallFunction_4541
+[2016.05.01-10.04.55:115][320]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/CustomMode_BP.CustomMode_BP:EventGraph.K2Node_CallFunction_4541.EdGraphPin_57145) from referencer (EdGraphPin /Game/Blueprints/Pawn/MyCharacter.MyCharacter:EventGraph.K2Node_DynamicCast_617.EdGraphPin_57140).  Import failed...
+[2016.05.01-10.04.55:115][320]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4541.EdGraphPin_57145''
+[2016.05.01-10.04.55:115][320]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/CustomMode_BP.CustomMode_BP:EventGraph.K2Node_CallFunction_4542 or K2Node_CallFunction /Game/Blueprints/Pawn/MyCharacter.MyCharacter:EventGraph.K2Node_CallFunction_4542
+[2016.05.01-10.04.55:115][320]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/CustomMode_BP.CustomMode_BP:EventGraph.K2Node_CallFunction_4542.EdGraphPin_57146) from referencer (EdGraphPin /Game/Blueprints/Pawn/MyCharacter.MyCharacter:EventGraph.K2Node_DynamicCast_617.EdGraphPin_57138).  Import failed...
+[2016.05.01-10.04.55:115][320]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4542.EdGraphPin_57146''
+[2016.05.01-10.04.55:226][320]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.05.01-10.04.55:226][320]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-10.04.55:226][320]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.05.01-10.04.55:227][320]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.05.01-10.04.55:227][320]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.05.01-10.04.56:722][321]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/CustomMode_BP.CustomMode_BP:EventGraph.K2Node_DynamicCast_617 or K2Node_DynamicCast /Game/Blueprints/Pawn/MyCharacter.MyCharacter:EventGraph.K2Node_DynamicCast_617
+[2016.05.01-10.04.56:722][321]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/CustomMode_BP.CustomMode_BP:EventGraph.K2Node_DynamicCast_617.EdGraphPin_57137) from referencer (EdGraphPin /Game/Blueprints/Pawn/MyCharacter.MyCharacter:EventGraph.K2Node_CustomEvent_154.EdGraphPin_56851).  Import failed...
+[2016.05.01-10.04.56:722][321]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_617.EdGraphPin_57137''
+[2016.05.01-10.04.56:724][321]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/CustomMode_BP.CustomMode_BP:EventGraph.K2Node_CallFunction_4541 or K2Node_CallFunction /Game/Blueprints/Pawn/MyCharacter.MyCharacter:EventGraph.K2Node_CallFunction_4541
+[2016.05.01-10.04.56:724][321]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/CustomMode_BP.CustomMode_BP:EventGraph.K2Node_CallFunction_4541.EdGraphPin_57145) from referencer (EdGraphPin /Game/Blueprints/Pawn/MyCharacter.MyCharacter:EventGraph.K2Node_DynamicCast_617.EdGraphPin_57140).  Import failed...
+[2016.05.01-10.04.56:724][321]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4541.EdGraphPin_57145''
+[2016.05.01-10.04.56:724][321]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/CustomMode_BP.CustomMode_BP:EventGraph.K2Node_CallFunction_4542 or K2Node_CallFunction /Game/Blueprints/Pawn/MyCharacter.MyCharacter:EventGraph.K2Node_CallFunction_4542
+[2016.05.01-10.04.56:724][321]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/CustomMode_BP.CustomMode_BP:EventGraph.K2Node_CallFunction_4542.EdGraphPin_57146) from referencer (EdGraphPin /Game/Blueprints/Pawn/MyCharacter.MyCharacter:EventGraph.K2Node_DynamicCast_617.EdGraphPin_57138).  Import failed...
+[2016.05.01-10.04.56:724][321]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4542.EdGraphPin_57146''
+[2016.05.01-10.04.56:828][321]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.05.01-10.05.02:107][486]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.05.01-10.05.07:344][658]LogEditorTransaction: Undo 현재 선택을 삭제합니다.
+[2016.05.01-10.05.07:395][658]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.05.01-10.05.14:298][887]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.05.01-10.05.51:042][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.05.01-10.05.51:042][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.05.01-10.05.51:043][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.05.01-10.05.52:724][163]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.05.01-10.06.01:997][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.05.01-10.06.45:132][370]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Rock_Basalt.M_Rock_Basalt needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.01-10.06.45:141][370]LogMaterial: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2016.05.01-10.06.45:221][370]LogMaterial: 0.000352 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.01-10.07.03:284][786]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.05.01-10.07.03:284][786]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.05.01-10.07.03:285][786]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.05.01-10.08.34:617][369]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000977144C2C0
+[2016.05.01-10.08.43:384][369]LogSavePackage: Save=8505.735352ms
+[2016.05.01-10.08.43:384][369]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Minimal_Default_Auto1A27420C64E0C5FF5FD5642AD29355684.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2016.05.01-10.08.43:386][369]LogSavePackage: Total save time: 8677.266575ms
+[2016.05.01-10.08.43:386][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2016.05.01-10.08.43:388][369]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 9.002
+[2016.05.01-10.08.43:388][369]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 9.002
+[2016.05.01-10.08.43:399][369]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawn/Bot_Grunt] ([1] browsable assets)...
+[2016.05.01-10.08.43:420][369]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawn/Bot_Grunt.Bot_Grunt]
+[2016.05.01-10.08.43:420][369]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawn/Bot_Grunt]
+[2016.05.01-10.08.43:828][369]LogSavePackage: Save=401.105011ms
+[2016.05.01-10.08.43:828][369]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Bot_Grunt_Auto134065DB1430F3AAEB27F2FA03F5830D2.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/Blueprints/Pawn/Bot_Grunt_Auto1.uasset'
+[2016.05.01-10.08.43:829][369]LogSavePackage: Total save time: 406.513240ms
+[2016.05.01-10.08.43:829][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/Blueprints/Pawn/Bot_Grunt_Auto1.uasset
+[2016.05.01-10.08.43:836][369]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SGH/Building/TownHall_BP] ([1] browsable assets)...
+[2016.05.01-10.08.43:856][369]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SGH/Building/TownHall_BP.TownHall_BP]
+[2016.05.01-10.08.43:856][369]OBJ SavePackage: Finished generating thumbnails for package [/Game/SGH/Building/TownHall_BP]
+[2016.05.01-10.08.43:887][369]LogSavePackage: Save=26.425625ms
+[2016.05.01-10.08.43:887][369]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/TownHall_BP_Auto17F3D78674413201639CB3ABD98FD1BA2.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/SGH/Building/TownHall_BP_Auto1.uasset'
+[2016.05.01-10.08.43:888][369]LogSavePackage: Total save time: 29.542752ms
+[2016.05.01-10.08.43:888][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/SGH/Building/TownHall_BP_Auto1.uasset
+[2016.05.01-10.08.43:895][369]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomMode_BP] ([1] browsable assets)...
+[2016.05.01-10.08.43:895][369]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomMode_BP]
+[2016.05.01-10.08.43:895][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomMode_BP" FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/CustomMode_BP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.05.01-10.08.44:381][369]LogSavePackage: Save=482.893341ms
+[2016.05.01-10.08.44:381][369]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/CustomMode_BP_Auto1EF9FE05D443497BE70DFE380E17E092B.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/CustomMode_BP_Auto1.uasset'
+[2016.05.01-10.08.44:383][369]LogSavePackage: Total save time: 487.322703ms
+[2016.05.01-10.08.44:383][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/CustomMode_BP_Auto1.uasset
+[2016.05.01-10.08.44:391][369]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Rock_Basalt] ([1] browsable assets)...
+[2016.05.01-10.08.44:424][369]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Rock_Basalt.M_Rock_Basalt]
+[2016.05.01-10.08.44:424][369]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Rock_Basalt]
+[2016.05.01-10.08.44:451][369]LogSavePackage: Save=23.383968ms
+[2016.05.01-10.08.44:451][369]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/M_Rock_Basalt_Auto17B2CB432422608AE45DD118C55A4AF52.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/StarterContent/Materials/M_Rock_Basalt_Auto1.uasset'
+[2016.05.01-10.08.44:452][369]LogSavePackage: Total save time: 26.661903ms
+[2016.05.01-10.08.44:452][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/StarterContent/Materials/M_Rock_Basalt_Auto1.uasset
+[2016.05.01-10.08.44:462][369]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawn/MyCharacter] ([1] browsable assets)...
+[2016.05.01-10.08.44:493][369]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawn/MyCharacter.MyCharacter]
+[2016.05.01-10.08.44:493][369]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawn/MyCharacter]
+[2016.05.01-10.08.45:609][369]LogSavePackage: Save=1109.927490ms
+[2016.05.01-10.08.45:609][369]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/MyCharacter_Auto14026AAE640C78E4739A7AC9DD95F176D.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/Blueprints/Pawn/MyCharacter_Auto1.uasset'
+[2016.05.01-10.08.45:611][369]LogSavePackage: Total save time: 1116.397224ms
+[2016.05.01-10.08.45:611][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/Blueprints/Pawn/MyCharacter_Auto1.uasset
+[2016.05.01-10.08.45:611][369]LogFileHelpers: Auto-saving content packages took 2.220
+[2016.05.01-10.08.55:002][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.01-10.08.55:002][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.05.01-10.08.56:727][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn/Bot_Grunt" FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/Blueprints/Pawn/Bot_Grunt.uasset" SILENT=true
+[2016.05.01-10.08.57:118][830]LogSavePackage: Save=387.297333ms
+[2016.05.01-10.08.57:118][830]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Bot_Grunt35914F694C0EB3C0DE0A5B9C079298ED.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/Blueprints/Pawn/Bot_Grunt.uasset'
+[2016.05.01-10.08.57:120][830]LogSavePackage: Total save time: 391.116466ms
+[2016.05.01-10.08.57:120][830]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/Blueprints/Pawn/Bot_Grunt.uasset
+[2016.05.01-10.08.57:126][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn/MyCharacter" FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/Blueprints/Pawn/MyCharacter.uasset" SILENT=true
+[2016.05.01-10.08.58:201][830]LogSavePackage: Save=1073.418091ms
+[2016.05.01-10.08.58:201][830]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/MyCharacter0576AEB44CFED6AF870347B3783825F3.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/Blueprints/Pawn/MyCharacter.uasset'
+[2016.05.01-10.08.58:205][830]LogSavePackage: Total save time: 1078.957919ms
+[2016.05.01-10.08.58:205][830]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/Blueprints/Pawn/MyCharacter.uasset
+[2016.05.01-10.08.58:212][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomMode_BP" FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/CustomMode_BP.uasset" SILENT=true
+[2016.05.01-10.08.58:653][830]LogSavePackage: Save=438.291718ms
+[2016.05.01-10.08.58:653][830]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/CustomMode_BP73B505CB4C2E4BDB40266EA0505637CE.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/CustomMode_BP.uasset'
+[2016.05.01-10.08.58:655][830]LogSavePackage: Total save time: 442.001261ms
+[2016.05.01-10.08.58:655][830]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/CustomMode_BP.uasset
+[2016.05.01-10.08.58:660][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SGH/Building/TownHall_BP" FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/SGH/Building/TownHall_BP.uasset" SILENT=true
+[2016.05.01-10.08.58:680][830]LogSavePackage: Save=17.312792ms
+[2016.05.01-10.08.58:680][830]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/TownHall_BP5D20FADD482981A7789FCDB684C34755.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/SGH/Building/TownHall_BP.uasset'
+[2016.05.01-10.08.58:683][830]LogSavePackage: Total save time: 22.058081ms
+[2016.05.01-10.08.58:683][830]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/SGH/Building/TownHall_BP.uasset
+[2016.05.01-10.09.03:373][830]LogSavePackage: Save=4485.770020ms
+[2016.05.01-10.09.03:373][830]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Minimal_Default085C4CDA4EF0BA42CD771597B540F092.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.05.01-10.09.03:381][830]LogSavePackage: Total save time: 4495.724425ms
+[2016.05.01-10.09.03:381][830]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.05.01-10.09.03:405][830]LogFileHelpers: Saving map 'Minimal_Default' took 4.722
+[2016.05.01-10.09.03:427][830]LogSavePackage: Save=10.231268ms
+[2016.05.01-10.09.03:427][830]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/M_Rock_BasaltF61AFB5147D79CBF36DDF19EB78CF9D1.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/StarterContent/Materials/M_Rock_Basalt.uasset'
+[2016.05.01-10.09.03:429][830]LogSavePackage: Total save time: 14.658358ms
+[2016.05.01-10.09.03:429][830]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2016.05.01-10.09.03:433][830]Cmd: MAP LOAD FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.01-10.09.03:433][830]LightingResults: New page: 라이팅 빌드
+[2016.05.01-10.09.03:453][830]LoadErrors: New page: 맵 로드중: Minimal_Default.umap
+[2016.05.01-10.09.03:463][830]MapCheck: New page: 맵 체크
+[2016.05.01-10.09.03:463][830]LightingResults: New page: 라이팅 빌드
+[2016.05.01-10.09.03:521][830]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000097A53CC4A0
+[2016.05.01-10.09.03:522][830]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000974ACCE480
+[2016.05.01-10.09.03:524][830]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000976E4A6520
+[2016.05.01-10.09.03:525][830]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000976D5BCE00
+[2016.05.01-10.09.03:531][830]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000974DA239C0
+[2016.05.01-10.09.03:870][830]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.05.01-10.09.03:918][830]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.01-10.09.03:959][830]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.01-10.09.04:092][830]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 133.112ms.
+[2016.05.01-10.09.04:093][830]LogFileHelpers: Loading map 'Minimal_Default' took 0.663
+[2016.05.01-10.09.04:180][831]Cmd: UpdateLandscapeEditorData
+[2016.05.01-10.09.04:183][831]Cmd: UpdateLandscapeEditorData -warnings
+[2016.05.01-10.10.53:786][810]LogActor:Warning: GameNetworkManager /Engine/Transient.World_9:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.01-10.11.20:598][960]LogRenderer: Reallocating scene render targets to support 1072x696 (Frame:2281).
+[2016.05.01-10.11.40:926][404]LogActor:Warning: GameNetworkManager /Engine/Transient.World_10:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.01-10.15.28:209][333]BlueprintLog: New page: CustomMode_BP 컴파일
+[2016.05.01-10.15.28:613][333]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 BP_TowerDefenceHUD_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.15.28:616][333]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 BP_TowerDefenceHUD_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.15.28:618][333]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  BP_TowerDefenceHUD 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.15.28:618][333]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.15.28:619][333]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 Pawn 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.15.28:619][333]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.15.28:619][333]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.15.30:237][333]LogBlueprint:Error: [compiler Bot_Grunt] 오류 이 블루프린트(self)는 CustomMode_BP_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.15.30:371][333]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000097707F39C0
+[2016.05.01-10.15.30:756][333]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 BP_TowerDefenceHUD_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.15.30:758][333]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 BP_TowerDefenceHUD_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.15.30:758][333]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  BP_TowerDefenceHUD 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.15.30:759][333]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.15.30:759][333]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 Pawn 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.15.30:759][333]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.15.30:759][333]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.15.31:347][333]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  LookUpRate 입력 축  에 대한 미확인 'LookUpRate' 축을 레퍼런싱합니다.
+[2016.05.01-10.15.31:347][333]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  TurnRate 입력 축  에 대한 미확인 'TurnRate' 축을 레퍼런싱합니다.
+[2016.05.01-10.15.31:348][333]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  Turn 입력 축  에 대한 미확인 'Turn' 축을 레퍼런싱합니다.
+[2016.05.01-10.15.31:348][333]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 축 이벤트가  LookUp 입력 축  에 대한 미확인 'LookUp' 축을 레퍼런싱합니다.
+[2016.05.01-10.15.31:349][333]LogBlueprint:Warning: [compiler MyCharacter] 경고 입력 액션 이벤트가  Jump 입력 액션  에 대한 미확인 'Jump' 액션을 레퍼런싱합니다.
+[2016.05.01-10.15.31:351][333]LogBlueprint:Error: [compiler MyCharacter] 오류 이 블루프린트(self)는 CustomMode_BP_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.15.31:651][333]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Bot_Grunt_C_0.CollisionCylinder and CapsuleComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Bot_Grunt_C_1.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.05.01-10.15.31:651][333]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Bot_Grunt_C_0.Arrow and ArrowComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Bot_Grunt_C_1.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.05.01-10.15.31:651][333]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Bot_Grunt_C_0.CharMoveComp and CharacterMovementComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Bot_Grunt_C_1.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.05.01-10.15.31:651][333]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Bot_Grunt_C_0.CharacterMesh0 and SkeletalMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Bot_Grunt_C_1.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.05.01-10.15.32:567][333]LogBlueprint:Warning: [compiler CustomMode_BP] 경고 [1928.90] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 7 회, 경고 0 회, [소요시간 4,358 ms]
+[2016.05.01-10.15.32:567][333]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 BP_TowerDefenceHUD_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.15.32:567][333]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 BP_TowerDefenceHUD_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.15.32:567][333]BlueprintEditorCompileResults:Error: 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  BP_TowerDefenceHUD 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.15.32:567][333]BlueprintEditorCompileResults: 정보 실행 경로가 반환 노드로 끝나지 않습니다.  Cast Failed 
+[2016.05.01-10.15.32:567][333]BlueprintEditorCompileResults:Error: 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.15.32:567][333]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 Pawn 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.15.32:568][333]BlueprintEditorCompileResults:Error: 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.15.32:568][333]BlueprintEditorCompileResults:Error: 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.15.32:568][333]BlueprintEditorCompileResults:Warning: 경고 [1928.90] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 7 회, 경고 0 회, [소요시간 4,358 ms]
+[2016.05.01-10.15.54:425][903]BlueprintLog: New page: CustomMode_BP 컴파일
+[2016.05.01-10.15.54:540][903]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 BP_TowerDefenceHUD_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.15.54:540][903]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  BP_TowerDefenceHUD 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.15.54:540][903]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.15.54:540][903]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 Pawn 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.15.54:540][903]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.15.54:540][903]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.15.54:733][903]LogBlueprint:Warning: [compiler CustomMode_BP] 경고 [1951.06] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 6 회, 경고 0 회, [소요시간 307 ms]
+[2016.05.01-10.15.54:733][903]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 BP_TowerDefenceHUD_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.15.54:734][903]BlueprintEditorCompileResults:Error: 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  BP_TowerDefenceHUD 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.15.54:734][903]BlueprintEditorCompileResults: 정보 실행 경로가 반환 노드로 끝나지 않습니다.  Cast Failed 
+[2016.05.01-10.15.54:734][903]BlueprintEditorCompileResults:Error: 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.15.54:734][903]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 Pawn 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.15.54:734][903]BlueprintEditorCompileResults:Error: 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.15.54:734][903]BlueprintEditorCompileResults:Error: 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.15.54:734][903]BlueprintEditorCompileResults:Warning: 경고 [1951.06] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 6 회, 경고 0 회, [소요시간 307 ms]
+[2016.05.01-10.16.01:223][188]BlueprintLog: New page: CustomMode_BP 컴파일
+[2016.05.01-10.16.01:338][188]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  BP_TowerDefenceHUD 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.16.01:338][188]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.16.01:338][188]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 Pawn 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.16.01:338][188]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.16.01:338][188]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.16.01:531][188]LogBlueprint:Warning: [compiler CustomMode_BP] 경고 [1957.86] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 5 회, 경고 0 회, [소요시간 307 ms]
+[2016.05.01-10.16.01:531][188]BlueprintEditorCompileResults:Error: 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  BP_TowerDefenceHUD 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.16.01:531][188]BlueprintEditorCompileResults: 정보 실행 경로가 반환 노드로 끝나지 않습니다.  Cast Failed 
+[2016.05.01-10.16.01:531][188]BlueprintEditorCompileResults:Error: 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.16.01:531][188]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 Pawn 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.16.01:531][188]BlueprintEditorCompileResults:Error: 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.16.01:531][188]BlueprintEditorCompileResults:Error: 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.16.01:531][188]BlueprintEditorCompileResults:Warning: 경고 [1957.86] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 5 회, 경고 0 회, [소요시간 307 ms]
+[2016.05.01-10.18.16:679][974]BlueprintLog: New page: CustomMode_BP 컴파일
+[2016.05.01-10.18.16:797][974]LogBlueprint:Error: [compiler CustomMode_BP] 오류 이 블루프린트(self)는 Pawn 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.18.16:797][974]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.18.16:797][974]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.18.16:999][974]LogBlueprint:Warning: [compiler CustomMode_BP] 경고 [2093.33] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 320 ms]
+[2016.05.01-10.18.17:000][974]BlueprintEditorCompileResults: 정보 실행 경로가 반환 노드로 끝나지 않습니다.  Cast Failed 
+[2016.05.01-10.18.17:000][974]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 Pawn 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.01-10.18.17:000][974]BlueprintEditorCompileResults:Error: 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.18.17:000][974]BlueprintEditorCompileResults:Error: 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.18.17:000][974]BlueprintEditorCompileResults:Warning: 경고 [2093.33] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 0 회, [소요시간 320 ms]
+[2016.05.01-10.20.21:978][577]BlueprintLog: New page: CustomMode_BP 컴파일
+[2016.05.01-10.20.22:092][577]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.20.22:092][577]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.20.22:288][577]LogBlueprint:Warning: [compiler CustomMode_BP] 경고 [2218.62] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 0 회, [소요시간 309 ms]
+[2016.05.01-10.20.22:288][577]BlueprintEditorCompileResults: 정보 실행 경로가 반환 노드로 끝나지 않습니다.  Cast Failed 
+[2016.05.01-10.20.22:288][577]BlueprintEditorCompileResults:Error: 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  Character 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.20.22:288][577]BlueprintEditorCompileResults:Error: 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type 와일드카드 on pin Object
+[2016.05.01-10.20.22:288][577]BlueprintEditorCompileResults:Warning: 경고 [2218.62] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 0 회, [소요시간 309 ms]
+[2016.05.01-10.20.58:519][306]BlueprintLog: New page: CustomMode_BP 컴파일
+[2016.05.01-10.20.58:637][306]LogBlueprint:Error: [compiler CustomMode_BP] 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  MyCharacter 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.20.58:637][306]LogBlueprint:Error: [compiler CustomMode_BP] 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type Object 와일드카드 on pin Object
+[2016.05.01-10.20.58:830][306]LogBlueprint:Warning: [compiler CustomMode_BP] 경고 [2255.16] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 0 회, [소요시간 309 ms]
+[2016.05.01-10.20.58:830][306]BlueprintEditorCompileResults: 정보 실행 경로가 반환 노드로 끝나지 않습니다.  Cast Failed 
+[2016.05.01-10.20.58:830][306]BlueprintEditorCompileResults:Error: 오류  Object  유형이 결정되지 않았습니다. 특정 유형을 암시하려면  MyCharacter 에 형변환  에 무언가를 연결하세요.
+[2016.05.01-10.20.58:830][306]BlueprintEditorCompileResults:Error: 오류 ' Object ' 핀의 현재 값이 유효하지 않습니다: Unsupported type Object 와일드카드 on pin Object
+[2016.05.01-10.20.58:830][306]BlueprintEditorCompileResults:Warning: 경고 [2255.16] CustomMode_BP 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 0 회, [소요시간 309 ms]
+[2016.05.01-10.22.16:907][513]LogSavePackage: Save=4595.644531ms
+[2016.05.01-10.22.16:907][513]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Minimal_Default_Auto2600404AD4BD8B1BA0660F6ADB3E047EF.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2016.05.01-10.22.16:909][513]LogSavePackage: Total save time: 4647.947583ms
+[2016.05.01-10.22.16:909][513]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2016.05.01-10.22.16:910][513]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 4.745
+[2016.05.01-10.22.16:910][513]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.745
+[2016.05.01-10.22.16:920][513]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomMode_BP] ([1] browsable assets)...
+[2016.05.01-10.22.16:920][513]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomMode_BP]
+[2016.05.01-10.22.16:920][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomMode_BP" FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/CustomMode_BP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.05.01-10.22.17:422][513]LogSavePackage: Save=498.180115ms
+[2016.05.01-10.22.17:422][513]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/CustomMode_BP_Auto2E61C06544FFEF4C4CFB2148DFEB9BEDD.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/CustomMode_BP_Auto2.uasset'
+[2016.05.01-10.22.17:424][513]LogSavePackage: Total save time: 503.153350ms
+[2016.05.01-10.22.17:424][513]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Autosaves/Game/CustomMode_BP_Auto2.uasset
+[2016.05.01-10.22.17:424][513]LogFileHelpers: Auto-saving content packages took 0.513
+[2016.05.01-10.22.30:913][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomMode_BP" FILE="../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/CustomMode_BP.uasset" SILENT=true
+[2016.05.01-10.22.31:413][747]LogSavePackage: Save=496.326691ms
+[2016.05.01-10.22.31:413][747]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/CustomMode_BP6B4577054EA7D31FA9529CA97D4532CD.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/CustomMode_BP.uasset'
+[2016.05.01-10.22.31:415][747]LogSavePackage: Total save time: 500.770085ms
+[2016.05.01-10.22.31:415][747]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/CustomMode_BP.uasset
+[2016.05.01-10.22.36:080][747]LogSavePackage: Save=4465.231445ms
+[2016.05.01-10.22.36:080][747]LogSavePackage: Moving '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Saved/Minimal_Default872897854A342E96978110A4C4BC75BE.tmp' to '../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.05.01-10.22.36:089][747]LogSavePackage: Total save time: 4475.378323ms
+[2016.05.01-10.22.36:089][747]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/PARK1/Documents/GitHub/Project/Hero 4.10/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.05.01-10.22.36:113][747]LogFileHelpers: Saving map 'Minimal_Default' took 4.694
+[2016.05.01-10.22.36:807][747]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.05.01-10.22.37:051][748]Cmd: QUIT_EDITOR
+[2016.05.01-10.22.37:181][748]LogExit: Preparing to exit.
+[2016.05.01-10.22.38:035][748]LogExit: Editor shut down
+[2016.05.01-10.22.38:036][748]LogExit: Transaction tracking system shut down
+[2016.05.01-10.22.38:042][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000975C1000E0
+[2016.05.01-10.22.38:056][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009770C50FE0
+[2016.05.01-10.22.38:058][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000097AD3AE520
+[2016.05.01-10.22.38:063][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009777181580
+[2016.05.01-10.22.38:370][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000097419FE200
+[2016.05.01-10.22.38:370][748]LogExit: Object subsystem successfully closed.
+[2016.05.01-10.22.38:399][748]LogD3D11RHI: Shutdown
+[2016.05.01-10.22.38:399][748]LogD3D11RHI: CleanupD3DDevice
+[2016.05.01-10.22.38:582][748]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.01-10.22.38:597][748]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.05.01-10.22.38:597][748]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.05.01-10.22.38:597][748]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.05.01-10.22.38:597][748]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.05.01-10.22.38:597][748]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.05.01-10.22.38:597][748]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.05.01-10.22.38:597][748]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.05.01-10.22.38:599][748]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.05.01-10.22.38:906][748]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.05.01-10.22.38:906][748]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.05.01-10.22.38:906][748]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.05.01-10.22.38:906][748]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.05.01-10.22.38:906][748]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.05.01-10.22.38:907][748]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.05.01-10.22.38:907][748]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.05.01-10.22.38:907][748]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.05.01-10.22.38:907][748]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.05.01-10.22.38:907][748]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.05.01-10.22.38:907][748]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.05.01-10.22.38:908][748]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.05.01-10.22.38:908][748]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.05.01-10.22.38:908][748]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.05.01-10.22.38:908][748]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.05.01-10.22.38:908][748]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.05.01-10.22.38:908][748]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.05.01-10.22.38:908][748]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.05.01-10.22.38:909][748]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.05.01-10.22.38:909][748]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.05.01-10.22.38:909][748]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.05.01-10.22.38:909][748]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.05.01-10.22.38:909][748]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.05.01-10.22.38:909][748]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.05.01-10.22.38:909][748]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.05.01-10.22.38:909][748]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.05.01-10.22.38:910][748]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.05.01-10.22.38:910][748]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.05.01-10.22.38:910][748]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.05.01-10.22.38:910][748]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.05.01-10.22.38:910][748]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.05.01-10.22.38:910][748]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.05.01-10.22.38:910][748]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.05.01-10.22.38:910][748]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.05.01-10.22.38:910][748]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.05.01-10.22.38:911][748]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.05.01-10.22.38:911][748]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.05.01-10.22.38:911][748]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.05.01-10.22.38:911][748]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.05.01-10.22.38:911][748]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.05.01-10.22.38:911][748]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.05.01-10.22.38:911][748]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.05.01-10.22.38:911][748]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.05.01-10.22.38:911][748]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.05.01-10.22.38:911][748]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.05.01-10.22.38:911][748]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.05.01-10.22.38:911][748]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.05.01-10.22.38:911][748]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.05.01-10.22.38:911][748]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.05.01-10.22.38:911][748]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.05.01-10.22.38:986][748]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.05.01-10.22.38:986][748]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.05.01-10.22.38:987][748]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.05.01-10.22.38:987][748]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.05.01-10.22.38:987][748]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.05.01-10.22.38:987][748]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.05.01-10.22.38:987][748]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.05.01-10.22.38:987][748]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.05.01-10.22.39:022][748]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.05.01-10.22.39:022][748]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.05.01-10.22.39:022][748]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.05.01-10.22.39:022][748]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.05.01-10.22.39:022][748]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.05.01-10.22.39:023][748]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.05.01-10.22.39:023][748]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.05.01-10.22.39:023][748]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.05.01-10.22.39:023][748]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.05.01-10.22.39:023][748]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.05.01-10.22.39:023][748]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.05.01-10.22.39:023][748]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.05.01-10.22.39:023][748]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.05.01-10.22.39:023][748]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.05.01-10.22.39:023][748]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.05.01-10.22.39:023][748]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.05.01-10.22.39:024][748]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.05.01-10.22.39:024][748]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.05.01-10.22.39:024][748]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.05.01-10.22.39:024][748]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.05.01-10.22.39:024][748]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.05.01-10.22.39:024][748]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.05.01-10.22.39:024][748]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.05.01-10.22.39:024][748]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.05.01-10.22.39:027][748]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.05.01-10.22.39:029][748]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.05.01-10.22.39:262][748]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.05.01-10.22.39:264][748]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.05.01-10.22.39:264][748]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.05.01-10.22.39:365][748]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.05.01-10.22.39:365][748]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.05.01-10.22.39:365][748]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.05.01-10.22.39:385][748]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.05.01-10.22.39:385][748]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.05.01-10.22.39:386][748]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.05.01-10.22.39:386][748]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.05.01-10.22.39:386][748]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.05.01-10.22.39:386][748]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.05.01-10.22.39:386][748]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.05.01-10.22.39:386][748]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.05.01-10.22.39:386][748]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.05.01-10.22.39:386][748]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.05.01-10.22.39:386][748]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.05.01-10.22.39:387][748]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.05.01-10.22.39:387][748]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.05.01-10.22.39:387][748]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.05.01-10.22.39:387][748]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.05.01-10.22.39:387][748]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.05.01-10.22.39:393][748]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.05.01-10.22.39:393][748]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.05.01-10.22.39:393][748]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.05.01-10.22.39:393][748]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.05.01-10.22.39:393][748]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.05.01-10.22.39:394][748]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.05.01-10.22.39:394][748]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.05.01-10.22.39:394][748]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.05.01-10.22.39:394][748]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.05.01-10.22.39:394][748]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.05.01-10.22.39:415][748]LogDerivedDataCache: Shutdown
+[2016.05.01-10.22.39:415][748]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.05.01-10.22.39:415][748]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.05.01-10.22.39:415][748]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.05.01-10.22.39:415][748]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.05.01-10.22.39:415][748]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.05.01-10.22.39:415][748]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.05.01-10.22.39:415][748]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.05.01-10.22.39:415][748]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.05.01-10.22.39:415][748]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.05.01-10.22.39:415][748]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.01-10.22.39:416][748]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.01-10.22.41:435][748]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.01-10.22.41:435][748]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.01-10.22.41:435][748]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.01-10.22.41:435][748]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.01-10.22.41:435][748]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.01-10.22.41:435][748]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.01-10.22.41:435][748]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.01-10.22.41:438][748]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.01-10.22.41:438][748]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.01-10.22.41:438][748]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.01-10.22.41:438][748]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.01-10.22.41:438][748]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.01-10.22.41:438][748]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.01-10.22.41:438][748]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.01-10.22.41:438][748]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.01-10.22.41:438][748]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.01-10.22.41:438][748]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.01-10.22.41:439][748]LogExit: Exiting.
+[2016.05.01-10.22.41:450][748]Log file closed, 05/01/16 19:22:41
